@@ -1,0 +1,81 @@
+diff --git a/target/product/core.mk b/target/product/core.mk
+index 8036875..1c0e666 100644
+--- a/target/product/core.mk
++++ b/target/product/core.mk
+@@ -46,19 +46,14 @@ PRODUCT_PACKAGES += \
+     ProxyHandler \
+     SharedStorageBackup \
+     StorageManager \
+-    TeleService \
+     VpnDialogs \
+ 
+ ifneq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), box)
+ PRODUCT_PACKAGES += \
+     Calendar \
+     CalendarProvider \
+-	Contacts \
+ 	DeskClock \
+-	Email \
+-	QuickSearchBox \
+     PrintSpooler \
+-    Telecom \
+     MmsService \
+     Settings
+ endif
+diff --git a/target/product/core_base.mk b/target/product/core_base.mk
+index b03c6b4..f9c2005 100644
+--- a/target/product/core_base.mk
++++ b/target/product/core_base.mk
+@@ -62,8 +62,8 @@ PRODUCT_PACKAGES += \
+ 
+ ifneq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), box)
+ PRODUCT_PACKAGES += \
+-    ContactsProvider \
+-    TelephonyProvider
++    #ContactsProvider \
++    #TelephonyProvider
+ endif
+ 
+ 
+diff --git a/target/product/core_tiny.mk b/target/product/core_tiny.mk
+index ec2fa41..e84681f 100644
+--- a/target/product/core_tiny.mk
++++ b/target/product/core_tiny.mk
+@@ -19,7 +19,6 @@
+ PRODUCT_PACKAGES := \
+     Bluetooth \
+     CalendarProvider \
+-    ContactsProvider \
+     CertInstaller \
+     FusedLocation \
+     InputDevices
+diff --git a/target/product/full_base.mk b/target/product/full_base.mk
+index 65bdf0f..e29eb5b 100644
+--- a/target/product/full_base.mk
++++ b/target/product/full_base.mk
+@@ -21,7 +21,6 @@
+ 
+ PRODUCT_PACKAGES := \
+     libfwdlockengine \
+-    OpenWnn \
+     libWnnEngDic \
+     libWnnJpnDic \
+     libwnndict \
+diff --git a/target/product/generic_no_telephony.mk b/target/product/generic_no_telephony.mk
+index 72ec4b0..c21ef4b 100644
+--- a/target/product/generic_no_telephony.mk
++++ b/target/product/generic_no_telephony.mk
+@@ -20,13 +20,11 @@
+ PRODUCT_PACKAGES := \
+     Bluetooth \
+     BluetoothMidiService \
+-    Camera2 \
+     Gallery2 \
+     MusicFX \
+     OneTimeInitializer \
+     Provision \
+     SystemUI \
+-    EasterEgg \
+     WallpaperCropper
+ 
+ ifneq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), box)
