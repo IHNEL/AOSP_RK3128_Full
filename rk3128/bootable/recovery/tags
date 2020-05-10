@@ -1,0 +1,2145 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AB_OTA_PAYLOAD	install.cpp	/^static constexpr const char* AB_OTA_PAYLOAD = "payload.bin";$/;"	v	file:
+AB_OTA_PAYLOAD_PROPERTIES	install.cpp	/^static constexpr const char* AB_OTA_PAYLOAD_PROPERTIES = "payload_properties.txt";$/;"	v	file:
+ADB_INSTALL_TIMEOUT	adb_install.cpp	71;"	d	file:
+ALT_LAST_CONSOLE_FILE	recovery-persist.cpp	/^static const char *ALT_LAST_CONSOLE_FILE = "\/sys\/fs\/pstore\/console-ramoops";$/;"	v	file:
+APPLY_ADB_SIDELOAD	device.h	/^        APPLY_ADB_SIDELOAD = 4,$/;"	e	enum:Device::BuiltinAction
+APPLY_SDCARD	device.h	/^        APPLY_SDCARD = 2,$/;"	e	enum:Device::BuiltinAction
+ARRAY_SIZE	minui/graphics_drm.cpp	34;"	d	file:
+ASN1_DECODER_H_	asn1_decoder.h	19;"	d
+ASSUMED_UPDATE_BINARY_NAME	install.cpp	54;"	d	file:
+AbortFn	edify/expr.cpp	/^Value* AbortFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+Alloc2d	screen_ui.cpp	/^static char** Alloc2d(size_t rows, size_t cols) {$/;"	f	file:
+ApplyBSDiffPatch	applypatch/bspatch.cpp	/^int ApplyBSDiffPatch(const unsigned char* old_data, ssize_t old_size,$/;"	f
+ApplyBSDiffPatchMem	applypatch/bspatch.cpp	/^int ApplyBSDiffPatchMem(const unsigned char* old_data, ssize_t old_size,$/;"	f
+ApplyImagePatch	applypatch/imgpatch.cpp	/^int ApplyImagePatch(const unsigned char* old_data, ssize_t old_size,$/;"	f
+ApplyParsedPerms	updater/install.cpp	/^static int ApplyParsedPerms($/;"	f	file:
+ApplyPatchCacheTest	tests/component/applypatch_test.cpp	/^class ApplyPatchCacheTest : public ApplyPatchTest {$/;"	c	file:
+ApplyPatchCheckFn	updater/install.cpp	/^Value* ApplyPatchCheckFn(const char* name, State* state,$/;"	f
+ApplyPatchDoubleCacheTest	tests/component/applypatch_test.cpp	/^class ApplyPatchDoubleCacheTest : public ApplyPatchFullTest {$/;"	c	file:
+ApplyPatchFn	updater/install.cpp	/^Value* ApplyPatchFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ApplyPatchFullTest	tests/component/applypatch_test.cpp	/^class ApplyPatchFullTest : public ApplyPatchCacheTest {$/;"	c	file:
+ApplyPatchSpaceFn	updater/install.cpp	/^Value* ApplyPatchSpaceFn(const char* name, State* state,$/;"	f
+ApplyPatchTest	tests/component/applypatch_test.cpp	/^class ApplyPatchTest : public ::testing::Test {$/;"	c	file:
+AreChunksEqual	applypatch/imgdiff.cpp	/^int AreChunksEqual(ImageChunk* a, ImageChunk* b) {$/;"	f
+Asn1DecoderTest	tests/unit/asn1_decoder_test.cpp	/^class Asn1DecoderTest : public testing::Test {$/;"	c	namespace:android	file:
+AssertFn	edify/expr.cpp	/^Value* AssertFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+BASEPARAMER_PARTITION_NAME	rktools.h	15;"	d
+BASEPARAMER_PARTITION_SIZE	rktools.h	16;"	d
+BATTERY_OK_PERCENTAGE	recovery.cpp	/^static const int BATTERY_OK_PERCENTAGE = 20;$/;"	v	file:
+BATTERY_READ_TIMEOUT_IN_SEC	recovery.cpp	/^static const int BATTERY_READ_TIMEOUT_IN_SEC = 10;$/;"	v	file:
+BATTERY_WITH_CHARGER_OK_PERCENTAGE	recovery.cpp	/^static const int BATTERY_WITH_CHARGER_OK_PERCENTAGE = 15;$/;"	v	file:
+BCD2INT	rkimage.cpp	151;"	d	file:
+BITS_PER_LONG	minui/events.cpp	33;"	d	file:
+BITS_TO_LONGS	minui/events.cpp	34;"	d	file:
+BLOCKSIZE	update_verifier/update_verifier.cpp	/^constexpr int BLOCKSIZE = 4096;$/;"	v
+BLOCKSIZE	updater/blockimg.cpp	57;"	d	file:
+BNDeleter	verifier.cpp	/^struct BNDeleter {$/;"	s	file:
+BOOTLOADER	rkimage.h	57;"	d
+BOOTLOADER_MESSAGE_OFFSET_IN_MISC	bootloader_message/include/bootloader_message/bootloader_message.h	/^static const size_t BOOTLOADER_MESSAGE_OFFSET_IN_MISC = 16 * 1024;$/;"	v
+BOOTSIGN	rkimage.cpp	147;"	d	file:
+BOOTSIGN_SIZE	rkimage.cpp	148;"	d	file:
+BOOT_RESERVED_SIZE	rkimage.cpp	186;"	d	file:
+BUFFER_SIZE	applypatch/imgdiff.cpp	542;"	d	file:
+BlockImageRecoverFn	updater/blockimg.cpp	/^Value* BlockImageRecoverFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+BlockImageUpdateFn	updater/blockimg.cpp	/^Value* BlockImageUpdateFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+BlockImageVerifyFn	updater/blockimg.cpp	/^Value* BlockImageVerifyFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+BooleanString	edify/expr.cpp	/^int BooleanString(const char* s) {$/;"	f
+BufferExtractCookie	minzip/Zip.c	/^} BufferExtractCookie;$/;"	t	typeref:struct:__anon5	file:
+Build	edify/expr.cpp	/^Expr* Build(Function fn, YYLTYPE loc, int count, ...) {$/;"	f
+BuiltinAction	device.h	/^    enum BuiltinAction {$/;"	g	class:Device
+CACHE_BLOCK_MAP	uncrypt/uncrypt.cpp	/^static const std::string CACHE_BLOCK_MAP = "\/cache\/recovery\/block.map";$/;"	v	file:
+CACHE_LOG_DIR	recovery.cpp	/^static const char *CACHE_LOG_DIR = "\/cache\/recovery";$/;"	v	file:
+CACHE_ROOT	recovery.cpp	/^static const char *CACHE_ROOT = "\/cache";$/;"	v	file:
+CACHE_TEMP_SOURCE	applypatch/applypatch.h	38;"	d
+CARE_MAP_FILE	update_verifier/update_verifier.cpp	/^constexpr auto CARE_MAP_FILE = "\/data\/ota_package\/care_map.txt";$/;"	v
+CENATT	minzip/Zip.c	/^    CENATT = 36,$/;"	e	enum:__anon3	file:
+CENATX	minzip/Zip.c	/^    CENATX = 38,$/;"	e	enum:__anon3	file:
+CENCOM	minzip/Zip.c	/^    CENCOM = 32,$/;"	e	enum:__anon3	file:
+CENCRC	minzip/Zip.c	/^    CENCRC = 16,$/;"	e	enum:__anon3	file:
+CENDSK	minzip/Zip.c	/^    CENDSK = 34,$/;"	e	enum:__anon3	file:
+CENEXT	minzip/Zip.c	/^    CENEXT = 30,$/;"	e	enum:__anon3	file:
+CENFLG	minzip/Zip.c	/^    CENFLG =  8,$/;"	e	enum:__anon3	file:
+CENHDR	minzip/Zip.c	/^    CENHDR = 46,$/;"	e	enum:__anon3	file:
+CENHOW	minzip/Zip.c	/^    CENHOW = 10,$/;"	e	enum:__anon3	file:
+CENLEN	minzip/Zip.c	/^    CENLEN = 24,$/;"	e	enum:__anon3	file:
+CENNAM	minzip/Zip.c	/^    CENNAM = 28,$/;"	e	enum:__anon3	file:
+CENOFF	minzip/Zip.c	/^    CENOFF = 42,$/;"	e	enum:__anon3	file:
+CENSIG	minzip/Zip.c	/^    CENSIG = 0x02014b50,      \/\/ PK12$/;"	e	enum:__anon3	file:
+CENSIZ	minzip/Zip.c	/^    CENSIZ = 20,$/;"	e	enum:__anon3	file:
+CENTIM	minzip/Zip.c	/^    CENTIM = 12,$/;"	e	enum:__anon3	file:
+CENVEM	minzip/Zip.c	/^    CENVEM =  4,$/;"	e	enum:__anon3	file:
+CENVEM_UNIX	minzip/Zip.c	/^    CENVEM_UNIX = 3 << 8,   \/\/ the high byte of CENVEM$/;"	e	enum:__anon3	file:
+CENVER	minzip/Zip.c	/^    CENVER =  6,$/;"	e	enum:__anon3	file:
+CHECK_SIZE	rkimage.cpp	149;"	d	file:
+CHUNK_DEFLATE	applypatch/imgdiff.h	20;"	d
+CHUNK_GZIP	applypatch/imgdiff.h	19;"	d
+CHUNK_NORMAL	applypatch/imgdiff.h	18;"	d
+CHUNK_RAW	applypatch/imgdiff.h	21;"	d
+COMMAND_FILE	recovery.cpp	/^static const char *COMMAND_FILE = "\/cache\/recovery\/command";$/;"	v	file:
+COMPARE_BUFFER_SIZE	rkimage.cpp	1101;"	d	file:
+CONDITION	minzip/Log.h	56;"	d
+CONVERT_FBE_DIR	recovery.cpp	/^static const char *CONVERT_FBE_DIR = "\/tmp\/convert_fbe";$/;"	v	file:
+CONVERT_FBE_FILE	recovery.cpp	/^static const char *CONVERT_FBE_FILE = "\/tmp\/convert_fbe\/convert_fbe";$/;"	v	file:
+CacheSizeCheck	applypatch/applypatch.cpp	/^int CacheSizeCheck(size_t bytes) {$/;"	f
+CauseCode	error_code.h	/^enum CauseCode {$/;"	g
+Certificate	verifier.h	/^    Certificate(int hash_len_,$/;"	f	struct:Certificate
+Certificate	verifier.h	/^struct Certificate {$/;"	s
+ChangeDeflateChunkToNormal	applypatch/imgdiff.cpp	/^void ChangeDeflateChunkToNormal(ImageChunk* ch) {$/;"	f
+CheckFirstBlockFn	updater/blockimg.cpp	/^Value* CheckFirstBlockFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+CheckImageFile	rkimage.cpp	/^static int CheckImageFile(const char* path, RKIMAGE_HDR* hdr)$/;"	f	file:
+CheckImageFn	rkimage.cpp	/^Value* CheckImageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+CheckKey	ui.cpp	/^RecoveryUI::KeyAction RecoveryUI::CheckKey(int key, bool is_long_press) {$/;"	f	class:RecoveryUI
+CheckMode	applypatch/main.cpp	/^static int CheckMode(int argc, char** argv) {$/;"	f	file:
+ClearText	screen_ui.cpp	/^void ScreenRecoveryUI::ClearText() {$/;"	f	class:ScreenRecoveryUI
+ClearText	wear_ui.cpp	/^void WearRecoveryUI::ClearText() {$/;"	f	class:WearRecoveryUI
+Command	updater/blockimg.cpp	/^struct Command {$/;"	s	file:
+CommandFunction	updater/blockimg.cpp	/^typedef int (*CommandFunction)(CommandParameters&);$/;"	t	file:
+CommandParameters	updater/blockimg.cpp	/^struct CommandParameters {$/;"	s	file:
+CompareCommandNames	updater/blockimg.cpp	/^static int CompareCommandNames(const void* c1, const void* c2) {$/;"	f	file:
+CompareCommands	updater/blockimg.cpp	/^static int CompareCommands(const void* c1, const void* c2) {$/;"	f	file:
+ConcatFn	edify/expr.cpp	/^Value* ConcatFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+CopyProcessArgs	minzip/Zip.c	/^} CopyProcessArgs;$/;"	t	typeref:struct:__anon4	file:
+CreateStash	updater/blockimg.cpp	/^static int CreateStash(State* state, int maxblocks, const char* blockdev, std::string& base) {$/;"	f	file:
+DATA_PATH	tests/component/applypatch_test.cpp	/^static const std::string DATA_PATH = getenv("ANDROID_DATA");$/;"	v	file:
+DATA_PATH	tests/component/verifier_test.cpp	/^static const char* DATA_PATH = getenv("ANDROID_DATA");$/;"	v	file:
+DATA_ROOT	recovery.cpp	/^static const char *DATA_ROOT = "\/data";$/;"	v	file:
+DDIR	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	e	enum:__anon7	file:
+DEBUG_ERASE	updater/blockimg.cpp	62;"	d	file:
+DEFAULT_FILES_PROGRESS_FRACTION	install.cpp	/^static const float DEFAULT_FILES_PROGRESS_FRACTION = 0.4;$/;"	v	file:
+DEFAULT_IMAGE_PROGRESS_FRACTION	install.cpp	/^static const float DEFAULT_IMAGE_PROGRESS_FRACTION = 0.1;$/;"	v	file:
+DEFLATED	minzip/Zip.c	/^    DEFLATED = 8,$/;"	e	enum:__anon3	file:
+DELETEAPKFILE	recovery.cpp	/^static const char *DELETEAPKFILE = "\/cache\/deleteApkFile.dat";$/;"	v	file:
+DELETE_APK_LEN	recovery.cpp	149;"	d	file:
+DETERMINATE	ui.h	/^    enum ProgressType { EMPTY, INDETERMINATE, DETERMINATE };$/;"	e	enum:RecoveryUI::ProgressType
+DEVICE_PATH	wear_touch.cpp	30;"	d	file:
+DILLEGAL	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	e	enum:__anon7	file:
+DIMENSION_MAX	screen_ui.cpp	/^enum Dimension { PROGRESS = 0, TEXT = 1, ICON = 2, DIMENSION_MAX };$/;"	e	enum:Dimension	file:
+DMISSING	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	e	enum:__anon7	file:
+DOWN	wear_touch.h	/^    enum SwipeDirection { UP, DOWN, RIGHT, LEFT };$/;"	e	enum:WearSwipeDetector::SwipeDirection
+DeleteFile	updater/blockimg.cpp	/^static void DeleteFile(const std::string& fn, void* \/* data *\/) {$/;"	f	file:
+DeleteFn	updater/install.cpp	/^Value* DeleteFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+DeletePartial	updater/blockimg.cpp	/^static void DeletePartial(const std::string& fn, void* data) {$/;"	f	file:
+DeleteStash	updater/blockimg.cpp	/^static void DeleteStash(const std::string& base) {$/;"	f	file:
+Device	device.h	/^    Device(RecoveryUI* ui) : ui_(ui) { }$/;"	f	class:Device
+Device	device.h	/^class Device {$/;"	c
+Dimension	screen_ui.cpp	/^enum Dimension { PROGRESS = 0, TEXT = 1, ICON = 2, DIMENSION_MAX };$/;"	g	file:
+DirStatus	minzip/DirUtil.c	/^typedef enum { DMISSING, DDIR, DILLEGAL } DirStatus;$/;"	t	typeref:enum:__anon7	file:
+DrawHorizontalRule	screen_ui.cpp	/^void ScreenRecoveryUI::DrawHorizontalRule(int* y) {$/;"	f	class:ScreenRecoveryUI
+DrawTextLine	screen_ui.cpp	/^void ScreenRecoveryUI::DrawTextLine(int x, int* y, const char* line, bool bold) {$/;"	f	class:ScreenRecoveryUI
+DrawTextLines	screen_ui.cpp	/^void ScreenRecoveryUI::DrawTextLines(int x, int* y, const char* const* lines) {$/;"	f	class:ScreenRecoveryUI
+DumpChunks	applypatch/imgdiff.cpp	/^void DumpChunks(ImageChunk* chunks, int num_chunks) {$/;"	f
+ECKEYDeleter	verifier.h	/^struct ECKEYDeleter {$/;"	s
+EIO_RETRY_COUNT	recovery.cpp	/^static const int EIO_RETRY_COUNT = 4;$/;"	v	file:
+EMMC	applypatch/applypatch.cpp	/^enum PartitionType { MTD, EMMC };$/;"	e	enum:PartitionType	file:
+EMMC_POINT_NAME	rktools.h	26;"	d
+EMPTY	ui.h	/^    enum ProgressType { EMPTY, INDETERMINATE, DETERMINATE };$/;"	e	enum:RecoveryUI::ProgressType
+ENDCOM	minzip/Zip.c	/^    ENDCOM = 20,$/;"	e	enum:__anon3	file:
+ENDHDR	minzip/Zip.c	/^    ENDHDR = 22,$/;"	e	enum:__anon3	file:
+ENDOFF	minzip/Zip.c	/^    ENDOFF = 16,$/;"	e	enum:__anon3	file:
+ENDSIG	minzip/Zip.c	/^    ENDSIG = 0x06054b50,     \/\/ PK56$/;"	e	enum:__anon3	file:
+ENDSIZ	minzip/Zip.c	/^    ENDSIZ = 12,$/;"	e	enum:__anon3	file:
+ENDSUB	minzip/Zip.c	/^    ENDSUB =  8,$/;"	e	enum:__anon3	file:
+ENDTOT	minzip/Zip.c	/^    ENDTOT = 10,$/;"	e	enum:__anon3	file:
+ENQUEUE	ui.h	/^    enum KeyAction { ENQUEUE, TOGGLE, REBOOT, IGNORE };$/;"	e	enum:RecoveryUI::KeyAction
+ENTRY471	rkimage.cpp	/^	ENTRY471=1,$/;"	e	enum:__anon22	file:
+ENTRY472	rkimage.cpp	/^	ENTRY472=2,$/;"	e	enum:__anon22	file:
+ENTRYLOADER	rkimage.cpp	/^	ENTRYLOADER=4$/;"	e	enum:__anon22	file:
+ENUM_RKBOOTENTRY	rkimage.cpp	/^}ENUM_RKBOOTENTRY;$/;"	t	typeref:enum:__anon22	file:
+ENUM_RKDEVICE_TYPE	rkimage.cpp	/^}ENUM_RKDEVICE_TYPE;$/;"	t	typeref:enum:__anon21	file:
+EOCD_HEADER_SIZE	verifier.cpp	160;"	d	file:
+ERASING	ui.h	/^    enum Icon { NONE, INSTALLING_UPDATE, ERASING, NO_COMMAND, ERROR };$/;"	e	enum:RecoveryUI::Icon
+ERROR	ui.h	/^    enum Icon { NONE, INSTALLING_UPDATE, ERASING, NO_COMMAND, ERROR };$/;"	e	enum:RecoveryUI::Icon
+EXIT_FLAG_ID	fuse_sideload.cpp	69;"	d	file:
+EXPAND	common.h	37;"	d
+EXTCRC	minzip/Zip.c	/^    EXTCRC =  4,$/;"	e	enum:__anon3	file:
+EXTHDR	minzip/Zip.c	/^    EXTHDR = 16,$/;"	e	enum:__anon3	file:
+EXTLEN	minzip/Zip.c	/^    EXTLEN = 12,$/;"	e	enum:__anon3	file:
+EXTSIG	minzip/Zip.c	/^    EXTSIG = 0x08074b50,     \/\/ PK78$/;"	e	enum:__anon3	file:
+EXTSIZ	minzip/Zip.c	/^    EXTSIZ =  8,$/;"	e	enum:__anon3	file:
+EX_SDCARD_ROOT	sdboot.h	/^    std::string EX_SDCARD_ROOT;$/;"	m	class:SDBoot
+EliminateOpenFiles	applypatch/freecache.cpp	/^static int EliminateOpenFiles(std::set<std::string>* files) {$/;"	f	file:
+EnableRebootFn	updater/install.cpp	/^Value* EnableRebootFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+EndMenu	screen_ui.cpp	/^void ScreenRecoveryUI::EndMenu() {$/;"	f	class:ScreenRecoveryUI
+EndMenu	tests/component/verifier_test.cpp	/^    void EndMenu() { }$/;"	f	class:MockUI	file:
+EnqueueKey	ui.cpp	/^void RecoveryUI::EnqueueKey(int key_code) {$/;"	f	class:RecoveryUI
+EnumerateStash	updater/blockimg.cpp	/^static void EnumerateStash(const std::string& dirname, StashCallback callback, void* data) {$/;"	f	file:
+EqualityFn	edify/expr.cpp	/^Value* EqualityFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ErrorAbort	edify/expr.cpp	/^Value* ErrorAbort(State* state, CauseCode cause_code, const char* format, ...) {$/;"	f
+ErrorAbort	edify/expr.cpp	/^Value* ErrorAbort(State* state, const char* format, ...) {$/;"	f
+ErrorAbortV	edify/expr.cpp	/^static void ErrorAbortV(State* state, const char* format, va_list ap) {$/;"	f	file:
+ErrorCode	error_code.h	/^enum ErrorCode {$/;"	g
+Evaluate	edify/expr.cpp	/^char* Evaluate(State* state, Expr* expr) {$/;"	f
+EvaluateScript	rkimage.cpp	/^char* EvaluateScript(State* state, Expr* expr) {$/;"	f
+EvaluateValue	edify/expr.cpp	/^Value* EvaluateValue(State* state, Expr* expr) {$/;"	f
+Expr	edify/expr.h	/^struct Expr {$/;"	s
+Expr	edify/expr.h	/^typedef struct Expr Expr;$/;"	t	typeref:struct:Expr
+ExprDump	edify/main.cpp	/^void ExprDump(int depth, Expr* n, char* script) {$/;"	f
+ExtractFileFn	rkimage.cpp	/^Value* ExtractFileFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+FLAG_FILE	recovery.cpp	/^static const char *FLAG_FILE = "\/cache\/recovery\/last_flag";$/;"	v	file:
+FOOTER_SIZE	verifier.cpp	130;"	d	file:
+FUSE_SIDELOAD_HOST_EXIT_FLAG	fuse_sideload.h	24;"	d
+FUSE_SIDELOAD_HOST_EXIT_PATHNAME	fuse_sideload.h	25;"	d
+FUSE_SIDELOAD_HOST_FILENAME	fuse_sideload.h	22;"	d
+FUSE_SIDELOAD_HOST_MOUNTPOINT	fuse_sideload.h	21;"	d
+FUSE_SIDELOAD_HOST_PATHNAME	fuse_sideload.h	23;"	d
+FileContents	applypatch/applypatch.h	/^struct FileContents {$/;"	s
+FileGetPropFn	updater/install.cpp	/^Value* FileGetPropFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+FileSink	applypatch/applypatch.cpp	/^ssize_t FileSink(const unsigned char* data, ssize_t len, void* token) {$/;"	f
+FillBuffer	applypatch/bspatch.cpp	/^int FillBuffer(unsigned char* buffer, int size, bz_stream* stream) {$/;"	f
+FindChunkByName	applypatch/imgdiff.cpp	/^ImageChunk* FindChunkByName(const char* name,$/;"	f
+FindExpendableFiles	applypatch/freecache.cpp	/^static std::set<std::string> FindExpendableFiles() {$/;"	f	file:
+FindFunction	edify/expr.cpp	/^Function FindFunction(const char* name) {$/;"	f
+FindItem	rkimage.cpp	/^RKIMAGE_ITEM* FindItem(RKIMAGE_HDR* prkimage, const char* name)$/;"	f
+FindMatchingPatch	applypatch/applypatch.cpp	/^int FindMatchingPatch(uint8_t* sha1, char* const * const patch_sha1_str,$/;"	f
+FinishRegistration	edify/expr.cpp	/^void FinishRegistration() {$/;"	f
+FlashMode	applypatch/main.cpp	/^static int FlashMode(const char* src_filename, const char* tgt_filename,$/;"	f	file:
+FlushKeys	ui.cpp	/^void RecoveryUI::FlushKeys() {$/;"	f	class:RecoveryUI
+FormatFn	rkimage.cpp	/^Value* FormatFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+FormatFn	updater/install.cpp	/^Value* FormatFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+FreeSpaceForFile	applypatch/applypatch.cpp	/^size_t FreeSpaceForFile(const char* filename) {$/;"	f
+FreeStash	updater/blockimg.cpp	/^static int FreeStash(const std::string& base, const std::string& id) {$/;"	f	file:
+FreeValue	edify/expr.cpp	/^void FreeValue(Value* v) {$/;"	f
+Function	edify/expr.h	/^typedef Value* (*Function)(const char* name, State* state,$/;"	t
+GEN	tests/Android.mk	/^GEN := $(addprefix $(testdata_out_path)\/, $(testdata_files))$/;"	m
+GRFont	minui/minui.h	/^struct GRFont {$/;"	s
+GRSurface	minui/minui.h	/^struct GRSurface {$/;"	s
+GZIP_FOOTER_LEN	applypatch/imgdiff.h	30;"	d
+GZIP_HEADER_LEN	applypatch/imgdiff.h	27;"	d
+GenerateTarget	applypatch/applypatch.cpp	/^static int GenerateTarget(FileContents* source_file,$/;"	f	file:
+GetAnimationBaseline	screen_ui.cpp	/^int ScreenRecoveryUI::GetAnimationBaseline() {$/;"	f	class:ScreenRecoveryUI
+GetCurrentFrame	screen_ui.cpp	/^GRSurface* ScreenRecoveryUI::GetCurrentFrame() {$/;"	f	class:ScreenRecoveryUI
+GetCurrentText	screen_ui.cpp	/^GRSurface* ScreenRecoveryUI::GetCurrentText() {$/;"	f	class:ScreenRecoveryUI
+GetMenuItems	device.cpp	/^const char* const* Device::GetMenuItems() {$/;"	f	class:Device
+GetProgressBaseline	screen_ui.cpp	/^int ScreenRecoveryUI::GetProgressBaseline() {$/;"	f	class:ScreenRecoveryUI
+GetProgressBaseline	wear_ui.cpp	/^int WearRecoveryUI::GetProgressBaseline() {$/;"	f	class:WearRecoveryUI
+GetPropFn	updater/install.cpp	/^Value* GetPropFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+GetStageFn	updater/install.cpp	/^Value* GetStageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+GetStashFileName	updater/blockimg.cpp	/^static std::string GetStashFileName(const std::string& base, const std::string& id,$/;"	f	file:
+GetTextBaseline	screen_ui.cpp	/^int ScreenRecoveryUI::GetTextBaseline() {$/;"	f	class:ScreenRecoveryUI
+GetUI	device.h	/^    virtual RecoveryUI* GetUI() { return ui_; }$/;"	f	class:Device
+GreaterThanIntFn	edify/expr.cpp	/^Value* GreaterThanIntFn(const char* name, State* state,$/;"	f
+HASH_TOMBSTONE	minzip/Hash.h	58;"	d
+HEADER	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+HEADERS	wear_ui.cpp	/^static const char* HEADERS[] = {$/;"	v	file:
+HEADER_SIZE	mtdutils/flash_image.c	32;"	d	file:
+HEADINFO_SIZE	rkimage.cpp	150;"	d	file:
+HOST_OS	applypatch/Android.mk	/^endif  # HOST_OS == linux$/;"	m
+HandleMenuKey	device.cpp	/^int Device::HandleMenuKey(int key, int visible) {$/;"	f	class:Device
+HasThreeButtons	ui.cpp	/^bool RecoveryUI::HasThreeButtons() {$/;"	f	class:RecoveryUI
+HashCalcFunc	minzip/Hash.h	/^typedef unsigned int (*HashCalcFunc)(const void* item);$/;"	t
+HashCompareFunc	minzip/Hash.h	/^typedef int (*HashCompareFunc)(const void* tableItem, const void* looseItem);$/;"	t
+HashCompute	minzip/Hash.h	/^typedef unsigned int (*HashCompute)(const void* item);$/;"	t
+HashEntry	minzip/Hash.h	/^typedef struct HashEntry {$/;"	s
+HashEntry	minzip/Hash.h	/^} HashEntry;$/;"	t	typeref:struct:HashEntry
+HashForeachFunc	minzip/Hash.h	/^typedef int (*HashForeachFunc)(void* data, void* arg);$/;"	t
+HashFreeFunc	minzip/Hash.h	/^typedef void (*HashFreeFunc)(void* ptr);$/;"	t
+HashIter	minzip/Hash.h	/^typedef struct HashIter {$/;"	s
+HashIter	minzip/Hash.h	/^} HashIter;$/;"	t	typeref:struct:HashIter
+HashString	updater/blockimg.cpp	/^static unsigned int HashString(const char *s) {$/;"	f	file:
+HashTable	minzip/Hash.h	/^typedef struct HashTable {$/;"	s
+HashTable	minzip/Hash.h	/^} HashTable;$/;"	t	typeref:struct:HashTable
+I	applypatch/imgdiff.cpp	/^  off_t* I;             \/\/ used by bsdiff$/;"	m	struct:__anon18	file:
+ICON	screen_ui.cpp	/^enum Dimension { PROGRESS = 0, TEXT = 1, ICON = 2, DIMENSION_MAX };$/;"	e	enum:Dimension	file:
+IF_LOG	minzip/Log.h	203;"	d
+IF_LOGD	minzip/Log.h	146;"	d
+IF_LOGE	minzip/Log.h	170;"	d
+IF_LOGI	minzip/Log.h	154;"	d
+IF_LOGV	minzip/Log.h	135;"	d
+IF_LOGV	minzip/Log.h	137;"	d
+IF_LOGW	minzip/Log.h	162;"	d
+IGNORE	ui.h	/^    enum KeyAction { ENQUEUE, TOGGLE, REBOOT, IGNORE };$/;"	e	enum:RecoveryUI::KeyAction
+INDETERMINATE	ui.h	/^    enum ProgressType { EMPTY, INDETERMINATE, DETERMINATE };$/;"	e	enum:RecoveryUI::ProgressType
+INFO	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+INLINE	minzip/inline_magic.h	21;"	d
+INLINE	minzip/inline_magic.h	23;"	d
+INSTALLING_UPDATE	ui.h	/^    enum Icon { NONE, INSTALLING_UPDATE, ERASING, NO_COMMAND, ERROR };$/;"	e	enum:RecoveryUI::Icon
+INSTALL_CORRUPT	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT, INSTALL_NONE, INSTALL_SKIPPED,$/;"	e	enum:__anon2
+INSTALL_ERROR	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT, INSTALL_NONE, INSTALL_SKIPPED,$/;"	e	enum:__anon2
+INSTALL_NONE	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT, INSTALL_NONE, INSTALL_SKIPPED,$/;"	e	enum:__anon2
+INSTALL_RETRY	install.h	/^        INSTALL_RETRY };$/;"	e	enum:__anon2
+INSTALL_SKIPPED	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT, INSTALL_NONE, INSTALL_SKIPPED,$/;"	e	enum:__anon2
+INSTALL_SUCCESS	install.h	/^enum { INSTALL_SUCCESS, INSTALL_ERROR, INSTALL_CORRUPT, INSTALL_NONE, INSTALL_SKIPPED,$/;"	e	enum:__anon2
+INTENT_FILE	recovery.cpp	/^static const char *INTENT_FILE = "\/cache\/recovery\/intent";$/;"	v	file:
+IN_SDCARD_ROOT	sdboot.h	/^    std::string IN_SDCARD_ROOT;$/;"	m	class:SDBoot
+Icon	ui.h	/^    enum Icon { NONE, INSTALLING_UPDATE, ERASING, NO_COMMAND, ERROR };$/;"	g	class:RecoveryUI
+IfElseFn	edify/expr.cpp	/^Value* IfElseFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ImageChunk	applypatch/imgdiff.cpp	/^} ImageChunk;$/;"	t	typeref:struct:__anon18	file:
+InequalityFn	edify/expr.cpp	/^Value* InequalityFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+Init	screen_ui.cpp	/^void ScreenRecoveryUI::Init() {$/;"	f	class:ScreenRecoveryUI
+Init	tests/component/verifier_test.cpp	/^    void Init() { }$/;"	f	class:MockUI	file:
+Init	ui.cpp	/^void RecoveryUI::Init() {$/;"	f	class:RecoveryUI
+Init	wear_ui.cpp	/^void WearRecoveryUI::Init() {$/;"	f	class:WearRecoveryUI
+InitTextParams	screen_ui.cpp	/^void ScreenRecoveryUI::InitTextParams() {$/;"	f	class:ScreenRecoveryUI
+InitTextParams	wear_ui.cpp	/^void WearRecoveryUI::InitTextParams() {$/;"	f	class:WearRecoveryUI
+InputCallback	ui.cpp	/^int RecoveryUI::InputCallback(int fd, uint32_t epevents, void* data) {$/;"	f	class:RecoveryUI
+InputThreadLoop	ui.cpp	/^static void* InputThreadLoop(void*) {$/;"	f	file:
+InvokeMenuItem	device.cpp	/^Device::BuiltinAction Device::InvokeMenuItem(int menu_position) {$/;"	f	class:Device
+IsKeyPressed	ui.cpp	/^bool RecoveryUI::IsKeyPressed(int key) {$/;"	f	class:RecoveryUI
+IsLongPress	ui.cpp	/^bool RecoveryUI::IsLongPress() {$/;"	f	class:RecoveryUI
+IsMountedFn	updater/install.cpp	/^Value* IsMountedFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+IsTextVisible	screen_ui.cpp	/^bool ScreenRecoveryUI::IsTextVisible() {$/;"	f	class:ScreenRecoveryUI
+IsTextVisible	tests/component/verifier_test.cpp	/^    bool IsTextVisible() { return false; }$/;"	f	class:MockUI	file:
+IsUsbConnected	ui.cpp	/^bool RecoveryUI::IsUsbConnected() {$/;"	f	class:RecoveryUI
+KEEP_LOG_COUNT	recovery-persist.cpp	/^static const int KEEP_LOG_COUNT = 10;$/;"	v	file:
+KEEP_LOG_COUNT	recovery.cpp	/^static const int KEEP_LOG_COUNT = 10;$/;"	v	file:
+KETGRUND_FILE_PATH	rktools.h	20;"	d
+KEY_CENTER	device.cpp	18;"	d	file:
+KEY_TYPE_EC	verifier.h	/^        KEY_TYPE_EC,$/;"	e	enum:Certificate::__anon1
+KEY_TYPE_RSA	verifier.h	/^        KEY_TYPE_RSA,$/;"	e	enum:Certificate::__anon1
+KeyAction	ui.h	/^    enum KeyAction { ENQUEUE, TOGGLE, REBOOT, IGNORE };$/;"	g	class:RecoveryUI
+KeyLongPress	screen_ui.cpp	/^void ScreenRecoveryUI::KeyLongPress(int) {$/;"	f	class:ScreenRecoveryUI
+KeyLongPress	ui.cpp	/^void RecoveryUI::KeyLongPress(int) {$/;"	f	class:RecoveryUI
+KeyType	verifier.h	/^    } KeyType;$/;"	t	struct:Certificate	typeref:enum:Certificate::__anon1
+LANDSCAPE	screen_ui.cpp	/^enum Layout { PORTRAIT = 0, PORTRAIT_LARGE = 1, LANDSCAPE = 2, LANDSCAPE_LARGE = 3, LAYOUT_MAX };$/;"	e	enum:Layout	file:
+LANDSCAPE_LARGE	screen_ui.cpp	/^enum Layout { PORTRAIT = 0, PORTRAIT_LARGE = 1, LANDSCAPE = 2, LANDSCAPE_LARGE = 3, LAYOUT_MAX };$/;"	e	enum:Layout	file:
+LAST_CONSOLE_FILE	recovery-persist.cpp	/^static const char *LAST_CONSOLE_FILE = "\/sys\/fs\/pstore\/console-ramoops-0";$/;"	v	file:
+LAST_INSTALL_FILE	recovery.cpp	/^static const char *LAST_INSTALL_FILE = "\/cache\/recovery\/last_install";$/;"	v	file:
+LAST_KMSG_FILE	recovery-persist.cpp	/^static const char *LAST_KMSG_FILE = "\/data\/misc\/recovery\/last_kmsg";$/;"	v	file:
+LAST_KMSG_FILE	recovery-refresh.cpp	/^static const char LAST_KMSG_FILE[] = "recovery\/last_kmsg";$/;"	v	file:
+LAST_KMSG_FILE	recovery.cpp	/^static const char *LAST_KMSG_FILE = "\/cache\/recovery\/last_kmsg";$/;"	v	file:
+LAST_LOG_FILE	recovery-persist.cpp	/^static const char *LAST_LOG_FILE = "\/data\/misc\/recovery\/last_log";$/;"	v	file:
+LAST_LOG_FILE	recovery-refresh.cpp	/^static const char LAST_LOG_FILE[] = "recovery\/last_log";$/;"	v	file:
+LAST_LOG_FILE	recovery.cpp	/^static const char *LAST_LOG_FILE = "\/cache\/recovery\/last_log";$/;"	v	file:
+LAST_PMSG_FILE	recovery-persist.cpp	/^static const char *LAST_PMSG_FILE = "\/sys\/fs\/pstore\/pmsg-ramoops-0";$/;"	v	file:
+LAYOUT_MAX	screen_ui.cpp	/^enum Layout { PORTRAIT = 0, PORTRAIT_LARGE = 1, LANDSCAPE = 2, LANDSCAPE_LARGE = 3, LAYOUT_MAX };$/;"	e	enum:Layout	file:
+LEFT	wear_touch.h	/^    enum SwipeDirection { UP, DOWN, RIGHT, LEFT };$/;"	e	enum:WearSwipeDetector::SwipeDirection
+LOAD_DENOM	minzip/Hash.c	19;"	d	file:
+LOAD_NUMER	minzip/Hash.c	18;"	d	file:
+LOCALE_FILE	recovery.cpp	/^static const char *LOCALE_FILE = "\/cache\/recovery\/last_locale";$/;"	v	file:
+LOCAL_ADDITIONAL_DEPENDENCIES	tests/Android.mk	/^LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)\/Android.mk$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -O2 -g -DADB_HOST=0 -Wall -Wno-unused-parameter$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -Werror$/;"	m
+LOCAL_CFLAGS	minadbd/Android.mk	/^LOCAL_CFLAGS := $(minadbd_cflags)$/;"	m
+LOCAL_CLANG	Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	applypatch/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	bootloader_message/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	edify/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	minadbd/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	minui/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	minzip/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	mtdutils/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	otafault/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	tests/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	uncrypt/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	update_verifier/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CLANG	updater/Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CONLY_FLAGS	minadbd/Android.mk	/^LOCAL_CONLY_FLAGS := -Wimplicit-function-declaration$/;"	m
+LOCAL_CPPFLAGS	edify/Android.mk	/^LOCAL_CPPFLAGS := -Wno-unused-parameter$/;"	m
+LOCAL_CPPFLAGS	edify/Android.mk	/^LOCAL_CPPFLAGS := -g -O0$/;"	m
+LOCAL_C_INCLUDES	bootloader_message/Android.mk	/^LOCAL_C_INCLUDES := $(LOCAL_PATH)\/include$/;"	m
+LOCAL_C_INCLUDES	minadbd/Android.mk	/^LOCAL_C_INCLUDES := $(LOCAL_PATH) system\/core\/adb$/;"	m
+LOCAL_C_INCLUDES	minadbd/Android.mk	/^LOCAL_C_INCLUDES := bootable\/recovery system\/core\/adb$/;"	m
+LOCAL_C_INCLUDES	minzip/Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_C_INCLUDES	otafault/Android.mk	/^LOCAL_C_INCLUDES := bootable\/recovery$/;"	m
+LOCAL_C_INCLUDES	tests/Android.mk	/^LOCAL_C_INCLUDES := bootable\/recovery$/;"	m
+LOCAL_C_INCLUDES	uncrypt/Android.mk	/^LOCAL_C_INCLUDES := $(LOCAL_PATH)\/..$/;"	m
+LOCAL_EXPORT_C_INCLUDE_DIRS	applypatch/Android.mk	/^LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)\/include$/;"	m
+LOCAL_EXPORT_C_INCLUDE_DIRS	bootloader_message/Android.mk	/^LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)\/include$/;"	m
+LOCAL_EXPORT_C_INCLUDE_DIRS	otafault/Android.mk	/^LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	applypatch/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	otafault/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	tests/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	tools/ota/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	updater/Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_HAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_HAL_STATIC_LIBRARIES := libhealthd$/;"	m
+LOCAL_INIT_RC	Android.mk	/^LOCAL_INIT_RC := recovery-persist.rc$/;"	m
+LOCAL_INIT_RC	Android.mk	/^LOCAL_INIT_RC := recovery-refresh.rc$/;"	m
+LOCAL_INIT_RC	uncrypt/Android.mk	/^LOCAL_INIT_RC := uncrypt.rc$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := libfusesideload$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := libverifier$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := recovery$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := recovery-persist$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := recovery-refresh$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := applypatch$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := imgdiff$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := libapplypatch$/;"	m
+LOCAL_MODULE	applypatch/Android.mk	/^LOCAL_MODULE := libimgpatch$/;"	m
+LOCAL_MODULE	bootloader_message/Android.mk	/^LOCAL_MODULE := libbootloader_message$/;"	m
+LOCAL_MODULE	edify/Android.mk	/^LOCAL_MODULE := edify$/;"	m
+LOCAL_MODULE	edify/Android.mk	/^LOCAL_MODULE := libedify$/;"	m
+LOCAL_MODULE	emmcutils/Android.mk	/^LOCAL_MODULE := librk_emmcutils$/;"	m
+LOCAL_MODULE	minadbd/Android.mk	/^LOCAL_MODULE := libminadbd$/;"	m
+LOCAL_MODULE	minadbd/Android.mk	/^LOCAL_MODULE := minadbd_test$/;"	m
+LOCAL_MODULE	minui/Android.mk	/^LOCAL_MODULE := libminui$/;"	m
+LOCAL_MODULE	minzip/Android.mk	/^LOCAL_MODULE := libminzip$/;"	m
+LOCAL_MODULE	mtdutils/Android.mk	/^LOCAL_MODULE := flash_image$/;"	m
+LOCAL_MODULE	mtdutils/Android.mk	/^LOCAL_MODULE := libmtdutils$/;"	m
+LOCAL_MODULE	otafault/Android.mk	/^LOCAL_MODULE := libotafault$/;"	m
+LOCAL_MODULE	otafault/Android.mk	/^LOCAL_MODULE := otafault_test$/;"	m
+LOCAL_MODULE	tests/Android.mk	/^LOCAL_MODULE := recovery_component_test$/;"	m
+LOCAL_MODULE	tests/Android.mk	/^LOCAL_MODULE := recovery_unit_test$/;"	m
+LOCAL_MODULE	tools/ota/Android.mk	/^LOCAL_MODULE := add-property-tag$/;"	m
+LOCAL_MODULE	tools/ota/Android.mk	/^LOCAL_MODULE := check-lost+found$/;"	m
+LOCAL_MODULE	uncrypt/Android.mk	/^LOCAL_MODULE := uncrypt$/;"	m
+LOCAL_MODULE	update_verifier/Android.mk	/^LOCAL_MODULE := update_verifier$/;"	m
+LOCAL_MODULE	updater/Android.mk	/^LOCAL_MODULE := updater$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_RECOVERY_ROOT_OUT)\/sbin$/;"	m
+LOCAL_MODULE_PATH	tools/ota/Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := tests$/;"	m
+LOCAL_MODULE_TAGS	applypatch/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MODULE_TAGS	mtdutils/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MODULE_TAGS	otafault/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MODULE_TAGS	otafault/Android.mk	/^LOCAL_MODULE_TAGS := tests$/;"	m
+LOCAL_MODULE_TAGS	tools/ota/Android.mk	/^LOCAL_MODULE_TAGS := debug$/;"	m
+LOCAL_MODULE_TAGS	tools/recovery_l10n/Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_MODULE_TAGS	updater/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_PACKAGE_NAME	tools/recovery_l10n/Android.mk	/^LOCAL_PACKAGE_NAME := RecoveryLocalizer$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	applypatch/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	bootloader_message/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	crc/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	edify/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	emmcutils/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	minadbd/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	minui/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	minzip/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	mtdutils/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	otafault/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	rkupdate/rsa/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	rkupdate/update/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	rkupdate/uuid/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	tests/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	tools/ota/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	tools/recovery_l10n/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	uncrypt/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	update_verifier/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	updater/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PREBUILT_LIBS	crc/Android.mk	/^LOCAL_PREBUILT_LIBS :=lib64\/libcrc32.a$/;"	m
+LOCAL_PREBUILT_LIBS	crc/Android.mk	/^LOCAL_PREBUILT_LIBS :=lib\/libcrc32.a$/;"	m
+LOCAL_PREBUILT_LIBS	rkupdate/rsa/Android.mk	/^LOCAL_PREBUILT_LIBS := lib64\/librkrsa.a$/;"	m
+LOCAL_PREBUILT_LIBS	rkupdate/rsa/Android.mk	/^LOCAL_PREBUILT_LIBS := lib\/librkrsa.a$/;"	m
+LOCAL_PREBUILT_LIBS	rkupdate/update/Android.mk	/^  LOCAL_PREBUILT_LIBS := lib64\/librkupdate.a$/;"	m
+LOCAL_PREBUILT_LIBS	rkupdate/update/Android.mk	/^  LOCAL_PREBUILT_LIBS := lib\/librkupdate.a$/;"	m
+LOCAL_PREBUILT_LIBS	rkupdate/uuid/Android.mk	/^	LOCAL_PREBUILT_LIBS := lib64\/libext2_uuid.a$/;"	m
+LOCAL_PREBUILT_LIBS	rkupdate/uuid/Android.mk	/^	LOCAL_PREBUILT_LIBS := lib\/libext2_uuid.a$/;"	m
+LOCAL_REQUIRED_MODULES	Android.mk	/^LOCAL_REQUIRED_MODULES := mkfs.f2fs$/;"	m
+LOCAL_REQUIRED_MODULES	Android.mk	/^LOCAL_REQUIRED_MODULES := recovery-persist recovery-refresh$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog libbase$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog$/;"	m
+LOCAL_SHARED_LIBRARIES	minadbd/Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog libbase libcutils$/;"	m
+LOCAL_SHARED_LIBRARIES	minui/Android.mk	/^LOCAL_SHARED_LIBRARIES := libpng$/;"	m
+LOCAL_SHARED_LIBRARIES	mtdutils/Android.mk	/^LOCAL_SHARED_LIBRARIES := libcutils liblog libc$/;"	m
+LOCAL_SHARED_LIBRARIES	tests/Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog$/;"	m
+LOCAL_SHARED_LIBRARIES	update_verifier/Android.mk	/^LOCAL_SHARED_LIBRARIES := libbase libcutils libhardware liblog$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := fuse_sideload.cpp$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := recovery-persist.cpp$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := recovery-refresh.cpp$/;"	m
+LOCAL_SRC_FILES	applypatch/Android.mk	/^LOCAL_SRC_FILES := applypatch.cpp bspatch.cpp freecache.cpp imgpatch.cpp utils.cpp$/;"	m
+LOCAL_SRC_FILES	applypatch/Android.mk	/^LOCAL_SRC_FILES := bspatch.cpp imgpatch.cpp utils.cpp$/;"	m
+LOCAL_SRC_FILES	applypatch/Android.mk	/^LOCAL_SRC_FILES := imgdiff.cpp utils.cpp bsdiff.cpp$/;"	m
+LOCAL_SRC_FILES	applypatch/Android.mk	/^LOCAL_SRC_FILES := main.cpp$/;"	m
+LOCAL_SRC_FILES	bootloader_message/Android.mk	/^LOCAL_SRC_FILES := bootloader_message.cpp$/;"	m
+LOCAL_SRC_FILES	edify/Android.mk	/^LOCAL_SRC_FILES := $(edify_src_files)$/;"	m
+LOCAL_SRC_FILES	edify/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	emmcutils/Android.mk	/^LOCAL_SRC_FILES := rk_emmcutils.cpp$/;"	m
+LOCAL_SRC_FILES	minadbd/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	minadbd/Android.mk	/^LOCAL_SRC_FILES := fuse_adb_provider_test.cpp$/;"	m
+LOCAL_SRC_FILES	minui/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	minzip/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	mtdutils/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	mtdutils/Android.mk	/^LOCAL_SRC_FILES := flash_image.c$/;"	m
+LOCAL_SRC_FILES	otafault/Android.mk	/^LOCAL_SRC_FILES := config.cpp ota_io.cpp test.cpp$/;"	m
+LOCAL_SRC_FILES	otafault/Android.mk	/^LOCAL_SRC_FILES := config.cpp ota_io.cpp$/;"	m
+LOCAL_SRC_FILES	tests/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	tests/Android.mk	/^LOCAL_SRC_FILES := unit\/asn1_decoder_test.cpp$/;"	m
+LOCAL_SRC_FILES	tools/ota/Android.mk	/^LOCAL_SRC_FILES := add-property-tag.c$/;"	m
+LOCAL_SRC_FILES	tools/ota/Android.mk	/^LOCAL_SRC_FILES := check-lost+found.c$/;"	m
+LOCAL_SRC_FILES	tools/recovery_l10n/Android.mk	/^LOCAL_SRC_FILES := $(call all-java-files-under, src)$/;"	m
+LOCAL_SRC_FILES	uncrypt/Android.mk	/^LOCAL_SRC_FILES := uncrypt.cpp$/;"	m
+LOCAL_SRC_FILES	update_verifier/Android.mk	/^LOCAL_SRC_FILES := update_verifier.cpp$/;"	m
+LOCAL_SRC_FILES	updater/Android.mk	/^LOCAL_SRC_FILES := $(updater_src_files)$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := \\$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libcrypto_static$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libcutils libc libcrypto_static$/;"	m
+LOCAL_STATIC_LIBRARIES	bootloader_message/Android.mk	/^LOCAL_STATIC_LIBRARIES := libbase libfs_mgr$/;"	m
+LOCAL_STATIC_LIBRARIES	emmcutils/Android.mk	/^LOCAL_STATIC_LIBRARIES = libfs_mgr libcutils$/;"	m
+LOCAL_STATIC_LIBRARIES	minadbd/Android.mk	/^LOCAL_STATIC_LIBRARIES := libbase$/;"	m
+LOCAL_STATIC_LIBRARIES	minadbd/Android.mk	/^LOCAL_STATIC_LIBRARIES := libminadbd$/;"	m
+LOCAL_STATIC_LIBRARIES	minzip/Android.mk	/^LOCAL_STATIC_LIBRARIES := libselinux$/;"	m
+LOCAL_STATIC_LIBRARIES	mtdutils/Android.mk	/^LOCAL_STATIC_LIBRARIES := libmtdutils$/;"	m
+LOCAL_STATIC_LIBRARIES	otafault/Android.mk	/^LOCAL_STATIC_LIBRARIES := $(otafault_static_libs)$/;"	m
+LOCAL_STATIC_LIBRARIES	tests/Android.mk	/^LOCAL_STATIC_LIBRARIES := \\$/;"	m
+LOCAL_STATIC_LIBRARIES	tools/ota/Android.mk	/^LOCAL_STATIC_LIBRARIES := libc$/;"	m
+LOCAL_STATIC_LIBRARIES	tools/ota/Android.mk	/^LOCAL_STATIC_LIBRARIES := libcutils libc$/;"	m
+LOCAL_STATIC_LIBRARIES	uncrypt/Android.mk	/^LOCAL_STATIC_LIBRARIES := libbootloader_message libbase \\$/;"	m
+LOCAL_WHOLE_STATIC_LIBRARIES	minadbd/Android.mk	/^LOCAL_WHOLE_STATIC_LIBRARIES := libadbd$/;"	m
+LOCAL_WHOLE_STATIC_LIBRARIES	otafault/Android.mk	/^LOCAL_WHOLE_STATIC_LIBRARIES := $(otafault_static_libs)$/;"	m
+LOCAL_YACCFLAGS	edify/Android.mk	/^LOCAL_YACCFLAGS := -v$/;"	m
+LOCCRC	minzip/Zip.c	/^    LOCCRC = 14,$/;"	e	enum:__anon3	file:
+LOCEXT	minzip/Zip.c	/^    LOCEXT = 28,$/;"	e	enum:__anon3	file:
+LOCFLG	minzip/Zip.c	/^    LOCFLG =  6,$/;"	e	enum:__anon3	file:
+LOCHDR	minzip/Zip.c	/^    LOCHDR = 30,$/;"	e	enum:__anon3	file:
+LOCHOW	minzip/Zip.c	/^    LOCHOW =  8,$/;"	e	enum:__anon3	file:
+LOCLEN	minzip/Zip.c	/^    LOCLEN = 22,$/;"	e	enum:__anon3	file:
+LOCNAM	minzip/Zip.c	/^    LOCNAM = 26,$/;"	e	enum:__anon3	file:
+LOCSIG	minzip/Zip.c	/^    LOCSIG = 0x04034b50,      \/\/ PK34$/;"	e	enum:__anon3	file:
+LOCSIZ	minzip/Zip.c	/^    LOCSIZ = 18,$/;"	e	enum:__anon3	file:
+LOCTIM	minzip/Zip.c	/^    LOCTIM = 10,$/;"	e	enum:__anon3	file:
+LOCVER	minzip/Zip.c	/^    LOCVER =  4,$/;"	e	enum:__anon3	file:
+LOG	minzip/Log.h	187;"	d
+LOG	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+LOGD	common.h	33;"	d
+LOGD	minzip/Log.h	76;"	d
+LOGD_IF	minzip/Log.h	80;"	d
+LOGE	common.h	24;"	d
+LOGE	minzip/Log.h	118;"	d
+LOGE_IF	minzip/Log.h	122;"	d
+LOGI	common.h	26;"	d
+LOGI	minzip/Log.h	90;"	d
+LOGI_IF	minzip/Log.h	94;"	d
+LOGV	common.h	32;"	d
+LOGV	minzip/Log.h	50;"	d
+LOGV	minzip/Log.h	52;"	d
+LOGVV	minzip/Log.h	69;"	d
+LOGVV_IF	minzip/Log.h	70;"	d
+LOGV_IF	minzip/Log.h	60;"	d
+LOGV_IF	minzip/Log.h	62;"	d
+LOGW	common.h	25;"	d
+LOGW	minzip/Log.h	104;"	d
+LOGW_IF	minzip/Log.h	108;"	d
+LOG_FILE	recovery.cpp	/^static const char *LOG_FILE = "\/cache\/recovery\/log";$/;"	v	file:
+LOG_NDEBUG	minzip/Log.h	28;"	d
+LOG_NDEBUG	minzip/Log.h	30;"	d
+LOG_PRI	minzip/Log.h	195;"	d
+LOG_TAG	minzip/Hash.c	11;"	d	file:
+LOG_TAG	minzip/Log.h	40;"	d
+LOG_TAG	minzip/SysUtil.c	19;"	d	file:
+LOG_TAG	minzip/Zip.c	17;"	d	file:
+LOG_TAG	mtdutils/flash_image.c	28;"	d	file:
+LOG_TAG	mtdutils/flash_image.c	30;"	d	file:
+LOG_TAG	recovery-persist.cpp	17;"	d	file:
+LOG_TAG	recovery-refresh.cpp	17;"	d	file:
+LOG_TAG	tests/unit/asn1_decoder_test.cpp	17;"	d	file:
+LOG_TAG	uncrypt/uncrypt.cpp	118;"	d	file:
+LOG_TAG	update_verifier/update_verifier.cpp	48;"	d	file:
+LONG_PRESS_HELP	screen_ui.cpp	/^static const char* LONG_PRESS_HELP[] = {$/;"	v	file:
+Layout	screen_ui.cpp	/^enum Layout { PORTRAIT = 0, PORTRAIT_LARGE = 1, LANDSCAPE = 2, LANDSCAPE_LARGE = 3, LAYOUT_MAX };$/;"	g	file:
+LessThanIntFn	edify/expr.cpp	/^Value* LessThanIntFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+Literal	edify/expr.cpp	/^Value* Literal(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+LoadAnimation	screen_ui.cpp	/^void ScreenRecoveryUI::LoadAnimation() {$/;"	f	class:ScreenRecoveryUI
+LoadBitmap	screen_ui.cpp	/^void ScreenRecoveryUI::LoadBitmap(const char* filename, GRSurface** surface) {$/;"	f	class:ScreenRecoveryUI
+LoadFileContents	applypatch/applypatch.cpp	/^int LoadFileContents(const char* filename, FileContents* file) {$/;"	f
+LoadLocalizedBitmap	screen_ui.cpp	/^void ScreenRecoveryUI::LoadLocalizedBitmap(const char* filename, GRSurface** surface) {$/;"	f	class:ScreenRecoveryUI
+LoadPartitionContents	applypatch/applypatch.cpp	/^static int LoadPartitionContents(const char* filename, FileContents* file) {$/;"	f	file:
+LoadSrcTgtVersion1	updater/blockimg.cpp	/^static int LoadSrcTgtVersion1(CommandParameters& params, RangeSet& tgt, size_t& src_blocks,$/;"	f	file:
+LoadSrcTgtVersion2	updater/blockimg.cpp	/^static int LoadSrcTgtVersion2(CommandParameters& params, RangeSet& tgt, size_t& src_blocks,$/;"	f	file:
+LoadSrcTgtVersion3	updater/blockimg.cpp	/^static int LoadSrcTgtVersion3(CommandParameters& params, RangeSet& tgt, size_t& src_blocks,$/;"	f	file:
+LoadStash	updater/blockimg.cpp	/^static int LoadStash(CommandParameters& params, const std::string& base, const std::string& id,$/;"	f	file:
+Locale	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    HashMap<Locale, Bitmap> savedBitmaps;$/;"	f	class:Main
+LogicalAndFn	edify/expr.cpp	/^Value* LogicalAndFn(const char* name, State* state,$/;"	f
+LogicalNotFn	edify/expr.cpp	/^Value* LogicalNotFn(const char* name, State* state,$/;"	f
+LogicalOrFn	edify/expr.cpp	/^Value* LogicalOrFn(const char* name, State* state,$/;"	f
+MAX_ARGS	recovery.cpp	/^static const int MAX_ARGS = 100;$/;"	v	file:
+MAX_ARGS	sdboot.cpp	/^static const int MAX_ARGS = 100;$/;"	v	file:
+MAX_ARG_LENGTH	recovery.cpp	/^static const int MAX_ARG_LENGTH = 4096;$/;"	v	file:
+MAX_DEVICES	minui/events.cpp	30;"	d	file:
+MAX_FILE_GETPROP_SIZE	updater/install.cpp	1003;"	d	file:
+MAX_LOADER_LEN	rkimage.cpp	610;"	d	file:
+MAX_MACHINE_MODEL	rkimage.h	18;"	d
+MAX_MANUFACTURER	rkimage.h	21;"	d
+MAX_MISC_FDS	minui/events.cpp	31;"	d	file:
+MAX_PACKAGE_FILES	rkimage.h	23;"	d
+MAX_PARTS	rkimage.h	16;"	d
+MAX_STRING_LEN	edify/expr.h	25;"	d
+MENU	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+MENU_ACTIONS	device.cpp	/^static const Device::BuiltinAction MENU_ACTIONS[] = {$/;"	v	file:
+MENU_ITEMS	device.cpp	/^static const char* MENU_ITEMS[] = {$/;"	v	file:
+MENU_SEL_BG	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+MENU_SEL_BG_ACTIVE	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+MENU_SEL_FG	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+METADATA_PATH	install.cpp	/^static constexpr const char* METADATA_PATH = "META-INF\/com\/android\/metadata";$/;"	v	file:
+MIN	applypatch/bsdiff.cpp	58;"	d	file:
+MINZIP_DIRUTIL_H_	minzip/DirUtil.h	18;"	d
+MINZIP_GENERATE_INLINES	minzip/Inlines.c	21;"	d	file:
+MINZIP_INLINE_MAGIC_H_	minzip/inline_magic.h	18;"	d
+MMC	rktools.h	/^    MMC,$/;"	e	enum:type
+MOUNT_SYSTEM	device.h	/^        MOUNT_SYSTEM = 10,$/;"	e	enum:Device::BuiltinAction
+MTD	applypatch/applypatch.cpp	/^enum PartitionType { MTD, EMMC };$/;"	e	enum:PartitionType	file:
+MTDUTILS_H_	mtdutils/mtdutils.h	18;"	d
+MTDUTILS_MOUNTS_H_	mtdutils/mounts.h	18;"	d
+MTD_PROC_FILENAME	mtdutils/mtdutils.c	68;"	d	file:
+MY_READ	rkimage.cpp	78;"	d	file:
+Main	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^public class Main extends Activity {$/;"	c
+MakeFreeSpaceOnCache	applypatch/freecache.cpp	/^int MakeFreeSpaceOnCache(size_t bytes_needed) {$/;"	f
+MakePatch	applypatch/imgdiff.cpp	/^unsigned char* MakePatch(ImageChunk* src, ImageChunk* tgt, size_t* size) {$/;"	f
+MappedRange	minzip/SysUtil.h	/^typedef struct MappedRange {$/;"	s
+MappedRange	minzip/SysUtil.h	/^} MappedRange;$/;"	t	typeref:struct:MappedRange
+MemMapping	minzip/SysUtil.h	/^typedef struct MemMapping {$/;"	s
+MemMapping	minzip/SysUtil.h	/^} MemMapping;$/;"	t	typeref:struct:MemMapping
+MemorySink	applypatch/applypatch.cpp	/^ssize_t MemorySink(const unsigned char* data, ssize_t len, void* token) {$/;"	f
+MergeAdjacentNormalChunks	applypatch/imgdiff.cpp	/^void MergeAdjacentNormalChunks(ImageChunk* chunks, int* num_chunks) {$/;"	f
+MergerVersion	rkimage.cpp	/^	unsigned int		MergerVersion;		\/\/ Generate Boot file Merger tools used the version number of the high 16 bytes (mainly low 16 byte acted as the version number of the version number)$/;"	m	struct:_RK28BOOT_HEAD	file:
+MiB	verifier.cpp	/^static constexpr size_t MiB = 1024 * 1024;$/;"	v	file:
+MockUI	tests/component/verifier_test.cpp	/^class MockUI : public RecoveryUI {$/;"	c	file:
+MountFn	rkimage.cpp	/^Value* MountFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+MountFn	updater/install.cpp	/^Value* MountFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+MountedVolume	mtdutils/mounts.c	/^struct MountedVolume {$/;"	s	file:
+MountedVolume	mtdutils/mounts.h	/^typedef struct MountedVolume MountedVolume;$/;"	t	typeref:struct:MountedVolume
+MountsState	mtdutils/mounts.c	/^} MountsState;$/;"	t	typeref:struct:__anon12	file:
+MoveRange	updater/blockimg.cpp	/^static void MoveRange(std::vector<uint8_t>& dest, const RangeSet& locs,$/;"	f	file:
+MtdPartition	mtdutils/mtdutils.c	/^struct MtdPartition {$/;"	s	file:
+MtdPartition	mtdutils/mtdutils.h	/^typedef struct MtdPartition MtdPartition;$/;"	t	typeref:struct:MtdPartition
+MtdReadContext	mtdutils/mtdutils.c	/^struct MtdReadContext {$/;"	s	file:
+MtdReadContext	mtdutils/mtdutils.h	/^typedef struct MtdReadContext MtdReadContext;$/;"	t	typeref:struct:MtdReadContext
+MtdState	mtdutils/mtdutils.c	/^} MtdState;$/;"	t	typeref:struct:__anon13	file:
+MtdWriteContext	mtdutils/mtdutils.c	/^struct MtdWriteContext {$/;"	s	file:
+MtdWriteContext	mtdutils/mtdutils.h	/^typedef struct MtdWriteContext MtdWriteContext;$/;"	t	typeref:struct:MtdWriteContext
+MzPathHelper	minzip/Zip.c	/^} MzPathHelper;$/;"	t	typeref:struct:__anon6	file:
+NATIVE_TEST_PATH	tests/common/test_constants.h	20;"	d
+NATIVE_TEST_PATH	tests/common/test_constants.h	22;"	d
+NDEBUG	minzip/Zip.c	23;"	d	file:
+NDEBUG	mtdutils/mtdutils.c	26;"	d	file:
+NET_FILE_PATH	rktools.h	18;"	d
+NET_FILE_PATH_NEW	rktools.h	19;"	d
+NONE	ui.h	/^    enum Icon { NONE, INSTALLING_UPDATE, ERASING, NO_COMMAND, ERROR };$/;"	e	enum:RecoveryUI::Icon
+NO_ACTION	device.h	/^        NO_ACTION = 0,$/;"	e	enum:Device::BuiltinAction
+NO_COMMAND	ui.h	/^    enum Icon { NONE, INSTALLING_UPDATE, ERASING, NO_COMMAND, ERROR };$/;"	e	enum:RecoveryUI::Icon
+NO_STATUS	fuse_sideload.cpp	71;"	d	file:
+NO_STATUS_EXIT	fuse_sideload.cpp	72;"	d	file:
+NamedFunction	edify/expr.h	/^} NamedFunction;$/;"	t	typeref:struct:__anon16
+NewThreadInfo	updater/blockimg.cpp	/^struct NewThreadInfo {$/;"	s	file:
+OFF_VALUE	rktools.h	23;"	d
+ON_VALUE	rktools.h	24;"	d
+OPTIONS	recovery.cpp	/^static const struct option OPTIONS[] = {$/;"	v	typeref:struct:option	file:
+OTAIO_BASE_DIR	otafault/config.h	46;"	d
+OTAIO_CACHE	otafault/config.h	50;"	d
+OTAIO_CACHE_FNAME	otafault/ota_io.h	29;"	d
+OTAIO_FSYNC	otafault/config.h	49;"	d
+OTAIO_MAX_FNAME_SIZE	otafault/config.cpp	29;"	d	file:
+OTAIO_READ	otafault/config.h	47;"	d
+OTAIO_WRITE	otafault/config.h	48;"	d
+OnInputEvent	ui.cpp	/^int RecoveryUI::OnInputEvent(int fd, uint32_t epevents) {$/;"	f	class:RecoveryUI
+OnKeyDetected	ui.cpp	/^void RecoveryUI::OnKeyDetected(int key_code) {$/;"	f	class:RecoveryUI
+OnSwipeCallback	wear_touch.h	/^    typedef void (*OnSwipeCallback)(void* cookie, enum SwipeDirection direction);$/;"	t	class:WearSwipeDetector
+PACKAGE_FILE_ID	fuse_sideload.cpp	68;"	d	file:
+PARTNAME_BOOTLOADER	rkimage.h	58;"	d
+PART_NAME	rkimage.h	12;"	d
+PATH_LEN	rktools.h	11;"	d
+PORTRAIT	screen_ui.cpp	/^enum Layout { PORTRAIT = 0, PORTRAIT_LARGE = 1, LANDSCAPE = 2, LANDSCAPE_LARGE = 3, LAYOUT_MAX };$/;"	e	enum:Layout	file:
+PORTRAIT_LARGE	screen_ui.cpp	/^enum Layout { PORTRAIT = 0, PORTRAIT_LARGE = 1, LANDSCAPE = 2, LANDSCAPE_LARGE = 3, LAYOUT_MAX };$/;"	e	enum:Layout	file:
+POWER_FILE_PATH	rktools.h	21;"	d
+PRIVATE_CUSTOM_TOOL	tests/Android.mk	/^$(GEN): PRIVATE_CUSTOM_TOOL = cp $< $@$/;"	m
+PRIVATE_PATH	tests/Android.mk	/^$(GEN): PRIVATE_PATH := $(LOCAL_PATH)$/;"	m
+PRK28BOOT_HEAD	rkimage.cpp	/^}RK28BOOT_HEAD, *PRK28BOOT_HEAD;$/;"	t	typeref:struct:_RK28BOOT_HEAD	file:
+PROC_MOUNTS_FILENAME	mtdutils/mounts.c	58;"	d	file:
+PROGRESS	screen_ui.cpp	/^enum Dimension { PROGRESS = 0, TEXT = 1, ICON = 2, DIMENSION_MAX };$/;"	e	enum:Dimension	file:
+PSTRUCT_RKBOOT_ENTRY	rkimage.cpp	/^}STRUCT_RKBOOT_ENTRY,*PSTRUCT_RKBOOT_ENTRY;$/;"	t	typeref:struct:__anon25	file:
+PSTRUCT_RKBOOT_HEAD	rkimage.cpp	/^}STRUCT_RKBOOT_HEAD,*PSTRUCT_RKBOOT_HEAD;$/;"	t	typeref:struct:__anon24	file:
+PSTRUCT_RKTIME	rkimage.cpp	/^}STRUCT_RKTIME,*PSTRUCT_RKTIME;$/;"	t	typeref:struct:__anon23	file:
+PSTRUCT_SD_CONFIG_ITEM	sdboot.h	/^}STRUCT_SD_CONFIG_ITEM,*PSTRUCT_SD_CONFIG_ITEM;$/;"	t	typeref:struct:__anon10
+PUBLIC_KEYS_FILE	install.cpp	57;"	d	file:
+PackageExtractDirFn	updater/install.cpp	/^Value* PackageExtractDirFn(const char* name, State* state,$/;"	f
+PackageExtractFileFn	updater/install.cpp	/^Value* PackageExtractFileFn(const char* name, State* state,$/;"	f
+ParsePatchArgs	applypatch/main.cpp	/^static bool ParsePatchArgs(int argc, char** argv, std::vector<char*>* sha1s,$/;"	f	file:
+ParsePermArgs	updater/install.cpp	/^static struct perm_parsed_args ParsePermArgs(State * state, int argc, char** args) {$/;"	f	file:
+ParseSha1	applypatch/applypatch.cpp	/^int ParseSha1(const char* str, uint8_t* digest) {$/;"	f
+PartitionType	applypatch/applypatch.cpp	/^enum PartitionType { MTD, EMMC };$/;"	g	file:
+PatchMode	applypatch/main.cpp	/^static int PatchMode(int argc, char** argv) {$/;"	f	file:
+PerformBlockImageUpdate	updater/blockimg.cpp	/^static Value* PerformBlockImageUpdate(const char* name, State* state, int \/* argc *\/, Expr* argv[],$/;"	f	file:
+PerformCommandDiff	updater/blockimg.cpp	/^static int PerformCommandDiff(CommandParameters& params) {$/;"	f	file:
+PerformCommandErase	updater/blockimg.cpp	/^static int PerformCommandErase(CommandParameters& params) {$/;"	f	file:
+PerformCommandFree	updater/blockimg.cpp	/^static int PerformCommandFree(CommandParameters& params) {$/;"	f	file:
+PerformCommandMove	updater/blockimg.cpp	/^static int PerformCommandMove(CommandParameters& params) {$/;"	f	file:
+PerformCommandNew	updater/blockimg.cpp	/^static int PerformCommandNew(CommandParameters& params) {$/;"	f	file:
+PerformCommandStash	updater/blockimg.cpp	/^static int PerformCommandStash(CommandParameters& params) {$/;"	f	file:
+PerformCommandZero	updater/blockimg.cpp	/^static int PerformCommandZero(CommandParameters& params) {$/;"	f	file:
+PixelsFromDp	screen_ui.cpp	/^int ScreenRecoveryUI::PixelsFromDp(int dp) {$/;"	f	class:ScreenRecoveryUI
+PostWipeData	device.h	/^    virtual bool PostWipeData() { return true; }$/;"	f	class:Device
+PreWipeData	device.h	/^    virtual bool PreWipeData() { return true; }$/;"	f	class:Device
+Print	screen_ui.cpp	/^void ScreenRecoveryUI::Print(const char* fmt, ...) {$/;"	f	class:ScreenRecoveryUI
+Print	tests/component/verifier_test.cpp	/^    void Print(const char* fmt, ...) {$/;"	f	class:MockUI	file:
+Print	wear_ui.cpp	/^void WearRecoveryUI::Print(const char *fmt, ...)$/;"	f	class:WearRecoveryUI
+PrintOnScreenOnly	screen_ui.cpp	/^void ScreenRecoveryUI::PrintOnScreenOnly(const char *fmt, ...) {$/;"	f	class:ScreenRecoveryUI
+PrintOnScreenOnly	tests/component/verifier_test.cpp	/^    void PrintOnScreenOnly(const char* fmt, ...) {$/;"	f	class:MockUI	file:
+PrintOnScreenOnly	wear_ui.cpp	/^void WearRecoveryUI::PrintOnScreenOnly(const char *fmt, ...) {$/;"	f	class:WearRecoveryUI
+PrintSha1	rkimage.cpp	/^static char* PrintSha1(uint8_t* digest) {$/;"	f	file:
+PrintSha1	updater/install.cpp	/^char* PrintSha1(const uint8_t* digest) {$/;"	f
+PrintV	screen_ui.cpp	/^void ScreenRecoveryUI::PrintV(const char* fmt, bool copy_to_stdout, va_list ap) {$/;"	f	class:ScreenRecoveryUI
+PrintV	wear_ui.cpp	/^void WearRecoveryUI::PrintV(const char* fmt, bool copy_to_stdout, va_list ap) {$/;"	f	class:WearRecoveryUI
+ProcessKey	ui.cpp	/^void RecoveryUI::ProcessKey(int key_code, int updown) {$/;"	f	class:RecoveryUI
+ProcessZipEntryContentsFunction	minzip/Zip.h	/^typedef bool (*ProcessZipEntryContentsFunction)(const unsigned char *data,$/;"	t
+ProgressThreadLoop	screen_ui.cpp	/^void ScreenRecoveryUI::ProgressThreadLoop() {$/;"	f	class:ScreenRecoveryUI
+ProgressThreadStartRoutine	screen_ui.cpp	/^void* ScreenRecoveryUI::ProgressThreadStartRoutine(void* data) {$/;"	f	class:ScreenRecoveryUI
+ProgressType	ui.h	/^    enum ProgressType { EMPTY, INDETERMINATE, DETERMINATE };$/;"	g	class:RecoveryUI
+PutChar	screen_ui.cpp	/^void ScreenRecoveryUI::PutChar(char ch) {$/;"	f	class:ScreenRecoveryUI
+PutChar	wear_ui.cpp	/^void WearRecoveryUI::PutChar(char ch) {$/;"	f	class:WearRecoveryUI
+READ_MASK	mtdutils/rk29.h	27;"	d
+READ_SIZE	mtdutils/rk29.h	26;"	d
+REBOOT	device.h	/^        REBOOT = 1,$/;"	e	enum:Device::BuiltinAction
+REBOOT	ui.h	/^    enum KeyAction { ENQUEUE, TOGGLE, REBOOT, IGNORE };$/;"	e	enum:RecoveryUI::KeyAction
+REBOOT_BOOTLOADER	device.h	/^        REBOOT_BOOTLOADER = 7,$/;"	e	enum:Device::BuiltinAction
+RECOVERY_API_VERSION	Android.mk	/^RECOVERY_API_VERSION := 3$/;"	m
+RECOVERY_COMMON_H	common.h	18;"	d
+RECOVERY_FSTAB_VERSION	Android.mk	/^RECOVERY_FSTAB_VERSION := 2$/;"	m
+RECOVERY_INSTALL_H_	install.h	18;"	d
+RECOVERY_PRINT_SHA1_H	print_sha1.h	18;"	d
+RECOVERY_RK29_H_	mtdutils/rk29.h	18;"	d
+RECOVERY_ROOTS_H_	roots.h	18;"	d
+RECOVERY_SCREEN_UI_H	screen_ui.h	18;"	d
+RECOVERY_SYSTEM	device.h	/^        RECOVERY_SYSTEM = 12,$/;"	e	enum:Device::BuiltinAction
+RECOVERY_UI_H	ui.h	18;"	d
+RECOVERY_WEAR_UI_H	wear_ui.h	18;"	d
+RECOVERY_WIPE	recovery.cpp	/^constexpr const char* RECOVERY_WIPE = "\/etc\/recovery.wipe";$/;"	v
+REDIRECT_LOG_TO	Android.mk	/^REDIRECT_LOG_TO := UART$/;"	m
+REGULAR_HELP	screen_ui.cpp	/^static const char* REGULAR_HELP[] = {$/;"	v	file:
+RELATIVE_PATH	rkimage.h	14;"	d
+RIGHT	wear_touch.h	/^    enum SwipeDirection { UP, DOWN, RIGHT, LEFT };$/;"	e	enum:WearSwipeDetector::SwipeDirection
+RK27_DEVICE	rkimage.cpp	/^		RK27_DEVICE=1,$/;"	e	enum:__anon21	file:
+RK28BOOT_HEAD	rkimage.cpp	/^}RK28BOOT_HEAD, *PRK28BOOT_HEAD;$/;"	t	typeref:struct:_RK28BOOT_HEAD	file:
+RK28_DEVICE	rkimage.cpp	/^		RK28_DEVICE=2,$/;"	e	enum:__anon21	file:
+RKIMAGE_HDR	rkimage.h	/^}RKIMAGE_HDR;$/;"	t	typeref:struct:tagRKIMAGE_HDR
+RKIMAGE_ITEM	rkimage.h	/^}RKIMAGE_ITEM;$/;"	t	typeref:struct:tagRKIMAGE_ITEM
+RKIMAGE_TAG	rkimage.h	53;"	d
+RKNANO_DEVICE	rkimage.cpp	/^		RKNANO_DEVICE=4$/;"	e	enum:__anon21	file:
+RKSdBootCfgItem	sdboot.h	/^}RKSdBootCfgItem;$/;"	t	typeref:struct:__anon9
+RK_EMMCUTILS_H_	emmcutils/rk_emmcutils.h	9;"	d
+RK_RECOVER_SCRIPT	rkimage.h	61;"	d
+RK_TIME	rkimage.cpp	/^}RK_TIME;$/;"	t	typeref:struct:_rk_time	file:
+RK_UPDATE_SCRIPT	rkimage.h	60;"	d
+RSADeleter	verifier.h	/^struct RSADeleter {$/;"	s
+RUN_GRAPHICS_TEST	device.h	/^        RUN_GRAPHICS_TEST = 11,$/;"	e	enum:Device::BuiltinAction
+RangeSet	updater/blockimg.cpp	/^struct RangeSet {$/;"	s	file:
+RangeSha1Fn	updater/blockimg.cpp	/^Value* RangeSha1Fn(const char* name, State* state, int \/* argc *\/, Expr* argv[]) {$/;"	f
+RangeSinkState	updater/blockimg.cpp	/^    RangeSinkState(RangeSet& rs) : tgt(rs) { };$/;"	f	struct:RangeSinkState
+RangeSinkState	updater/blockimg.cpp	/^struct RangeSinkState {$/;"	s	file:
+RangeSinkWrite	updater/blockimg.cpp	/^static ssize_t RangeSinkWrite(const uint8_t* data, ssize_t size, void* token) {$/;"	f	file:
+Read2	applypatch/utils.cpp	/^int Read2(void* pv) {$/;"	f
+Read4	applypatch/utils.cpp	/^int Read4(void* pv) {$/;"	f
+Read8	applypatch/utils.cpp	/^long long Read8(void* pv) {$/;"	f
+ReadArgs	edify/expr.cpp	/^int ReadArgs(State* state, Expr* argv[], int count, ...) {$/;"	f
+ReadBlocks	updater/blockimg.cpp	/^static int ReadBlocks(const RangeSet& src, std::vector<uint8_t>& buffer, int fd) {$/;"	f	file:
+ReadFileFn	rkimage.cpp	/^Value* ReadFileFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ReadFileFn	updater/install.cpp	/^Value* ReadFileFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ReadImage	applypatch/imgdiff.cpp	/^unsigned char* ReadImage(const char* filename,$/;"	f
+ReadValueArgs	edify/expr.cpp	/^int ReadValueArgs(State* state, Expr* argv[], int count, ...) {$/;"	f
+ReadValueVarArgs	edify/expr.cpp	/^Value** ReadValueVarArgs(State* state, int argc, Expr* argv[]) {$/;"	f
+ReadVarArgs	edify/expr.cpp	/^char** ReadVarArgs(State* state, int argc, Expr* argv[]) {$/;"	f
+ReadZip	applypatch/imgdiff.cpp	/^unsigned char* ReadZip(const char* filename,$/;"	f
+RebootNowFn	updater/install.cpp	/^Value* RebootNowFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ReconstructDeflateChunk	applypatch/imgdiff.cpp	/^int ReconstructDeflateChunk(ImageChunk* chunk) {$/;"	f
+RecoveryUI	ui.cpp	/^RecoveryUI::RecoveryUI()$/;"	f	class:RecoveryUI
+RecoveryUI	ui.h	/^class RecoveryUI {$/;"	c
+Redraw	screen_ui.cpp	/^void ScreenRecoveryUI::Redraw() {$/;"	f	class:ScreenRecoveryUI
+RegisterBlockImageFunctions	updater/blockimg.cpp	/^void RegisterBlockImageFunctions() {$/;"	f
+RegisterBuiltins	edify/expr.cpp	/^void RegisterBuiltins() {$/;"	f
+RegisterFunction	edify/expr.cpp	/^void RegisterFunction(const char* name, Function fn) {$/;"	f
+RegisterInstallFunctions	rkimage.cpp	/^void RegisterInstallFunctions() {$/;"	f
+RegisterInstallFunctions	updater/install.cpp	/^void RegisterInstallFunctions() {$/;"	f
+RegisterInstallRKimageFunctions	rkimage.cpp	/^void RegisterInstallRKimageFunctions(void) $/;"	f
+RenameFn	updater/install.cpp	/^Value* RenameFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+RunProgramFn	rkimage.cpp	/^Value* RunProgramFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+RunProgramFn	updater/install.cpp	/^Value* RunProgramFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SCRIPT_NAME	updater/updater.cpp	37;"	d	file:
+SD	rktools.h	/^    SD,$/;"	e	enum:type
+SDBoot	sdboot.cpp	/^SDBoot::SDBoot(){$/;"	f	class:SDBoot
+SDBoot	sdboot.h	/^class SDBoot{$/;"	c
+SDCARD_INSTALL_TIMEOUT	recovery.cpp	1246;"	d	file:
+SDCARD_LOG_FILE	recovery.cpp	/^static const char *SDCARD_LOG_FILE = "\/mnt\/external_sd\/recovery.log";$/;"	v	file:
+SDCARD_ROOT	recovery.cpp	/^static const char *SDCARD_ROOT = "\/mnt\/external_sd";$/;"	v	file:
+SDCARD_ROOT	sdboot.cpp	/^static const char *SDCARD_ROOT = "\/sdcard";$/;"	v	file:
+SDIO	rktools.h	/^    SDIO,$/;"	e	enum:type
+SD_POINT_NAME	rktools.h	27;"	d
+SD_POINT_NAME_2	rktools.h	28;"	d
+SDcombo	rktools.h	/^    SDcombo,$/;"	e	enum:type
+SHA_DIGEST_SIZE	rkimage.h	10;"	d
+SHUTDOWN	device.h	/^        SHUTDOWN = 8,$/;"	e	enum:Device::BuiltinAction
+SORT_ENTRIES	minzip/Zip.c	26;"	d	file:
+STASH_DIRECTORY_BASE	updater/blockimg.cpp	64;"	d	file:
+STASH_DIRECTORY_MODE	updater/blockimg.cpp	65;"	d	file:
+STASH_FILE_MODE	updater/blockimg.cpp	66;"	d	file:
+STEP_SIZE	rkimage.cpp	77;"	d	file:
+STORED	minzip/Zip.c	/^    STORED = 0,$/;"	e	enum:__anon3	file:
+STRINGIFY	common.h	36;"	d
+STRUCT_RKBOOT_ENTRY	rkimage.cpp	/^}STRUCT_RKBOOT_ENTRY,*PSTRUCT_RKBOOT_ENTRY;$/;"	t	typeref:struct:__anon25	file:
+STRUCT_RKBOOT_HEAD	rkimage.cpp	/^}STRUCT_RKBOOT_HEAD,*PSTRUCT_RKBOOT_HEAD;$/;"	t	typeref:struct:__anon24	file:
+STRUCT_RKTIME	rkimage.cpp	/^}STRUCT_RKTIME,*PSTRUCT_RKTIME;$/;"	t	typeref:struct:__anon23	file:
+STRUCT_SD_CONFIG_ITEM	sdboot.h	/^}STRUCT_SD_CONFIG_ITEM,*PSTRUCT_SD_CONFIG_ITEM;$/;"	t	typeref:struct:__anon10
+SURFACE_DATA_ALIGNMENT	minui/resources.cpp	35;"	d	file:
+SaveFileContents	applypatch/applypatch.cpp	/^int SaveFileContents(const char* filename, const FileContents* file) {$/;"	f
+SaveStash	updater/blockimg.cpp	/^static int SaveStash(CommandParameters& params, const std::string& base,$/;"	f	file:
+ScreenRecoveryUI	screen_ui.cpp	/^ScreenRecoveryUI::ScreenRecoveryUI() :$/;"	f	class:ScreenRecoveryUI
+ScreenRecoveryUI	screen_ui.h	/^class ScreenRecoveryUI : public RecoveryUI {$/;"	c
+SelectMenu	screen_ui.cpp	/^int ScreenRecoveryUI::SelectMenu(int sel) {$/;"	f	class:ScreenRecoveryUI
+SelectMenu	tests/component/verifier_test.cpp	/^    int SelectMenu(int sel) { return 0; }$/;"	f	class:MockUI	file:
+SelectMenu	wear_ui.cpp	/^int WearRecoveryUI::SelectMenu(int sel) {$/;"	f	class:WearRecoveryUI
+SequenceFn	edify/expr.cpp	/^Value* SequenceFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SetBackground	screen_ui.cpp	/^void ScreenRecoveryUI::SetBackground(Icon icon) {$/;"	f	class:ScreenRecoveryUI
+SetBackground	tests/component/verifier_test.cpp	/^    void SetBackground(Icon icon) { }$/;"	f	class:MockUI	file:
+SetColor	screen_ui.cpp	/^void ScreenRecoveryUI::SetColor(UIElement e) {$/;"	f	class:ScreenRecoveryUI
+SetEnableReboot	ui.cpp	/^void RecoveryUI::SetEnableReboot(bool enabled) {$/;"	f	class:RecoveryUI
+SetLocale	screen_ui.cpp	/^void ScreenRecoveryUI::SetLocale(const char* new_locale) {$/;"	f	class:ScreenRecoveryUI
+SetLocale	tests/component/verifier_test.cpp	/^    void SetLocale(const char*) { }$/;"	f	class:MockUI	file:
+SetMetadataFn	updater/install.cpp	/^static Value* SetMetadataFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f	file:
+SetProgress	screen_ui.cpp	/^void ScreenRecoveryUI::SetProgress(float fraction) {$/;"	f	class:ScreenRecoveryUI
+SetProgress	tests/component/verifier_test.cpp	/^    void SetProgress(float fraction) { }$/;"	f	class:MockUI	file:
+SetProgressFn	updater/install.cpp	/^Value* SetProgressFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SetProgressType	screen_ui.cpp	/^void ScreenRecoveryUI::SetProgressType(ProgressType type) {$/;"	f	class:ScreenRecoveryUI
+SetProgressType	tests/component/verifier_test.cpp	/^    void SetProgressType(ProgressType determinate) { }$/;"	f	class:MockUI	file:
+SetStage	screen_ui.cpp	/^void ScreenRecoveryUI::SetStage(int current, int max) {$/;"	f	class:ScreenRecoveryUI
+SetStage	tests/component/verifier_test.cpp	/^    void SetStage(int, int) { }$/;"	f	class:MockUI	file:
+SetStage	wear_ui.cpp	/^void WearRecoveryUI::SetStage(int current, int max)$/;"	f	class:WearRecoveryUI
+SetStageFn	updater/install.cpp	/^Value* SetStageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SetSystemUpdateText	screen_ui.cpp	/^void ScreenRecoveryUI::SetSystemUpdateText(bool security_update) {$/;"	f	class:ScreenRecoveryUI
+SetSystemUpdateText	tests/component/verifier_test.cpp	/^    void SetSystemUpdateText(bool security_update) { }$/;"	f	class:MockUI	file:
+SetUp	tests/component/applypatch_test.cpp	/^        virtual void SetUp() {$/;"	f	class:ApplyPatchCacheTest
+SetUp	tests/component/applypatch_test.cpp	/^        virtual void SetUp() {$/;"	f	class:ApplyPatchDoubleCacheTest
+SetUp	tests/component/verifier_test.cpp	/^    virtual void SetUp() {$/;"	f	class:VerifierTest
+SetUpTestCase	tests/component/applypatch_test.cpp	/^        static void SetUpTestCase() {$/;"	f	class:ApplyPatchFullTest
+SetUpTestCase	tests/component/applypatch_test.cpp	/^        static void SetUpTestCase() {$/;"	f	class:ApplyPatchTest
+SetUpTestCase	tests/component/verifier_test.cpp	/^    static void SetUpTestCase() {$/;"	f	class:VerifierTest
+Sha1CheckFn	updater/install.cpp	/^Value* Sha1CheckFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ShowBSDiffLicense	applypatch/bspatch.cpp	/^void ShowBSDiffLicense() {$/;"	f
+ShowFile	screen_ui.cpp	/^void ScreenRecoveryUI::ShowFile(FILE* fp) {$/;"	f	class:ScreenRecoveryUI
+ShowFile	screen_ui.cpp	/^void ScreenRecoveryUI::ShowFile(const char* filename) {$/;"	f	class:ScreenRecoveryUI
+ShowFile	tests/component/verifier_test.cpp	/^    void ShowFile(const char*) { }$/;"	f	class:MockUI	file:
+ShowFile	wear_ui.cpp	/^void WearRecoveryUI::ShowFile(FILE* fp) {$/;"	f	class:WearRecoveryUI
+ShowFile	wear_ui.cpp	/^void WearRecoveryUI::ShowFile(const char* filename) {$/;"	f	class:WearRecoveryUI
+ShowLicenses	applypatch/applypatch.cpp	/^int ShowLicenses() {$/;"	f
+ShowProgress	screen_ui.cpp	/^void ScreenRecoveryUI::ShowProgress(float portion, float seconds) {$/;"	f	class:ScreenRecoveryUI
+ShowProgress	tests/component/verifier_test.cpp	/^    void ShowProgress(float portion, float seconds) { }$/;"	f	class:MockUI	file:
+ShowProgressFn	updater/install.cpp	/^Value* ShowProgressFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+ShowText	screen_ui.cpp	/^void ScreenRecoveryUI::ShowText(bool visible) {$/;"	f	class:ScreenRecoveryUI
+ShowText	tests/component/verifier_test.cpp	/^    void ShowText(bool visible) { }$/;"	f	class:MockUI	file:
+SinkFn	applypatch/applypatch.h	/^typedef ssize_t (*SinkFn)(const unsigned char*, ssize_t, void*);$/;"	t
+SinkFn	applypatch/include/applypatch/imgpatch.h	/^typedef ssize_t (*SinkFn)(const unsigned char*, ssize_t, void*);$/;"	t
+SleepFn	edify/expr.cpp	/^Value* SleepFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+SpaceMode	applypatch/main.cpp	/^static int SpaceMode(int argc, char** argv) {$/;"	f	file:
+StartMenu	screen_ui.cpp	/^void ScreenRecoveryUI::StartMenu(const char* const * headers, const char* const * items,$/;"	f	class:ScreenRecoveryUI
+StartMenu	tests/component/verifier_test.cpp	/^    void StartMenu(const char* const * headers, const char* const * items,$/;"	f	class:MockUI	file:
+StartMenu	wear_ui.cpp	/^void WearRecoveryUI::StartMenu(const char* const * headers, const char* const * items,$/;"	f	class:WearRecoveryUI
+StartRecovery	device.h	/^    virtual void StartRecovery() { };$/;"	f	class:Device
+StashCallback	updater/blockimg.cpp	/^typedef void (*StashCallback)(const std::string&, void*);$/;"	t	file:
+State	edify/expr.h	/^} State;$/;"	t	typeref:struct:__anon14
+StdoutFn	edify/expr.cpp	/^Value* StdoutFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+StringValue	edify/expr.cpp	/^Value* StringValue(char* str) {$/;"	f
+SubstringFn	edify/expr.cpp	/^Value* SubstringFn(const char* name, State* state,$/;"	f
+SureCacheMount	recovery.cpp	/^void SureCacheMount() {$/;"	f
+SureMetadataMount	recovery.cpp	/^void SureMetadataMount() {$/;"	f
+SwipeDirection	wear_touch.h	/^    enum SwipeDirection { UP, DOWN, RIGHT, LEFT };$/;"	g	class:WearSwipeDetector
+SymlinkFn	updater/install.cpp	/^Value* SymlinkFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+TAG	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private static final String TAG = "RecoveryL10N";$/;"	f	class:Main	file:
+TEMPORARY_INSTALL_FILE	recovery.cpp	/^static const char *TEMPORARY_INSTALL_FILE = "\/tmp\/last_install";$/;"	v	file:
+TEMPORARY_LOG_FILE	recovery.cpp	/^static const char *TEMPORARY_LOG_FILE = "\/tmp\/recovery.log";$/;"	v	file:
+TEST	minadbd/fuse_adb_provider_test.cpp	/^TEST(fuse_adb_provider, read_block_adb) {$/;"	f
+TEST	minadbd/fuse_adb_provider_test.cpp	/^TEST(fuse_adb_provider, read_block_adb_fail_write) {$/;"	f
+TEST	tests/unit/locale_test.cpp	/^TEST(LocaleTest, Misc) {$/;"	f
+TEST	tests/unit/recovery_test.cpp	/^TEST(recovery, persist) {$/;"	f
+TEST	tests/unit/recovery_test.cpp	/^TEST(recovery, refresh) {$/;"	f
+TESTDATA_PATH	tests/component/applypatch_test.cpp	/^static const std::string TESTDATA_PATH = "\/recovery\/testdata";$/;"	v	file:
+TESTDATA_PATH	tests/component/verifier_test.cpp	/^static const char* TESTDATA_PATH = "\/recovery\/testdata\/";$/;"	v	file:
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchCacheTest, CheckCacheCorruptedFailure) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchCacheTest, CheckCacheCorruptedMultiple) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchCacheTest, CheckCacheCorruptedSingle) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchCacheTest, CheckCacheMissingFailure) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchCacheTest, CheckCacheMissingMultiple) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchCacheTest, CheckCacheMissingSingle) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchDoubleCacheTest, ApplyDoubleCorruptedInNewLocation) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchFullTest, ApplyCorruptedInNewLocation) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchFullTest, ApplyInNewLocation) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchFullTest, ApplyInPlace) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchTest, CheckModeFailure) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchTest, CheckModeMultiple) {$/;"	f
+TEST_F	tests/component/applypatch_test.cpp	/^TEST_F(ApplyPatchTest, CheckModeSingle) {$/;"	f
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, ConstructedGet_LengthTooBig_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, ConstructedGet_Success) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, ConstructedGet_TooSmallForChild_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, ConstructedGet_TruncatedLength_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, ConstructedSkipAll_Success) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, ConstructedSkipAll_TruncatedLength_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, Empty_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, OctetStringGet_LengthZero_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, OctetStringGet_Success) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, OctetStringGet_TooSmall_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, OidGet_LengthZero_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, OidGet_Success) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, OidGet_TooSmall_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, SequenceGet_Success) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, SequenceGet_TooSmallForChild_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, SequenceGet_TruncatedLength_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, SetGet_Success) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, SetGet_TooSmallForChild_Failure) {$/;"	f	namespace:android
+TEST_F	tests/unit/asn1_decoder_test.cpp	/^TEST_F(Asn1DecoderTest, SetGet_TruncatedLength_Failure) {$/;"	f	namespace:android
+TEST_P	tests/component/verifier_test.cpp	/^TEST_P(VerifierFailureTest, VerifyFailure) {$/;"	f
+TEST_P	tests/component/verifier_test.cpp	/^TEST_P(VerifierSuccessTest, VerifySucceed) {$/;"	f
+TEXT	screen_ui.cpp	/^enum Dimension { PROGRESS = 0, TEXT = 1, ICON = 2, DIMENSION_MAX };$/;"	e	enum:Dimension	file:
+TEXT_FILL	screen_ui.h	/^        HEADER, MENU, MENU_SEL_BG, MENU_SEL_BG_ACTIVE, MENU_SEL_FG, LOG, TEXT_FILL, INFO$/;"	e	enum:ScreenRecoveryUI::UIElement
+TEXT_INDENT	screen_ui.cpp	44;"	d	file:
+TOGGLE	ui.h	/^    enum KeyAction { ENQUEUE, TOGGLE, REBOOT, IGNORE };$/;"	e	enum:RecoveryUI::KeyAction
+TearDown	tests/component/applypatch_test.cpp	/^        virtual void TearDown() {$/;"	f	class:ApplyPatchCacheTest
+TearDown	tests/component/applypatch_test.cpp	/^        virtual void TearDown() {$/;"	f	class:ApplyPatchDoubleCacheTest
+TearDownTestCase	tests/component/applypatch_test.cpp	/^        static void TearDownTestCase() {$/;"	f	class:ApplyPatchFullTest
+TextCapture	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^        TextCapture(Locale thisLocale, Locale nextLocale, Runnable next) {$/;"	m	class:Main.TextCapture
+TextCapture	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    public class TextCapture implements Runnable {$/;"	c	class:Main
+TryReconstruction	applypatch/imgdiff.cpp	/^int TryReconstruction(ImageChunk* chunk, unsigned char* out) {$/;"	f
+Tune2FsFn	updater/install.cpp	/^Value* Tune2FsFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+UIElement	screen_ui.h	/^    enum UIElement {$/;"	g	class:ScreenRecoveryUI
+UIPrintFn	rkimage.cpp	/^Value* UIPrintFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+UIPrintFn	updater/install.cpp	/^Value* UIPrintFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+UI_WAIT_KEY_TIMEOUT_SEC	ui.cpp	41;"	d	file:
+UNCRYPT_PATH_FILE	uncrypt/uncrypt.cpp	/^static const std::string UNCRYPT_PATH_FILE = "\/cache\/recovery\/uncrypt_file";$/;"	v	file:
+UNCRYPT_SOCKET	uncrypt/uncrypt.cpp	/^static const std::string UNCRYPT_SOCKET = "uncrypt";$/;"	v	file:
+UNCRYPT_STATUS	install.cpp	/^static constexpr const char* UNCRYPT_STATUS = "\/cache\/recovery\/uncrypt_status";$/;"	v	file:
+UNCRYPT_STATUS	uncrypt/uncrypt.cpp	/^static const std::string UNCRYPT_STATUS = "\/cache\/recovery\/uncrypt_status";$/;"	v	file:
+UNIQUE_FD_H	unique_fd.h	18;"	d
+UNZIP_DIRMODE	minzip/Zip.c	924;"	d	file:
+UNZIP_FILEMODE	minzip/Zip.c	925;"	d	file:
+UP	wear_touch.h	/^    enum SwipeDirection { UP, DOWN, RIGHT, LEFT };$/;"	e	enum:WearSwipeDetector::SwipeDirection
+USB_DEVICE_PATH	sdboot.h	/^    std::string USB_DEVICE_PATH;$/;"	m	class:SDBoot
+USB_ROOT	sdboot.cpp	/^static const char *USB_ROOT = "\/mnt\/usb_storage";$/;"	v	file:
+UncryptErrorCode	error_code.h	/^enum UncryptErrorCode {$/;"	g
+UnmountFn	rkimage.cpp	/^Value* UnmountFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+UnmountFn	updater/install.cpp	/^Value* UnmountFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+UnterminatedString	minzip/Zip.h	/^} UnterminatedString;$/;"	t	typeref:struct:__anon8
+UpdateFileSize	updater/blockimg.cpp	/^static void UpdateFileSize(const std::string& fn, void* data) {$/;"	f	file:
+UpdaterInfo	rkimage.h	/^} UpdaterInfo;$/;"	t	typeref:struct:__anon20
+UpdaterInfo	updater/updater.h	/^} UpdaterInfo;$/;"	t	typeref:struct:__anon26
+VAL_BLOB	edify/expr.h	57;"	d
+VAL_STRING	edify/expr.h	56;"	d
+VEC_SD_CONFIG	sdboot.h	/^typedef std::vector<STRUCT_SD_CONFIG_ITEM> VEC_SD_CONFIG;$/;"	t
+VERIFICATION_PROGRESS_FRACTION	install.cpp	/^static const float VERIFICATION_PROGRESS_FRACTION = 0.25;$/;"	v	file:
+VERIFICATION_PROGRESS_TIME	install.cpp	/^static const int VERIFICATION_PROGRESS_TIME = 60;$/;"	v	file:
+VERIFY_FAILURE	verifier.h	72;"	d
+VERIFY_SUCCESS	verifier.h	71;"	d
+VIEW_RECOVERY_LOGS	device.h	/^        VIEW_RECOVERY_LOGS = 9,$/;"	e	enum:Device::BuiltinAction
+Value	edify/expr.h	/^} Value;$/;"	t	typeref:struct:__anon15
+VerifierFailureTest	tests/component/verifier_test.cpp	/^class VerifierFailureTest : public VerifierTest {$/;"	c	file:
+VerifierSuccessTest	tests/component/verifier_test.cpp	/^class VerifierSuccessTest : public VerifierTest {$/;"	c	file:
+VerifierTest	tests/component/verifier_test.cpp	/^class VerifierTest : public testing::TestWithParam<std::vector<std::string>> {$/;"	c	file:
+VerifyBlocks	updater/blockimg.cpp	/^static int VerifyBlocks(const std::string& expected, const std::vector<uint8_t>& buffer,$/;"	f	file:
+Volume	common.h	/^typedef struct fstab_rec Volume;$/;"	t	typeref:struct:fstab_rec
+Volume	emmcutils/rk_emmcutils.cpp	/^typedef struct fstab_rec Volume;$/;"	t	typeref:struct:fstab_rec	file:
+WINDOW_SIZE	uncrypt/uncrypt.cpp	124;"	d	file:
+WIPE_CACHE	device.h	/^        WIPE_CACHE = 6,$/;"	e	enum:Device::BuiltinAction
+WIPE_DATA	device.h	/^        WIPE_DATA = 5,$/;"	e	enum:Device::BuiltinAction
+WIPE_PACKAGE_OFFSET_IN_MISC	bootloader_message/include/bootloader_message/bootloader_message.h	/^static const size_t WIPE_PACKAGE_OFFSET_IN_MISC = 16 * 1024;$/;"	v
+WORK_FS	tests/component/applypatch_test.cpp	/^static const std::string WORK_FS = "\/data";$/;"	v	file:
+WRITE_MASK	mtdutils/rk29.h	30;"	d
+WRITE_SIZE	mtdutils/rk29.h	29;"	d
+WaitKey	ui.cpp	/^int RecoveryUI::WaitKey() {$/;"	f	class:RecoveryUI
+WasTextEverVisible	screen_ui.cpp	/^bool ScreenRecoveryUI::WasTextEverVisible() {$/;"	f	class:ScreenRecoveryUI
+WasTextEverVisible	tests/component/verifier_test.cpp	/^    bool WasTextEverVisible() { return false; }$/;"	f	class:MockUI	file:
+WearRecoveryUI	wear_ui.cpp	/^WearRecoveryUI::WearRecoveryUI() :$/;"	f	class:WearRecoveryUI
+WearRecoveryUI	wear_ui.h	/^class WearRecoveryUI : public ScreenRecoveryUI {$/;"	c
+WearSwipeDetector	wear_touch.cpp	/^WearSwipeDetector::WearSwipeDetector(int low, int high, OnSwipeCallback callback, void* cookie):$/;"	f	class:WearSwipeDetector
+WearSwipeDetector	wear_touch.h	/^class WearSwipeDetector {$/;"	c
+WipeBlockDeviceFn	updater/install.cpp	/^Value* WipeBlockDeviceFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WipeCacheFn	updater/install.cpp	/^Value* WipeCacheFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+Write4	applypatch/utils.cpp	/^void Write4(int value, FILE* f) {$/;"	f
+Write8	applypatch/utils.cpp	/^void Write8(long long value, FILE* f) {$/;"	f
+WriteBlcmdFn	rkimage.cpp	/^Value* WriteBlcmdFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteBlocks	updater/blockimg.cpp	/^static int WriteBlocks(const RangeSet& tgt, const std::vector<uint8_t>& buffer, int fd) {$/;"	f	file:
+WriteImageFn	rkimage.cpp	/^Value* WriteImageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteLoaderFn	rkimage.cpp	/^Value* WriteLoaderFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteRawImageFn	updater/install.cpp	/^Value* WriteRawImageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteRawLoaderImageFn	updater/install.cpp	/^Value* WriteRawLoaderImageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteRawParameterImageFn	updater/install.cpp	/^Value* WriteRawParameterImageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteRawSparseImageFn	updater/install.cpp	/^Value* WriteRawSparseImageFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+WriteStash	updater/blockimg.cpp	/^static int WriteStash(const std::string& base, const std::string& id, int blocks,$/;"	f	file:
+WriteToPartition	applypatch/applypatch.cpp	/^int WriteToPartition(const unsigned char* data, size_t len, const char* target) {$/;"	f
+WriteValueFn	updater/install.cpp	/^Value* WriteValueFn(const char* name, State* state, int argc, Expr* argv[]) {$/;"	f
+YYLLOC_DEFAULT	edify/yydefs.h	25;"	d
+YYLTYPE	edify/yydefs.h	/^} YYLTYPE;$/;"	t	typeref:struct:__anon17
+YYLTYPE	edify/yydefs.h	20;"	d
+ZipArchive	minzip/Zip.h	/^typedef struct ZipArchive {$/;"	s
+ZipArchive	minzip/Zip.h	/^} ZipArchive;$/;"	t	typeref:struct:ZipArchive
+ZipEntry	minzip/Zip.h	/^typedef struct ZipEntry {$/;"	s
+ZipEntry	minzip/Zip.h	/^} ZipEntry;$/;"	t	typeref:struct:ZipEntry
+ZipFileEntry	applypatch/imgdiff.cpp	/^} ZipFileEntry;$/;"	t	typeref:struct:__anon19	file:
+_ADB_INSTALL_H	adb_install.h	18;"	d
+_APPLYPATCH_H	applypatch/applypatch.h	18;"	d
+_BOOTLOADER_MESSAGE_H	bootloader_message/include/bootloader_message/bootloader_message.h	18;"	d
+_BUILD_TOOLS_APPLYPATCH_UTILS_H	applypatch/utils.h	18;"	d
+_ERROR_CODE_H_	error_code.h	18;"	d
+_EXPRESSION_H	edify/expr.h	18;"	d
+_FILE_OFFSET_BITS	rkimage.cpp	16;"	d	file:
+_GNU_SOURCE	mtdutils/rk29.c	1;"	d	file:
+_GRAPHICS_H_	minui/graphics.h	18;"	d
+_IMGPATCH_H	applypatch/include/applypatch/imgpatch.h	18;"	d
+_MINUI_H_	minui/minui.h	18;"	d
+_MINZIP_BITS	minzip/Bits.h	7;"	d
+_MINZIP_HASH	minzip/Hash.h	10;"	d
+_MINZIP_LOG_H	minzip/Log.h	15;"	d
+_MINZIP_SYSUTIL	minzip/SysUtil.h	7;"	d
+_MINZIP_ZIP	minzip/Zip.h	7;"	d
+_OTA_TEST_CONSTANTS_H	tests/common/test_constants.h	17;"	d
+_RECOVERY_DEVICE_H	device.h	18;"	d
+_RECOVERY_VERIFIER_H	verifier.h	18;"	d
+_RK28BOOT_HEAD	rkimage.cpp	/^typedef struct _RK28BOOT_HEAD{$/;"	s	file:
+_RKIMAGE_H_	rkimage.h	2;"	d
+_RKTOOLS_H	rktools.h	9;"	d
+_SDBOOT_H	sdboot.h	9;"	d
+_UPDATER_BLOCKIMG_H_	updater/blockimg.h	18;"	d
+_UPDATER_INSTALL_H_	updater/install.h	18;"	d
+_UPDATER_OTA_IO_CFG_H_	otafault/config.h	38;"	d
+_UPDATER_OTA_IO_H_	otafault/ota_io.h	24;"	d
+_UPDATER_UPDATER_H_	updater/updater.h	18;"	d
+_UPGRADEAPI_H_	rkupdate/Upgrade.h	2;"	d
+_YYDEFS_H_	edify/yydefs.h	18;"	d
+__FUSE_ADB_PROVIDER_H	minadbd/fuse_adb_provider.h	18;"	d
+__FUSE_SDCARD_PROVIDER_H	fuse_sdcard_provider.h	18;"	d
+__FUSE_SIDELOAD_H	fuse_sideload.h	18;"	d
+__WEAR_TOUCH_H	wear_touch.h	18;"	d
+__pmsg_fn	tests/unit/recovery_test.cpp	/^static ssize_t __pmsg_fn(log_id_t logId, char prio, const char *filename,$/;"	f	file:
+__pmsg_write	recovery.cpp	/^static ssize_t __pmsg_write(const char *filename, const char *buf, size_t len) {$/;"	f	file:
+_rk_time	rkimage.cpp	/^typedef struct  _rk_time {$/;"	s	file:
+_saved_log_file	recovery.cpp	/^typedef struct _saved_log_file {$/;"	s	file:
+adb_data	minadbd/fuse_adb_provider.h	/^struct adb_data {$/;"	s
+adb_server_main	minadbd/adb_main.cpp	/^int adb_server_main(int is_daemon, int server_port, int \/* reply_fd *\/) {$/;"	f
+addEntryToHashTable	minzip/Zip.c	/^static void addEntryToHashTable(HashTable* pHash, ZipEntry* pEntry)$/;"	f	file:
+add_bad_block_offset	mtdutils/mtdutils.c	/^static void add_bad_block_offset(MtdWriteContext *ctx, off_t pos) {$/;"	f	file:
+add_block_to_ranges	uncrypt/uncrypt.cpp	/^static void add_block_to_ranges(std::vector<int>& ranges, int new_block) {$/;"	f	file:
+addr	minzip/SysUtil.h	/^    unsigned char* addr;           \/* start of data *\/$/;"	m	struct:MemMapping
+addr	minzip/SysUtil.h	/^    void* addr;$/;"	m	struct:MappedRange
+addr	minzip/Zip.h	/^    unsigned char* addr;$/;"	m	struct:ZipArchive
+adf_blank	minui/graphics_adf.cpp	/^static void adf_blank(minui_backend *backend, bool blank)$/;"	f	file:
+adf_device_init	minui/graphics_adf.cpp	/^static int adf_device_init(adf_pdata *pdata, adf_device *dev)$/;"	f	file:
+adf_exit	minui/graphics_adf.cpp	/^static void adf_exit(minui_backend *backend)$/;"	f	file:
+adf_flip	minui/graphics_adf.cpp	/^static GRSurface* adf_flip(minui_backend *backend)$/;"	f	file:
+adf_init	minui/graphics_adf.cpp	/^static GRSurface* adf_init(minui_backend *backend)$/;"	f	file:
+adf_interface_init	minui/graphics_adf.cpp	/^static int adf_interface_init(adf_pdata *pdata)$/;"	f	file:
+adf_pdata	minui/graphics_adf.cpp	/^struct adf_pdata {$/;"	s	file:
+adf_surface_destroy	minui/graphics_adf.cpp	/^static void adf_surface_destroy(adf_surface_pdata *surf)$/;"	f	file:
+adf_surface_init	minui/graphics_adf.cpp	/^static int adf_surface_init(adf_pdata *pdata, drm_mode_modeinfo *mode, adf_surface_pdata *surf) {$/;"	f	file:
+adf_surface_pdata	minui/graphics_adf.cpp	/^struct adf_surface_pdata {$/;"	s	file:
+adjustFileOffset	rkimage.cpp	/^void adjustFileOffset(RKIMAGE_HDR* hdr, int offset)$/;"	f
+allocate	updater/blockimg.cpp	/^static void allocate(size_t size, std::vector<uint8_t>& buffer) {$/;"	f	file:
+android	tests/unit/asn1_decoder_test.cpp	/^namespace android {$/;"	n	file:
+animation_fps	screen_ui.h	/^    int animation_fps;$/;"	m	class:ScreenRecoveryUI
+app_type	asn1_decoder.cpp	/^    int app_type;$/;"	m	struct:asn1_context	file:
+apply_from_adb	adb_install.cpp	/^apply_from_adb(RecoveryUI* ui_, bool* wipe_cache, const char* install_file) {$/;"	f
+apply_from_sdcard	recovery.cpp	/^static int apply_from_sdcard(Device* device, bool* wipe_cache) {$/;"	f	file:
+applypatch	applypatch/applypatch.cpp	/^int applypatch(const char* source_filename,$/;"	f
+applypatch_check	applypatch/applypatch.cpp	/^int applypatch_check(const char* filename, int num_patches,$/;"	f
+applypatch_flash	applypatch/applypatch.cpp	/^int applypatch_flash(const char* source_filename, const char* target_filename,$/;"	f
+archive	otafault/config.cpp	/^static ZipArchive* archive;$/;"	v	file:
+argc	edify/expr.h	/^    int argc;$/;"	m	struct:Expr
+argv	edify/expr.h	/^    Expr** argv;$/;"	m	struct:Expr
+asn1_constructed_get	asn1_decoder.cpp	/^asn1_context_t* asn1_constructed_get(asn1_context_t* ctx) {$/;"	f
+asn1_constructed_skip_all	asn1_decoder.cpp	/^bool asn1_constructed_skip_all(asn1_context_t* ctx) {$/;"	f
+asn1_constructed_type	asn1_decoder.cpp	/^int asn1_constructed_type(asn1_context_t* ctx) {$/;"	f
+asn1_context	asn1_decoder.cpp	/^typedef struct asn1_context {$/;"	s	file:
+asn1_context_free	asn1_decoder.cpp	/^void asn1_context_free(asn1_context_t* ctx) {$/;"	f
+asn1_context_new	asn1_decoder.cpp	/^asn1_context_t* asn1_context_new(uint8_t* buffer, size_t length) {$/;"	f
+asn1_context_t	asn1_decoder.cpp	/^} asn1_context_t;$/;"	t	typeref:struct:asn1_context	file:
+asn1_context_t	asn1_decoder.h	/^typedef struct asn1_context asn1_context_t;$/;"	t	typeref:struct:asn1_context
+asn1_octet_string_get	asn1_decoder.cpp	/^bool asn1_octet_string_get(asn1_context_t* ctx, uint8_t** octet_string, size_t* length) {$/;"	f
+asn1_oid_get	asn1_decoder.cpp	/^bool asn1_oid_get(asn1_context_t* ctx, uint8_t** oid, size_t* length) {$/;"	f
+asn1_sequence_get	asn1_decoder.cpp	/^asn1_context_t* asn1_sequence_get(asn1_context_t* ctx) {$/;"	f
+asn1_sequence_next	asn1_decoder.cpp	/^bool asn1_sequence_next(asn1_context_t* ctx) {$/;"	f
+asn1_set_get	asn1_decoder.cpp	/^asn1_context_t* asn1_set_get(asn1_context_t* ctx) {$/;"	f
+bAutoUpdateComplete	recovery.cpp	/^bool bAutoUpdateComplete = false;$/;"	v
+bIfUpdateLoader	recovery.cpp	/^bool bIfUpdateLoader = false;$/;"	v
+bMD5Check	rkimage.cpp	/^	unsigned char		bMD5Check[CHECK_SIZE];$/;"	m	struct:_RK28BOOT_HEAD	file:
+bSDBoot	sdboot.h	/^    bool bSDBoot;$/;"	m	class:SDBoot
+bSDMounted	sdboot.h	/^    bool bSDMounted;$/;"	m	class:SDBoot
+bUpdateModel	sdboot.h	/^    bool bUpdateModel;$/;"	m	class:SDBoot
+bUsbBoot	sdboot.h	/^    bool bUsbBoot;$/;"	m	class:SDBoot
+bUsbMounted	sdboot.h	/^    bool bUsbMounted;$/;"	m	class:SDBoot
+bWipeAfterUpdate	recovery.cpp	/^bool bWipeAfterUpdate = false;$/;"	v
+back_no_rotate	minui/graphics.cpp	/^void back_no_rotate(){$/;"	f
+backgroundIcon	wear_ui.h	/^    GRSurface* backgroundIcon[5];$/;"	m	class:WearRecoveryUI
+backup_old	tests/component/applypatch_test.cpp	/^static void backup_old() {$/;"	f	file:
+bad_block_alloc	mtdutils/mtdutils.c	/^    int bad_block_alloc;$/;"	m	struct:MtdWriteContext	file:
+bad_block_count	mtdutils/mtdutils.c	/^    int bad_block_count;$/;"	m	struct:MtdWriteContext	file:
+bad_block_offsets	mtdutils/mtdutils.c	/^    off_t* bad_block_offsets;$/;"	m	struct:MtdWriteContext	file:
+bad_sha1_a	tests/component/applypatch_test.cpp	/^        static std::string bad_sha1_a;$/;"	m	class:ApplyPatchTest	file:
+bad_sha1_a	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::bad_sha1_a;$/;"	m	class:ApplyPatchTest	file:
+bad_sha1_b	tests/component/applypatch_test.cpp	/^        static std::string bad_sha1_b;$/;"	m	class:ApplyPatchTest	file:
+bad_sha1_b	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::bad_sha1_b;$/;"	m	class:ApplyPatchTest	file:
+base	minui/graphics_adf.cpp	/^    GRSurface base;$/;"	m	struct:adf_surface_pdata	file:
+base	minui/graphics_adf.cpp	/^    minui_backend base;$/;"	m	struct:adf_pdata	file:
+base	minui/graphics_drm.cpp	/^    GRSurface base;$/;"	m	struct:drm_surface	file:
+blank	minui/graphics.h	/^    void (*blank)(minui_backend*, bool);$/;"	m	struct:minui_backend
+block_data	fuse_sideload.cpp	/^    uint8_t* block_data;$/;"	m	struct:fuse_data	file:
+block_size	fuse_sdcard_provider.cpp	/^    uint32_t block_size;$/;"	m	struct:file_data	file:
+block_size	fuse_sideload.cpp	/^    uint32_t block_size;    \/\/ block size that the adb host is using to send the file to us$/;"	m	struct:fuse_data	file:
+block_size	minadbd/fuse_adb_provider.h	/^    uint32_t block_size;$/;"	m	struct:adb_data
+bootloader_message	bootloader_message/include/bootloader_message/bootloader_message.h	/^struct bootloader_message {$/;"	s
+bootreason_in_blacklist	recovery.cpp	/^static bool bootreason_in_blacklist() {$/;"	f	file:
+bootwhere	sdboot.cpp	/^void SDBoot::bootwhere(){$/;"	f	class:SDBoot
+browse_directory	recovery.cpp	/^static char* browse_directory(const char* path, Device* device) {$/;"	f	file:
+bsdiff	applypatch/bsdiff.cpp	/^int bsdiff(u_char* old, off_t oldsize, off_t** IP, u_char* newdata, off_t newsize,$/;"	f
+buf	minzip/Zip.c	/^    char *buf;$/;"	m	struct:__anon4	file:
+buf	minzip/Zip.c	/^    char *buf;$/;"	m	struct:__anon6	file:
+bufLen	minzip/Zip.c	/^    int bufLen;$/;"	m	struct:__anon4	file:
+bufLen	minzip/Zip.c	/^    int bufLen;$/;"	m	struct:__anon6	file:
+buffer	minzip/Zip.c	/^    unsigned char* buffer;$/;"	m	struct:__anon5	file:
+buffer	mtdutils/mtdutils.c	/^    char *buffer;$/;"	m	struct:MtdReadContext	file:
+buffer	mtdutils/mtdutils.c	/^    char *buffer;$/;"	m	struct:MtdWriteContext	file:
+buffer	updater/blockimg.cpp	/^    std::vector<uint8_t> buffer;$/;"	m	struct:CommandParameters	file:
+bufferProcessFunction	minzip/Zip.c	/^static bool bufferProcessFunction(const unsigned char *data, int dataLen,$/;"	f	file:
+buildSequence	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private Runnable buildSequence(final Locale[] locales) {$/;"	m	class:Main	file:
+cache_file	tests/component/applypatch_test.cpp	/^        static std::string cache_file;$/;"	m	class:ApplyPatchTest	file:
+cache_file	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::cache_file;$/;"	m	class:ApplyPatchTest	file:
+canwrite	updater/blockimg.cpp	/^    bool canwrite;$/;"	m	struct:CommandParameters	file:
+capabilities	updater/install.cpp	/^    uint64_t capabilities;$/;"	m	struct:perm_parsed_args	file:
+cause_code	edify/expr.h	/^    CauseCode cause_code = kNoCause;$/;"	m	struct:__anon14
+cb	minui/events.cpp	/^    ev_callback cb;$/;"	m	struct:fd_info	file:
+certs	tests/component/verifier_test.cpp	/^    std::vector<Certificate> certs;$/;"	m	class:VerifierTest	file:
+char_height	minui/font_10x18.h	/^  unsigned char_height;$/;"	m	struct:__anon11
+char_height	minui/minui.h	/^    int char_height;$/;"	m	struct:GRFont
+char_height_	screen_ui.h	/^    int char_height_;$/;"	m	class:ScreenRecoveryUI
+char_width	minui/font_10x18.h	/^  unsigned char_width;$/;"	m	struct:__anon11
+char_width	minui/minui.h	/^    int char_width;$/;"	m	struct:GRFont
+char_width_	screen_ui.h	/^    int char_width_;$/;"	m	class:ScreenRecoveryUI
+checkSDRemoved	sdboot.cpp	/^void SDBoot::checkSDRemoved() {$/;"	f	class:SDBoot
+checkUSBRemoved	sdboot.cpp	/^void SDBoot::checkUSBRemoved() {$/;"	f	class:SDBoot
+check_and_fclose	recovery-persist.cpp	/^static void check_and_fclose(FILE *fp, const char *name) {$/;"	f	file:
+check_and_fclose	recovery.cpp	/^static void check_and_fclose(FILE *fp, const char *name) {$/;"	f	file:
+check_device_remove	sdboot.cpp	/^void SDBoot::check_device_remove(){$/;"	f	class:SDBoot
+check_image_crc	rkimage.cpp	/^int check_image_crc(const char* mtddevname, unsigned long image_size)$/;"	f
+check_lseek	updater/blockimg.cpp	/^static bool check_lseek(int fd, off64_t offset, int whence) {$/;"	f	file:
+check_media_package	rktools.cpp	/^char* check_media_package(const char *path){$/;"	f
+check_newer_ab_build	install.cpp	/^static int check_newer_ab_build(ZipArchive* zip)$/;"	f	file:
+check_sdboot	rkimage.cpp	/^int check_sdboot(void)$/;"	f
+check_usbboot	rkimage.cpp	/^int check_usbboot()$/;"	f
+check_wipe_package	recovery.cpp	/^static bool check_wipe_package(size_t wipe_package_size) {$/;"	f	file:
+choose_recovery_file	recovery.cpp	/^static void choose_recovery_file(Device* device) {$/;"	f	file:
+cleanup	applypatch/applypatch.sh	/^cleanup() {$/;"	f
+cleanup	applypatch/imgdiff_test.sh	/^cleanup() {$/;"	f
+clear_bcb	uncrypt/uncrypt.cpp	/^static bool clear_bcb(const int socket) {$/;"	f	file:
+clear_bootloader_message	bootloader_message/bootloader_message.cpp	/^bool clear_bootloader_message(std::string* err) {$/;"	f
+close	fuse_sideload.h	/^    void (*close)(void* cookie);$/;"	m	struct:provider_vtab
+close_adb	minadbd/fuse_adb_provider.cpp	/^static void close_adb(void* data) {$/;"	f	file:
+close_file	fuse_sdcard_provider.cpp	/^static void close_file(void* cookie) {$/;"	f	file:
+cmd_pipe	rkimage.h	/^    FILE* cmd_pipe;$/;"	m	struct:__anon20
+cmd_pipe	updater/updater.h	/^    FILE* cmd_pipe;$/;"	m	struct:__anon26
+cmd_write_blcmd	rkimage.cpp	/^int cmd_write_blcmd(const char *blcmd)$/;"	f
+cmdline	updater/blockimg.cpp	/^    const char* cmdline;$/;"	m	struct:CommandParameters	file:
+cmdname	updater/blockimg.cpp	/^    const char* cmdname;$/;"	m	struct:CommandParameters	file:
+colorFor	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private int colorFor(byte b) {$/;"	m	class:Main	file:
+colorFor	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private int colorFor(int b) {$/;"	m	class:Main	file:
+com.android.recovery_l10n	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^package com.android.recovery_l10n;$/;"	p
+command	bootloader_message/include/bootloader_message/bootloader_message.h	/^    char command[32];$/;"	m	struct:bootloader_message
+compLen	minzip/Zip.h	/^    long         compLen;$/;"	m	struct:ZipEntry
+compare_string	recovery.cpp	/^static int compare_string(const void* a, const void* b) {$/;"	f	file:
+compression	minzip/Zip.h	/^    int          compression;$/;"	m	struct:ZipEntry
+computeHash	minzip/Zip.c	/^static unsigned int computeHash(const char* name, int nameLen)$/;"	f	file:
+consecutive_power_keys	ui.h	/^    int consecutive_power_keys;$/;"	m	class:RecoveryUI
+consumed	mtdutils/mtdutils.c	/^    size_t consumed;$/;"	m	struct:MtdReadContext	file:
+cookie	edify/expr.h	/^    void* cookie;$/;"	m	struct:__anon14
+cookie	fuse_sideload.cpp	/^    void* cookie;$/;"	m	struct:fuse_data	file:
+cookie	minadbd/services.cpp	/^    void *cookie;$/;"	m	struct:stinfo	file:
+copyFileFromMem	recovery.cpp	/^static int copyFileFromMem(const char *path,char *p,int count) {$/;"	f	file:
+copyFileToMem	recovery.cpp	/^static int copyFileToMem(const char *path,char *p,int *count,int size) {$/;"	f	file:
+copyProcessFunction	minzip/Zip.c	/^static bool copyProcessFunction(const unsigned char *data, int dataLen,$/;"	f	file:
+copy_file	recovery-persist.cpp	/^static void copy_file(const char* source, const char* destination) {$/;"	f	file:
+copy_file_from_image	rkimage.cpp	/^int copy_file_from_image(const char* src, const char* dest, int woffset) {$/;"	f
+copy_log_file	recovery.cpp	/^static void copy_log_file(const char* source, const char* destination, bool append) {$/;"	f	file:
+copy_log_file_to_pmsg	recovery.cpp	/^static void copy_log_file_to_pmsg(const char* source, const char* destination) {$/;"	f	file:
+copy_logs	recovery.cpp	/^static void copy_logs() {$/;"	f	file:
+count	ui.h	/^        int count;$/;"	m	struct:RecoveryUI::key_timer_t
+count	updater/blockimg.cpp	/^    size_t count;             \/\/ Limit is INT_MAX.$/;"	m	struct:RangeSet	file:
+countProbes	minzip/Hash.c	/^int countProbes(HashTable* pHashTable, unsigned int itemHash, const void* item,$/;"	f
+countTombStones	minzip/Hash.c	/^static int countTombStones(HashTable* pHashTable)$/;"	f	file:
+cp	tests/component/applypatch_test.cpp	/^static void cp(std::string src, std::string tgt) {$/;"	f	file:
+cpos	updater/blockimg.cpp	/^    size_t cpos;$/;"	m	struct:CommandParameters	file:
+crc32	minzip/Zip.h	/^    long         crc32;$/;"	m	struct:ZipEntry
+create_service_thread	minadbd/services.cpp	/^static int create_service_thread(void (*func)(int, void *), void *cookie) {$/;"	f	file:
+createdstash	updater/blockimg.cpp	/^    int createdstash;$/;"	m	struct:CommandParameters	file:
+curr_block	fuse_sideload.cpp	/^    uint32_t curr_block;    \/\/ cache the block most recently read from the host$/;"	m	struct:fuse_data	file:
+currentIcon	screen_ui.h	/^    Icon currentIcon;$/;"	m	class:ScreenRecoveryUI
+current_buffer	minui/graphics_drm.cpp	/^static int current_buffer;$/;"	v	file:
+current_frame	screen_ui.h	/^    size_t current_frame;$/;"	m	class:ScreenRecoveryUI
+current_surface	minui/graphics_adf.cpp	/^    unsigned int current_surface;$/;"	m	struct:adf_pdata	file:
+cv	updater/blockimg.cpp	/^    pthread_cond_t cv;$/;"	m	struct:NewThreadInfo	file:
+data	applypatch/applypatch.h	/^  std::vector<unsigned char> data;$/;"	m	struct:FileContents
+data	applypatch/imgdiff.cpp	/^  unsigned char* data;  \/\/ data to be patched (uncompressed, for deflate chunks)$/;"	m	struct:__anon18	file:
+data	edify/expr.h	/^    char* data;$/;"	m	struct:__anon15
+data	minui/events.cpp	/^    void* data;$/;"	m	struct:fd_info	file:
+data	minui/minui.h	/^    unsigned char* data;$/;"	m	struct:GRSurface
+data	minzip/Hash.h	/^    void*       data;$/;"	m	struct:HashIter
+data	minzip/Hash.h	/^    void* data;$/;"	m	struct:HashEntry
+data	recovery.cpp	/^    unsigned char* data;$/;"	m	struct:_saved_log_file	file:
+data_offset	applypatch/imgdiff.cpp	/^  int data_offset;$/;"	m	struct:__anon19	file:
+decode_length	asn1_decoder.cpp	/^static bool decode_length(asn1_context_t* ctx, size_t* out_len) {$/;"	f	file:
+deflate_data	applypatch/imgdiff.cpp	/^  unsigned char* deflate_data;$/;"	m	struct:__anon18	file:
+deflate_len	applypatch/imgdiff.cpp	/^  int deflate_len;$/;"	m	struct:__anon19	file:
+deflate_len	applypatch/imgdiff.cpp	/^  size_t deflate_len;$/;"	m	struct:__anon18	file:
+deinterlace	interlace-frames.py	/^def deinterlace(output, input):$/;"	f
+delete_image	rkimage.cpp	/^int delete_image(const char *rkimagefile)$/;"	f
+density_	screen_ui.h	/^    float density_;$/;"	m	class:ScreenRecoveryUI
+detect	wear_touch.cpp	/^void WearSwipeDetector::detect(int dx, int dy) {$/;"	f	class:WearSwipeDetector
+device	mtdutils/mounts.c	/^    const char *device;$/;"	m	struct:MountedVolume	file:
+deviceName	emmcutils/rk_emmcutils.cpp	/^static char deviceName[128] = "\\0";$/;"	v	file:
+device_index	mtdutils/mtdutils.c	/^    int device_index;$/;"	m	struct:MtdPartition	file:
+die	mtdutils/flash_image.c	/^void die(const char *msg, ...) {$/;"	f
+dirCreateHierarchy	minzip/DirUtil.c	/^dirCreateHierarchy(const char *path, int mode,$/;"	f
+dirUnlinkHierarchy	minzip/DirUtil.c	/^dirUnlinkHierarchy(const char *path)$/;"	f
+disable_non_main_crtcs	minui/graphics_drm.cpp	/^static void disable_non_main_crtcs(int fd,$/;"	f	file:
+discard_blocks	updater/blockimg.cpp	/^static bool discard_blocks(int fd, off64_t offset, uint64_t size) {$/;"	f	file:
+displayed_buffer	minui/graphics_fbdev.cpp	/^static int displayed_buffer;$/;"	v	file:
+dmode	updater/install.cpp	/^    mode_t dmode;$/;"	m	struct:perm_parsed_args	file:
+do_SetMetadataRecursive	updater/install.cpp	/^static int do_SetMetadataRecursive(const char* filename, const struct stat *statptr,$/;"	f	file:
+do_rk_factory_mode	sdboot.cpp	/^int SDBoot::do_rk_factory_mode(){$/;"	f	class:SDBoot
+do_rk_mode_update	sdboot.cpp	/^int SDBoot::do_rk_mode_update(const char *pFile){$/;"	f	class:SDBoot
+do_sd_mode_update	sdboot.cpp	/^int SDBoot::do_sd_mode_update(const char *pFile){$/;"	f	class:SDBoot
+do_usb_mode_update	sdboot.cpp	/^int SDBoot::do_usb_mode_update(const char *pFile){$/;"	f	class:SDBoot
+double_buffered	minui/graphics_fbdev.cpp	/^static bool double_buffered;$/;"	v	file:
+draw_background_locked	screen_ui.cpp	/^void ScreenRecoveryUI::draw_background_locked() {$/;"	f	class:ScreenRecoveryUI
+draw_background_locked	wear_ui.cpp	/^void WearRecoveryUI::draw_background_locked()$/;"	f	class:WearRecoveryUI
+draw_foreground_locked	screen_ui.cpp	/^void ScreenRecoveryUI::draw_foreground_locked() {$/;"	f	class:ScreenRecoveryUI
+draw_screen_locked	screen_ui.cpp	/^void ScreenRecoveryUI::draw_screen_locked() {$/;"	f	class:ScreenRecoveryUI
+draw_screen_locked	wear_ui.cpp	/^void WearRecoveryUI::draw_screen_locked()$/;"	f	class:WearRecoveryUI
+drm_backend	minui/graphics_drm.cpp	/^static minui_backend drm_backend = {$/;"	v	file:
+drm_blank	minui/graphics_drm.cpp	/^static void drm_blank(minui_backend* backend __unused, bool blank) {$/;"	f	file:
+drm_create_surface	minui/graphics_drm.cpp	/^static drm_surface *drm_create_surface(int width, int height) {$/;"	f	file:
+drm_destroy_surface	minui/graphics_drm.cpp	/^static void drm_destroy_surface(struct drm_surface *surface) {$/;"	f	file:
+drm_disable_crtc	minui/graphics_drm.cpp	/^static void drm_disable_crtc(int drm_fd, drmModeCrtc *crtc) {$/;"	f	file:
+drm_enable_crtc	minui/graphics_drm.cpp	/^static void drm_enable_crtc(int drm_fd, drmModeCrtc *crtc,$/;"	f	file:
+drm_exit	minui/graphics_drm.cpp	/^static void drm_exit(minui_backend* backend __unused) {$/;"	f	file:
+drm_fd	minui/graphics_drm.cpp	/^static int drm_fd = -1;$/;"	v	file:
+drm_flip	minui/graphics_drm.cpp	/^static GRSurface* drm_flip(minui_backend* backend __unused) {$/;"	f	file:
+drm_format_to_bpp	minui/graphics_drm.cpp	/^static int drm_format_to_bpp(uint32_t format) {$/;"	f	file:
+drm_init	minui/graphics_drm.cpp	/^static GRSurface* drm_init(minui_backend* backend __unused) {$/;"	f	file:
+drm_surface	minui/graphics_drm.cpp	/^struct drm_surface {$/;"	s	file:
+drm_surfaces	minui/graphics_drm.cpp	/^static drm_surface *drm_surfaces[2];$/;"	v	file:
+dumpCmdArgs	rktools.cpp	/^void dumpCmdArgs(int argc, char** argv) {$/;"	f
+dump_data	rkimage.cpp	/^static void dump_data(const char *data, int len) {$/;"	f	file:
+dwDataDelay	rkimage.cpp	/^	unsigned int dwDataDelay;\/\/in seconds$/;"	m	struct:__anon25	file:
+dwDataOffset	rkimage.cpp	/^	unsigned int dwDataOffset;$/;"	m	struct:__anon25	file:
+dwDataSize	rkimage.cpp	/^	unsigned int dwDataSize;$/;"	m	struct:__anon25	file:
+dwLoaderEntryOffset	rkimage.cpp	/^	unsigned int dwLoaderEntryOffset;$/;"	m	struct:__anon24	file:
+dwMergeVersion	rkimage.cpp	/^	unsigned int  dwMergeVersion;$/;"	m	struct:__anon24	file:
+dwVersion	rkimage.cpp	/^	unsigned int  dwVersion;$/;"	m	struct:__anon24	file:
+ec	verifier.h	/^    std::unique_ptr<EC_KEY, ECKEYDeleter> ec;$/;"	m	struct:Certificate
+edify_src_files	edify/Android.mk	/^edify_src_files := \\$/;"	m
+emSupportChip	rkimage.cpp	/^	ENUM_RKDEVICE_TYPE emSupportChip;$/;"	m	struct:__anon24	file:
+emType	rkimage.cpp	/^	ENUM_RKBOOTENTRY emType;$/;"	m	struct:__anon25	file:
+enable_reboot	ui.h	/^    bool enable_reboot;                \/\/ under key_queue_mutex$/;"	m	class:RecoveryUI
+end	edify/expr.h	/^    int start, end;$/;"	m	struct:Expr
+end	edify/yydefs.h	/^    int start, end;$/;"	m	struct:__anon17
+eng_id	minui/graphics_adf.cpp	/^    adf_id_t eng_id;$/;"	m	struct:adf_pdata	file:
+ensure_path_mounted	roots.cpp	/^int ensure_path_mounted(const char* path) {$/;"	f
+ensure_path_mounted_at	roots.cpp	/^int ensure_path_mounted_at(const char* path, const char* mount_point) {$/;"	f
+ensure_path_unmounted	roots.cpp	/^int ensure_path_unmounted(const char* path) {$/;"	f
+ensure_sd_mounted	sdboot.cpp	/^void SDBoot::ensure_sd_mounted(){$/;"	f	class:SDBoot
+ensure_usb_mounted	sdboot.cpp	/^void SDBoot::ensure_usb_mounted(){$/;"	f	class:SDBoot
+entry	updater/blockimg.cpp	/^    const ZipEntry* entry;$/;"	m	struct:NewThreadInfo	file:
+erase_baseparamer	rktools.cpp	/^int erase_baseparamer() {$/;"	f
+erase_size	mtdutils/mtdutils.c	/^    unsigned int erase_size;$/;"	m	struct:MtdPartition	file:
+erase_volume	recovery.cpp	/^static bool erase_volume(const char* volume) {$/;"	f	file:
+erasing_text	screen_ui.h	/^    GRSurface* erasing_text;$/;"	m	class:ScreenRecoveryUI
+errmsg	edify/expr.h	/^    char* errmsg;$/;"	m	struct:__anon14
+error_code	edify/expr.h	/^    ErrorCode error_code = kNoError;$/;"	m	struct:__anon14
+error_icon	screen_ui.h	/^    GRSurface* error_icon;$/;"	m	class:ScreenRecoveryUI
+error_text	screen_ui.h	/^    GRSurface* error_text;$/;"	m	class:ScreenRecoveryUI
+ev_add_fd	minui/events.cpp	/^int ev_add_fd(int fd, ev_callback cb, void* data) {$/;"	f
+ev_callback	minui/minui.h	/^typedef int (*ev_callback)(int fd, uint32_t epevents, void* data);$/;"	t
+ev_count	minui/events.cpp	/^static unsigned ev_count = 0;$/;"	v	file:
+ev_dev_count	minui/events.cpp	/^static unsigned ev_dev_count = 0;$/;"	v	file:
+ev_dispatch	minui/events.cpp	/^void ev_dispatch(void) {$/;"	f
+ev_exit	minui/events.cpp	/^void ev_exit(void) {$/;"	f
+ev_fdinfo	minui/events.cpp	/^static fd_info ev_fdinfo[MAX_DEVICES + MAX_MISC_FDS];$/;"	v	file:
+ev_get_epollfd	minui/events.cpp	/^int ev_get_epollfd(void) {$/;"	f
+ev_get_input	minui/events.cpp	/^int ev_get_input(int fd, uint32_t epevents, input_event* ev) {$/;"	f
+ev_init	minui/events.cpp	/^int ev_init(ev_callback input_cb, void* data) {$/;"	f
+ev_iterate_available_keys	minui/events.cpp	/^void ev_iterate_available_keys(std::function<void(int)> f) {$/;"	f
+ev_misc_count	minui/events.cpp	/^static unsigned ev_misc_count = 0;$/;"	v	file:
+ev_set_key_callback	minui/minui.h	/^typedef int (*ev_set_key_callback)(int code, int value, void* data);$/;"	t
+ev_sync_key_state	minui/events.cpp	/^int ev_sync_key_state(ev_set_key_callback set_key_cb, void* data) {$/;"	f
+ev_wait	minui/events.cpp	/^int ev_wait(int timeout) {$/;"	f
+exec_cmd	roots.cpp	/^static int exec_cmd(const char* path, char* const argv[]) {$/;"	f	file:
+exec_cmd	updater/install.cpp	/^static int exec_cmd(const char* path, char* const argv[]) {$/;"	f	file:
+exit	minui/graphics.h	/^    void (*exit)(minui_backend*);$/;"	m	struct:minui_backend
+exit_factory_mode_wipe_cmd_in_bcb	recovery.cpp	/^static int exit_factory_mode_wipe_cmd_in_bcb(void)$/;"	f	file:
+expect	edify/main.cpp	/^int expect(const char* expr_str, const char* expected, int* errors) {$/;"	f
+externalFileAttributes	minzip/Zip.h	/^    long         externalFileAttributes;$/;"	m	struct:ZipEntry
+extra_block	fuse_sideload.cpp	/^    uint8_t* extra_block;   \/\/ another block of storage for reads that$/;"	m	struct:fuse_data	file:
+f	updater/blockimg.cpp	/^    CommandFunction f;$/;"	m	struct:Command	file:
+fail	applypatch/applypatch.sh	/^fail() {$/;"	f
+fail	applypatch/imgdiff_test.sh	/^fail() {$/;"	f
+failure_type	updater/blockimg.cpp	/^static CauseCode failure_type = kNoCause;$/;"	v	file:
+fault_fname	otafault/config.cpp	/^std::string fault_fname(const char* io_type) {$/;"	f
+fb_fd	minui/graphics_fbdev.cpp	/^static int fb_fd = -1;$/;"	v	file:
+fb_id	minui/graphics_drm.cpp	/^    uint32_t fb_id;$/;"	m	struct:drm_surface	file:
+fbdev_blank	minui/graphics_fbdev.cpp	/^static void fbdev_blank(minui_backend* backend __unused, bool blank)$/;"	f	file:
+fbdev_exit	minui/graphics_fbdev.cpp	/^static void fbdev_exit(minui_backend* backend __unused) {$/;"	f	file:
+fbdev_flip	minui/graphics_fbdev.cpp	/^static GRSurface* fbdev_flip(minui_backend* backend __unused) {$/;"	f	file:
+fbdev_init	minui/graphics_fbdev.cpp	/^static GRSurface* fbdev_init(minui_backend* backend) {$/;"	f	file:
+fd	fuse_sdcard_provider.cpp	/^    int fd;  \/\/ the underlying sdcard file$/;"	m	struct:file_data	file:
+fd	minadbd/services.cpp	/^    int fd;$/;"	m	struct:stinfo	file:
+fd	minui/events.cpp	/^    int fd;$/;"	m	struct:fd_info	file:
+fd	minui/graphics_adf.cpp	/^    int fd;$/;"	m	struct:adf_surface_pdata	file:
+fd	mtdutils/mtdutils.c	/^    int fd;$/;"	m	struct:MtdReadContext	file:
+fd	mtdutils/mtdutils.c	/^    int fd;$/;"	m	struct:MtdWriteContext	file:
+fd	updater/blockimg.cpp	/^    int fd;$/;"	m	struct:CommandParameters	file:
+fd	updater/blockimg.cpp	/^    int fd;$/;"	m	struct:RangeSinkState	file:
+fd_	unique_fd.h	/^    int fd_;$/;"	m	class:unique_fd
+fd_info	minui/events.cpp	/^struct fd_info {$/;"	s	file:
+fetch_block	fuse_sideload.cpp	/^static int fetch_block(struct fuse_data* fd, uint32_t block) {$/;"	f	file:
+ffd	fuse_sideload.cpp	/^    int ffd;   \/\/ file descriptor for the fuse socket$/;"	m	struct:fuse_data	file:
+file	rkimage.h	/^	char file[RELATIVE_PATH];\/\/$/;"	m	struct:tagRKIMAGE_ITEM
+fileName	minzip/Zip.h	/^    const char*  fileName;       \/\/ not null-terminated$/;"	m	struct:ZipEntry
+fileNameLen	minzip/Zip.h	/^    unsigned int fileNameLen;$/;"	m	struct:ZipEntry
+file_blocks	fuse_sideload.cpp	/^    uint32_t file_blocks;   \/\/ file size in block_size blocks$/;"	m	struct:fuse_data	file:
+file_cmp	tests/component/applypatch_test.cpp	/^static bool file_cmp(std::string& f1, std::string& f2) {$/;"	f	file:
+file_data	fuse_sdcard_provider.cpp	/^struct file_data {$/;"	s	file:
+file_size	fuse_sdcard_provider.cpp	/^    uint64_t file_size;$/;"	m	struct:file_data	file:
+file_size	fuse_sideload.cpp	/^    uint64_t file_size;     \/\/ bytes$/;"	m	struct:fuse_data	file:
+file_size	minadbd/fuse_adb_provider.h	/^    uint64_t file_size;$/;"	m	struct:adb_data
+file_viewer_text_	screen_ui.h	/^    char** file_viewer_text_;$/;"	m	class:ScreenRecoveryUI
+fileentry_compare	applypatch/imgdiff.cpp	/^static int fileentry_compare(const void* a, const void* b) {$/;"	f	file:
+filename	applypatch/imgdiff.cpp	/^  char* filename;       \/\/ used for zip entries$/;"	m	struct:__anon18	file:
+filename	applypatch/imgdiff.cpp	/^  char* filename;$/;"	m	struct:__anon19	file:
+filename_cache	otafault/ota_io.cpp	/^static std::map<intptr_t, const char*> filename_cache;$/;"	v	file:
+filesystem	mtdutils/mounts.c	/^    const char *filesystem;$/;"	m	struct:MountedVolume	file:
+fill_attr	fuse_sideload.cpp	/^static void fill_attr(struct fuse_attr* attr, struct fuse_data* fd,$/;"	f	file:
+findDevice	wear_touch.cpp	/^int WearSwipeDetector::findDevice(const char* path) {$/;"	f	class:WearSwipeDetector
+find_block_device	uncrypt/uncrypt.cpp	/^static const char* find_block_device(const char* path, bool* encryptable, bool* encrypted) {$/;"	f	file:
+find_crtc_for_connector	minui/graphics_drm.cpp	/^static drmModeCrtc *find_crtc_for_connector(int fd,$/;"	f	file:
+find_first_connected_connector	minui/graphics_drm.cpp	/^static drmModeConnector *find_first_connected_connector(int fd,$/;"	f	file:
+find_main_monitor	minui/graphics_drm.cpp	/^static drmModeConnector *find_main_monitor(int fd, drmModeRes *resources,$/;"	f	file:
+find_mounted_volume_by_device	mtdutils/mounts.c	/^find_mounted_volume_by_device(const char *device)$/;"	f
+find_mounted_volume_by_mount_point	mtdutils/mounts.c	/^find_mounted_volume_by_mount_point(const char *mount_point)$/;"	f
+find_uncrypt_package	uncrypt/uncrypt.cpp	/^static bool find_uncrypt_package(const std::string& uncrypt_path_file, std::string* package_name) {$/;"	f	file:
+find_update_img	rkimage.cpp	/^int find_update_img(const char *path, RKIMAGE_HDR* hdr)$/;"	f
+find_used_connector_by_type	minui/graphics_drm.cpp	/^static drmModeConnector *find_used_connector_by_type(int fd,$/;"	f	file:
+finish_recovery	recovery.cpp	/^finish_recovery(const char *send_intent) {$/;"	f	file:
+flags	mtdutils/mounts.c	/^    const char *flags;$/;"	m	struct:MountedVolume	file:
+flash_offset	rkimage.h	/^	unsigned int flash_offset;\/\/$/;"	m	struct:tagRKIMAGE_ITEM
+flip	minui/graphics.h	/^    GRSurface* (*flip)(minui_backend*);$/;"	m	struct:minui_backend
+fmode	updater/install.cpp	/^    mode_t fmode;$/;"	m	struct:perm_parsed_args	file:
+fn	edify/expr.h	/^    Function fn;$/;"	m	struct:Expr
+fn	edify/expr.h	/^  Function fn;$/;"	m	struct:__anon16
+fn_entries	edify/expr.cpp	/^static int fn_entries = 0;$/;"	v	file:
+fn_entry_compare	edify/expr.cpp	/^static int fn_entry_compare(const void* a, const void* b) {$/;"	f	file:
+fn_size	edify/expr.cpp	/^static int fn_size = 0;$/;"	v	file:
+fn_table	edify/expr.cpp	/^NamedFunction* fn_table = NULL;$/;"	v
+font	minui/font_10x18.h	/^} font = {$/;"	v	typeref:struct:__anon11
+fopen_path	recovery.cpp	/^FILE* fopen_path(const char *path, const char *mode) {$/;"	f
+format	minui/graphics_adf.cpp	/^    __u32 format;$/;"	m	struct:adf_pdata	file:
+format_volume	roots.cpp	/^int format_volume(const char* volume) {$/;"	f
+format_volume	roots.cpp	/^int format_volume(const char* volume, const char* directory) {$/;"	f
+foundwrites	updater/blockimg.cpp	/^    bool foundwrites;$/;"	m	struct:CommandParameters	file:
+freeFunc	minzip/Hash.h	/^    HashFreeFunc freeFunc;$/;"	m	struct:HashTable
+free_space	applypatch/applypatch.sh	/^free_space() {$/;"	f
+free_volume_internals	mtdutils/mounts.c	/^free_volume_internals(const MountedVolume *volume, int zero)$/;"	f	file:
+freestash	updater/blockimg.cpp	/^    std::string freestash;$/;"	m	struct:CommandParameters	file:
+from_testdata_base	tests/component/applypatch_test.cpp	/^static std::string from_testdata_base(const std::string fname) {$/;"	f	file:
+fstab	emmcutils/rk_emmcutils.cpp	/^static struct fstab *fstab = NULL;$/;"	v	typeref:struct:fstab	file:
+fstab	roots.cpp	/^static struct fstab *fstab = NULL;$/;"	v	typeref:struct:fstab	file:
+fstab	uncrypt/uncrypt.cpp	/^static struct fstab* fstab = nullptr;$/;"	v	typeref:struct:fstab	file:
+fsync_fault_file_name	otafault/ota_io.cpp	/^static std::string fsync_fault_file_name = "";$/;"	v	file:
+func	minadbd/services.cpp	/^    void (*func)(int fd, void *cookie);$/;"	m	struct:stinfo	file:
+fuse_data	fuse_sideload.cpp	/^struct fuse_data {$/;"	s	file:
+fuse_reply	fuse_sideload.cpp	/^static void fuse_reply(struct fuse_data* fd, __u64 unique, const void *data, size_t len)$/;"	f	file:
+gCurrentUI	recovery.cpp	/^static RecoveryUI* gCurrentUI = NULL;$/;"	v	file:
+gFwOffset	rkimage.cpp	/^unsigned int gFwOffset = 0;$/;"	v
+g_epoll_fd	minui/events.cpp	/^static int g_epoll_fd;$/;"	v	file:
+g_imagehdr	rkimage.cpp	/^RKIMAGE_HDR g_imagehdr;$/;"	v
+g_mounts_state	mtdutils/mounts.c	/^static MountsState g_mounts_state = {$/;"	v	file:
+g_mtd_state	mtdutils/mtdutils.c	/^static MtdState g_mtd_state = {$/;"	v	file:
+g_package_file	updater/updater.cpp	/^const char* g_package_file;$/;"	v
+g_package_root_path	rkimage.cpp	/^char g_package_root_path[128] = {0};$/;"	v
+g_package_target	rkimage.cpp	/^char g_package_target[128] = {0};   \/\/ \/sdcard\/update.img$/;"	v
+g_src_isFile	rkimage.cpp	/^bool g_src_isFile = false;$/;"	v
+get	unique_fd.h	/^    int get() {$/;"	f	class:unique_fd
+get1	minzip/Bits.h	/^INLINE unsigned char get1(unsigned const char* pSrc)$/;"	f
+get2BE	minzip/Bits.h	/^INLINE unsigned short get2BE(unsigned char const* pSrc)$/;"	f
+get2LE	minzip/Bits.h	/^INLINE unsigned short get2LE(unsigned char const* pSrc)$/;"	f
+get4BE	minzip/Bits.h	/^INLINE unsigned int get4BE(unsigned char const* pSrc)$/;"	f
+get4LE	minzip/Bits.h	/^INLINE unsigned int get4LE(unsigned char const* pSrc)$/;"	f
+get8BE	minzip/Bits.h	/^INLINE unsigned long long get8BE(unsigned char const* pSrc)$/;"	f
+get8LE	minzip/Bits.h	/^INLINE unsigned long long get8LE(unsigned char const* pSrc)$/;"	f
+getDevicePath	emmcutils/rk_emmcutils.cpp	/^char* getDevicePath(char *mtdDevice) {$/;"	f
+getEmmcState	emmcutils/rk_emmcutils.cpp	/^int getEmmcState() {$/;"	f
+getPathDirStatus	minzip/DirUtil.c	/^getPathDirStatus(const char *path)$/;"	f	file:
+getSerial	rktools.cpp	/^char *getSerial(){$/;"	f
+get_args	recovery.cpp	/^get_args(int *argc, char ***argv) {$/;"	f	file:
+get_args	sdboot.cpp	/^bool SDBoot::get_args(int *argc, char ***argv){$/;"	f	class:SDBoot
+get_args_from_sd	sdboot.cpp	/^bool SDBoot::get_args_from_sd(int *argc, char ***argv,bool *bmalloc){$/;"	f	class:SDBoot
+get_args_from_usb	sdboot.cpp	/^bool SDBoot::get_args_from_usb(int *argc, char ***argv,bool *bmalloc){$/;"	f	class:SDBoot
+get_byte	asn1_decoder.cpp	/^static inline int get_byte(asn1_context_t* ctx) {$/;"	f	file:
+get_hit_file	otafault/ota_io.cpp	/^static bool get_hit_file(const char* cached_path, std::string ffn) {$/;"	f	file:
+get_menu_selection	recovery.cpp	/^get_menu_selection(const char* const * headers, const char* const * items,$/;"	f	file:
+get_misc_blk_device	bootloader_message/bootloader_message.cpp	/^static std::string get_misc_blk_device(std::string* err) {$/;"	f	file:
+get_sd_config	sdboot.cpp	/^bool SDBoot::get_sd_config(char *configFile, int *argc, char ***argv,bool *bmalloc){$/;"	f	class:SDBoot
+get_type_path	otafault/config.cpp	/^static std::string get_type_path(const char* io_type) {$/;"	f	file:
+gid	fuse_sideload.cpp	/^    gid_t gid;$/;"	m	struct:fuse_data	file:
+gid	updater/install.cpp	/^    gid_t gid;$/;"	m	struct:perm_parsed_args	file:
+gr_backend	minui/graphics.cpp	/^static minui_backend* gr_backend = NULL;$/;"	v	file:
+gr_blit	minui/graphics.cpp	/^void gr_blit(GRSurface* source, int sx, int sy, int w, int h, int dx, int dy) {$/;"	f
+gr_clear	minui/graphics.cpp	/^void gr_clear()$/;"	f
+gr_color	minui/graphics.cpp	/^void gr_color(unsigned char r, unsigned char g, unsigned char b, unsigned char a)$/;"	f
+gr_current_a	minui/graphics.cpp	/^static unsigned char gr_current_a = 255;$/;"	v	file:
+gr_current_b	minui/graphics.cpp	/^static unsigned char gr_current_b = 255;$/;"	v	file:
+gr_current_g	minui/graphics.cpp	/^static unsigned char gr_current_g = 255;$/;"	v	file:
+gr_current_r	minui/graphics.cpp	/^static unsigned char gr_current_r = 255;$/;"	v	file:
+gr_draw	minui/graphics.cpp	/^static GRSurface* gr_draw = NULL;$/;"	v	file:
+gr_draw	minui/graphics_fbdev.cpp	/^static GRSurface* gr_draw = NULL;$/;"	v	file:
+gr_exit	minui/graphics.cpp	/^void gr_exit(void)$/;"	f
+gr_fb_blank	minui/graphics.cpp	/^void gr_fb_blank(bool blank)$/;"	f
+gr_fb_height	minui/graphics.cpp	/^int gr_fb_height(void)$/;"	f
+gr_fb_width	minui/graphics.cpp	/^int gr_fb_width(void)$/;"	f
+gr_fill	minui/graphics.cpp	/^void gr_fill(int x1, int y1, int x2, int y2)$/;"	f
+gr_flip	minui/graphics.cpp	/^void gr_flip() {$/;"	f
+gr_font	minui/graphics.cpp	/^static GRFont* gr_font = NULL;$/;"	v	file:
+gr_font_size	minui/graphics.cpp	/^void gr_font_size(const GRFont* font, int *x, int *y)$/;"	f
+gr_framebuffer	minui/graphics_fbdev.cpp	/^static GRSurface gr_framebuffer[2];$/;"	v	file:
+gr_get_draw_height	minui/graphics.cpp	/^static unsigned int gr_get_draw_height(GRSurface* surface) {$/;"	f	file:
+gr_get_draw_width	minui/graphics.cpp	/^static unsigned int gr_get_draw_width(GRSurface* surface) {$/;"	f	file:
+gr_get_height	minui/graphics.cpp	/^unsigned int gr_get_height(GRSurface* surface) {$/;"	f
+gr_get_row_bytes	minui/graphics.cpp	/^static unsigned int gr_get_row_bytes(GRSurface* surface){$/;"	f	file:
+gr_get_width	minui/graphics.cpp	/^unsigned int gr_get_width(GRSurface* surface) {$/;"	f
+gr_init	minui/graphics.cpp	/^int gr_init(void)$/;"	f
+gr_init_font	minui/graphics.cpp	/^int gr_init_font(const char* name, GRFont** dest) {$/;"	f
+gr_init_font	minui/graphics.cpp	/^static void gr_init_font(void)$/;"	f	file:
+gr_measure	minui/graphics.cpp	/^int gr_measure(const GRFont* font, const char *s)$/;"	f
+gr_sys_font	minui/graphics.cpp	/^const GRFont* gr_sys_font()$/;"	f
+gr_text	minui/graphics.cpp	/^void gr_text(const GRFont* font, int x, int y, const char *s, bool bold)$/;"	f
+gr_texticon	minui/graphics.cpp	/^void gr_texticon(int x, int y, GRSurface* icon) {$/;"	f
+handle	minui/graphics_drm.cpp	/^    uint32_t handle;$/;"	m	struct:drm_surface	file:
+handle_flush	fuse_sideload.cpp	/^static int handle_flush(void* data, struct fuse_data* fd, const struct fuse_in_header* hdr) {$/;"	f	file:
+handle_getattr	fuse_sideload.cpp	/^static int handle_getattr(void* \/* data *\/, struct fuse_data* fd, const struct fuse_in_header* hdr) {$/;"	f	file:
+handle_init	fuse_sideload.cpp	/^static int handle_init(void* data, struct fuse_data* fd, const struct fuse_in_header* hdr) {$/;"	f	file:
+handle_lookup	fuse_sideload.cpp	/^static int handle_lookup(void* data, struct fuse_data* fd,$/;"	f	file:
+handle_open	fuse_sideload.cpp	/^static int handle_open(void* \/* data *\/, struct fuse_data* fd, const struct fuse_in_header* hdr) {$/;"	f	file:
+handle_read	fuse_sideload.cpp	/^static int handle_read(void* data, struct fuse_data* fd, const struct fuse_in_header* hdr) {$/;"	f	file:
+handle_release	fuse_sideload.cpp	/^static int handle_release(void* data, struct fuse_data* fd, const struct fuse_in_header* hdr) {$/;"	f	file:
+handle_update_script	rkimage.cpp	/^handle_update_script(const char* path, RKIMAGE_ITEM* pItem)$/;"	f	file:
+handle_upgrade_callback	sdboot.cpp	/^void handle_upgrade_callback(char *szPrompt)$/;"	f
+handle_upgrade_progress_callback	sdboot.cpp	/^void handle_upgrade_progress_callback(float portion, float seconds)$/;"	f
+has_cache	recovery.cpp	/^static bool has_cache = false;$/;"	v	file:
+has_capabilities	updater/install.cpp	/^    bool has_capabilities;$/;"	m	struct:perm_parsed_args	file:
+has_dmode	updater/install.cpp	/^    bool has_dmode;$/;"	m	struct:perm_parsed_args	file:
+has_down_key	ui.h	/^    bool has_down_key;$/;"	m	class:RecoveryUI
+has_fmode	updater/install.cpp	/^    bool has_fmode;$/;"	m	struct:perm_parsed_args	file:
+has_gid	updater/install.cpp	/^    bool has_gid;$/;"	m	struct:perm_parsed_args	file:
+has_mode	updater/install.cpp	/^    bool has_mode;$/;"	m	struct:perm_parsed_args	file:
+has_power_key	ui.h	/^    bool has_power_key;$/;"	m	class:RecoveryUI
+has_selabel	updater/install.cpp	/^    bool has_selabel;$/;"	m	struct:perm_parsed_args	file:
+has_uid	updater/install.cpp	/^    bool has_uid;$/;"	m	struct:perm_parsed_args	file:
+has_up_key	ui.h	/^    bool has_up_key;$/;"	m	class:RecoveryUI
+hashValue	minzip/Hash.h	/^    unsigned int hashValue;$/;"	m	struct:HashEntry
+hash_len	verifier.h	/^    int hash_len;$/;"	m	struct:Certificate
+hashcmpZipEntry	minzip/Zip.c	/^static int hashcmpZipEntry(const void* ventry1, const void* ventry2)$/;"	f	file:
+hashcmpZipName	minzip/Zip.c	/^static int hashcmpZipName(const void* ventry, const void* vname)$/;"	f	file:
+hashes	fuse_sideload.cpp	/^    uint8_t* hashes;        \/\/ SHA-256 hash of each block (all zeros$/;"	m	struct:fuse_data	file:
+have_eio_error	otafault/ota_io.cpp	/^bool have_eio_error = false;$/;"	v
+height	minui/font_10x18.h	/^  unsigned height;$/;"	m	struct:__anon11
+height	minui/minui.h	/^    int height;$/;"	m	struct:GRSurface
+idx	minzip/Hash.h	/^    int         idx;$/;"	m	struct:HashIter
+image_compare	rkimage.cpp	/^int image_compare(const char* src, const char* dest, int woffset)$/;"	f
+inc	updater/Android.mk	/^inc := $(call intermediates-dir-for,PACKAGING,updater_extensions)\/register.inc$/;"	m
+inc	updater/Android.mk	/^inc :=$/;"	m
+inc_dep_file	updater/Android.mk	/^inc_dep_file := $(inc).dep.$(subst $(space),-,$(sort $(TARGET_RECOVERY_UPDATER_LIBS)))$/;"	m
+inc_dep_file	updater/Android.mk	/^inc_dep_file :=$/;"	m
+init	minui/graphics.h	/^    GRSurface* (*init)(minui_backend*);$/;"	m	struct:minui_backend
+init_display_surface	minui/resources.cpp	/^static GRSurface* init_display_surface(png_uint_32 width, png_uint_32 height) {$/;"	f	file:
+init_sd_emmc_point	rktools.cpp	/^void init_sd_emmc_point(){$/;"	f
+input_thread_	ui.h	/^    pthread_t input_thread_;$/;"	m	class:RecoveryUI
+install_package	install.cpp	/^install_package(const char* path, bool* wipe_cache, const char* install_file,$/;"	f
+install_rkimage	rkimage.cpp	/^int install_rkimage(const char* update_file) {$/;"	f
+installing_text	screen_ui.h	/^    GRSurface* installing_text;$/;"	m	class:ScreenRecoveryUI
+interlace	interlace-frames.py	/^def interlace(output, inputs):$/;"	f
+intf_fd	minui/graphics_adf.cpp	/^    int intf_fd;$/;"	m	struct:adf_pdata	file:
+introFrames	screen_ui.h	/^    GRSurface** introFrames;$/;"	m	class:ScreenRecoveryUI
+intro_done	screen_ui.h	/^    bool intro_done;$/;"	m	class:ScreenRecoveryUI
+intro_frames	screen_ui.h	/^    size_t intro_frames;$/;"	m	class:ScreenRecoveryUI
+isLedFlash	rktools.cpp	/^static bool isLedFlash = false;$/;"	v	file:
+isSDboot	sdboot.cpp	/^bool SDBoot::isSDboot(){$/;"	f	class:SDBoot
+isUSBboot	sdboot.cpp	/^bool SDBoot::isUSBboot(){$/;"	f	class:SDBoot
+is_battery_ok	recovery.cpp	/^static bool is_battery_ok() {$/;"	f	file:
+is_retry	edify/expr.h	/^    bool is_retry = false;$/;"	m	struct:__anon14
+is_retry	updater/blockimg.cpp	/^static bool is_retry = false;$/;"	v	file:
+is_ro_debuggable	recovery.cpp	/^bool is_ro_debuggable() {$/;"	f
+isunresumable	updater/blockimg.cpp	/^    bool isunresumable;$/;"	m	struct:CommandParameters	file:
+item	rkimage.h	/^	RKIMAGE_ITEM item[MAX_PACKAGE_FILES];$/;"	m	struct:tagRKIMAGE_HDR
+item_count	rkimage.h	/^	int item_count;$/;"	m	struct:tagRKIMAGE_HDR
+kArgsParsingFailure	error_code.h	/^    kArgsParsingFailure = 100,$/;"	e	enum:CauseCode
+kBootreasonInBlacklist	error_code.h	/^    kBootreasonInBlacklist$/;"	e	enum:ErrorCode
+kFileGetPropFailure	error_code.h	/^    kFileGetPropFailure,$/;"	e	enum:CauseCode
+kFileOpenFailure	error_code.h	/^    kFileOpenFailure,$/;"	e	enum:CauseCode
+kFileRenameFailure	error_code.h	/^    kFileRenameFailure,$/;"	e	enum:CauseCode
+kFreadFailure	error_code.h	/^    kFreadFailure,$/;"	e	enum:CauseCode
+kFsyncFailure	error_code.h	/^    kFsyncFailure,$/;"	e	enum:CauseCode
+kFwriteFailure	error_code.h	/^    kFwriteFailure,$/;"	e	enum:CauseCode
+kHighlightDown	device.h	/^    static const int kHighlightDown = -3;$/;"	m	class:Device
+kHighlightUp	device.h	/^    static const int kHighlightUp = -2;$/;"	m	class:Device
+kInvokeItem	device.h	/^    static const int kInvokeItem = -4;$/;"	m	class:Device
+kLayouts	screen_ui.cpp	/^static constexpr int kLayouts[LAYOUT_MAX][DIMENSION_MAX] = {$/;"	v	file:
+kLibfecFailure	error_code.h	/^    kLibfecFailure,$/;"	e	enum:CauseCode
+kLowBattery	error_code.h	/^    kLowBattery = 20,$/;"	e	enum:ErrorCode
+kLseekFailure	error_code.h	/^    kLseekFailure,$/;"	e	enum:CauseCode
+kMarkerFile	tools/ota/check-lost+found.c	/^static const char *kMarkerFile = "\/data\/misc\/check-lost+found-rebooted-2";$/;"	v	file:
+kMaskAppType	asn1_decoder.cpp	/^static const int kMaskAppType = 0x1F;$/;"	v	file:
+kMaskConstructed	asn1_decoder.cpp	/^static const int kMaskConstructed = 0xE0;$/;"	v	file:
+kMaskTag	asn1_decoder.cpp	/^static const int kMaskTag = 0x7F;$/;"	v	file:
+kMaxCols	wear_ui.h	/^    static const int kMaxCols = 96;$/;"	m	class:WearRecoveryUI
+kMaxRows	wear_ui.h	/^    static const int kMaxRows = 96;$/;"	m	class:WearRecoveryUI
+kNoAction	device.h	/^    static const int kNoAction = -1;$/;"	m	class:Device
+kNoCause	error_code.h	/^    kNoCause = -1,$/;"	e	enum:CauseCode
+kNoError	error_code.h	/^    kNoError = -1,$/;"	e	enum:ErrorCode
+kOutputDir	tools/ota/check-lost+found.c	/^static const char *kOutputDir = "\/data\/tombstones";$/;"	v	file:
+kOutputFile	tools/ota/check-lost+found.c	/^static const char *kOutputFile = "\/data\/tombstones\/check-lost+found-log";$/;"	v	file:
+kPartitions	tools/ota/check-lost+found.c	/^static const char *kPartitions[] = { "\/system", "\/data", "\/cache", NULL };$/;"	v	file:
+kRebootFailure	error_code.h	/^    kRebootFailure,$/;"	e	enum:CauseCode
+kSetMetadataFailure	error_code.h	/^    kSetMetadataFailure,$/;"	e	enum:CauseCode
+kStashCreationFailure	error_code.h	/^    kStashCreationFailure,$/;"	e	enum:CauseCode
+kSymlinkFailure	error_code.h	/^    kSymlinkFailure,$/;"	e	enum:CauseCode
+kTagConstructed	asn1_decoder.cpp	/^static const int kTagConstructed = 0xA0;$/;"	v	file:
+kTagOctetString	asn1_decoder.cpp	/^static const int kTagOctetString = 0x04;$/;"	v	file:
+kTagOid	asn1_decoder.cpp	/^static const int kTagOid = 0x06;$/;"	v	file:
+kTagSequence	asn1_decoder.cpp	/^static const int kTagSequence = 0x30;$/;"	v	file:
+kTagSet	asn1_decoder.cpp	/^static const int kTagSet = 0x31;$/;"	v	file:
+kTune2FsFailure	error_code.h	/^    kTune2FsFailure,$/;"	e	enum:CauseCode
+kUncryptBlockOpenError	error_code.h	/^    kUncryptBlockOpenError,$/;"	e	enum:UncryptErrorCode
+kUncryptErrorPlaceholder	error_code.h	/^    kUncryptErrorPlaceholder = 50,$/;"	e	enum:UncryptErrorCode
+kUncryptFileCloseError	error_code.h	/^    kUncryptFileCloseError,$/;"	e	enum:UncryptErrorCode
+kUncryptFileOpenError	error_code.h	/^    kUncryptFileOpenError,$/;"	e	enum:UncryptErrorCode
+kUncryptFileRemoveError	error_code.h	/^    kUncryptFileRemoveError,$/;"	e	enum:UncryptErrorCode
+kUncryptFileRenameError	error_code.h	/^    kUncryptFileRenameError,$/;"	e	enum:UncryptErrorCode
+kUncryptFileStatError	error_code.h	/^    kUncryptFileStatError,$/;"	e	enum:UncryptErrorCode
+kUncryptFileSyncError	error_code.h	/^    kUncryptFileSyncError,$/;"	e	enum:UncryptErrorCode
+kUncryptFstabReadError	error_code.h	/^    kUncryptFstabReadError,$/;"	e	enum:UncryptErrorCode
+kUncryptIoctlError	error_code.h	/^    kUncryptIoctlError,$/;"	e	enum:UncryptErrorCode
+kUncryptNoError	error_code.h	/^    kUncryptNoError = -1,$/;"	e	enum:UncryptErrorCode
+kUncryptPackageMissingError	error_code.h	/^    kUncryptPackageMissingError,$/;"	e	enum:UncryptErrorCode
+kUncryptReadError	error_code.h	/^    kUncryptReadError,$/;"	e	enum:UncryptErrorCode
+kUncryptSocketAcceptError	error_code.h	/^    kUncryptSocketAcceptError,$/;"	e	enum:UncryptErrorCode
+kUncryptSocketListenError	error_code.h	/^    kUncryptSocketListenError,$/;"	e	enum:UncryptErrorCode
+kUncryptSocketOpenError	error_code.h	/^    kUncryptSocketOpenError,$/;"	e	enum:UncryptErrorCode
+kUncryptSocketWriteError	error_code.h	/^    kUncryptSocketWriteError,$/;"	e	enum:UncryptErrorCode
+kUncryptTimeoutError	error_code.h	/^    kUncryptTimeoutError = 100,$/;"	e	enum:UncryptErrorCode
+kUncryptWriteError	error_code.h	/^    kUncryptWriteError,$/;"	e	enum:UncryptErrorCode
+kVendorFailure	error_code.h	/^    kVendorFailure = 200$/;"	e	enum:CauseCode
+kZipOpenFailure	error_code.h	/^    kZipOpenFailure,$/;"	e	enum:ErrorCode
+kZipVerificationFailure	error_code.h	/^    kZipVerificationFailure,$/;"	e	enum:ErrorCode
+key_code	ui.h	/^        int key_code;$/;"	m	struct:RecoveryUI::key_timer_t
+key_down_count	ui.h	/^    int key_down_count;                \/\/ under key_queue_mutex$/;"	m	class:RecoveryUI
+key_last_down	ui.h	/^    int key_last_down;                 \/\/ under key_queue_mutex$/;"	m	class:RecoveryUI
+key_long_press	ui.h	/^    bool key_long_press;               \/\/ under key_queue_mutex$/;"	m	class:RecoveryUI
+key_pressed	ui.h	/^    char key_pressed[KEY_MAX + 1];     \/\/ under key_queue_mutex$/;"	m	class:RecoveryUI
+key_queue	ui.h	/^    int key_queue[256], key_queue_len;$/;"	m	class:RecoveryUI
+key_queue_cond	ui.h	/^    pthread_cond_t key_queue_cond;$/;"	m	class:RecoveryUI
+key_queue_len	ui.h	/^    int key_queue[256], key_queue_len;$/;"	m	class:RecoveryUI
+key_queue_mutex	ui.h	/^    pthread_mutex_t key_queue_mutex;$/;"	m	class:RecoveryUI
+key_timer_t	ui.h	/^    struct key_timer_t {$/;"	s	class:RecoveryUI
+key_type	verifier.h	/^    KeyType key_type;$/;"	m	struct:Certificate
+last_key	ui.h	/^    int last_key;$/;"	m	class:RecoveryUI
+last_state	rktools.cpp	/^static int last_state = 0;$/;"	v	file:
+layout_	screen_ui.h	/^    int layout_;$/;"	m	class:ScreenRecoveryUI
+len	applypatch/imgdiff.cpp	/^  size_t len;$/;"	m	struct:__anon18	file:
+len	minzip/Zip.c	/^    long len;$/;"	m	struct:__anon5	file:
+len	minzip/Zip.h	/^    size_t len;$/;"	m	struct:__anon8
+length	asn1_decoder.cpp	/^    size_t length;$/;"	m	struct:asn1_context	file:
+length	minzip/SysUtil.h	/^    size_t         length;         \/* length of data *\/$/;"	m	struct:MemMapping
+length	minzip/SysUtil.h	/^    size_t length;$/;"	m	struct:MappedRange
+length	minzip/Zip.h	/^    size_t         length;$/;"	m	struct:ZipArchive
+level	applypatch/imgdiff.cpp	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon18	file:
+libs	updater/Android.mk	/^$(inc) : libs := $(TARGET_RECOVERY_UPDATER_LIBS)$/;"	m
+load_keys	verifier.cpp	/^bool load_keys(const char* filename, std::vector<Certificate>& certs) {$/;"	f
+load_locale_from_cache	recovery.cpp	/^load_locale_from_cache() {$/;"	f	file:
+load_volume_table	emmcutils/rk_emmcutils.cpp	/^static void load_volume_table()$/;"	f	file:
+load_volume_table	roots.cpp	/^void load_volume_table()$/;"	f
+locale	recovery.cpp	/^static const char* locale = "en_US";$/;"	v	file:
+locale	screen_ui.h	/^    const char* locale;$/;"	m	class:ScreenRecoveryUI
+log_failure_code	recovery.cpp	/^static void log_failure_code(ErrorCode code, const char *update_package) {$/;"	f	file:
+log_uncrypt_error_code	uncrypt/uncrypt.cpp	/^static void log_uncrypt_error_code(UncryptErrorCode error_code) {$/;"	f	file:
+logbasename	recovery-refresh.cpp	/^static ssize_t logbasename($/;"	f	file:
+logbasename	recovery.cpp	/^static ssize_t logbasename($/;"	f	file:
+logrotate	recovery-refresh.cpp	/^static ssize_t logrotate($/;"	f	file:
+logrotate	recovery.cpp	/^static ssize_t logrotate($/;"	f	file:
+logsave	recovery-persist.cpp	/^ssize_t logsave($/;"	f
+loopFrames	screen_ui.h	/^    GRSurface** loopFrames;$/;"	m	class:ScreenRecoveryUI
+loop_frames	screen_ui.h	/^    size_t loop_frames;$/;"	m	class:ScreenRecoveryUI
+mCallback	wear_touch.h	/^    OnSwipeCallback mCallback;$/;"	m	class:WearSwipeDetector
+mCookie	wear_touch.h	/^    void *mCookie;$/;"	m	class:WearSwipeDetector
+mCurrentSlot	wear_touch.h	/^    int mCurrentSlot;$/;"	m	class:WearSwipeDetector
+mFingerDown	wear_touch.h	/^    bool mFingerDown;$/;"	m	class:WearSwipeDetector
+mHighThreshold	wear_touch.h	/^    int mHighThreshold;$/;"	m	class:WearSwipeDetector
+mLowThreshold	wear_touch.h	/^    int mLowThreshold;$/;"	m	class:WearSwipeDetector
+mStartX	wear_touch.h	/^    int mStartX;$/;"	m	class:WearSwipeDetector
+mStartY	wear_touch.h	/^    int mStartY;$/;"	m	class:WearSwipeDetector
+mStringId	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    int mStringId = R.string.recovery_installing;$/;"	f	class:Main
+mSwiping	wear_touch.h	/^    bool mSwiping;$/;"	m	class:WearSwipeDetector
+mText	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    TextView mText;$/;"	f	class:Main
+mThread	wear_touch.h	/^    pthread_t mThread;$/;"	m	class:WearSwipeDetector
+mX	wear_touch.h	/^    int mX;$/;"	m	class:WearSwipeDetector
+mY	wear_touch.h	/^    int mY;$/;"	m	class:WearSwipeDetector
+machine_model	rkimage.h	/^	char machine_model[MAX_MACHINE_MODEL];$/;"	m	struct:tagRKIMAGE_HDR
+main	applypatch/imgdiff.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	applypatch/main.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	edify/main.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	interlace-frames.py	/^def main(argv):$/;"	f
+main	minui/mkfont.c	/^int main(int argc, char *argv)$/;"	f
+main	mtdutils/flash_image.c	/^int main(int argc, char **argv) {$/;"	f
+main	otafault/test.cpp	/^int main(int \/* argc *\/, char** \/* argv *\/) {$/;"	f
+main	recovery-persist.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	recovery-refresh.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	recovery.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	tools/ota/add-property-tag.c	/^int main(int argc, char **argv) {$/;"	f
+main	tools/ota/check-lost+found.c	/^int main(int argc __attribute__((unused)), char **argv __attribute__((unused))) {$/;"	f
+main	uncrypt/uncrypt.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	update_verifier/update_verifier.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	updater/updater.cpp	/^int main(int argc, char** argv) {$/;"	f
+main_monitor_connector	minui/graphics_drm.cpp	/^static drmModeConnector *main_monitor_connector;$/;"	v	file:
+main_monitor_crtc	minui/graphics_drm.cpp	/^static drmModeCrtc *main_monitor_crtc;$/;"	v	file:
+make_device	default_device.cpp	/^Device* make_device() {$/;"	f
+make_loader_data	rkimage.cpp	/^int make_loader_data(const char* old_loader, char* new_loader, int *new_loader_size)\/\/path, RKIMAGE_HDR *hdr)$/;"	f
+make_ntfs	mtdutils/rk29.c	/^int make_ntfs(const char *filename,const char* volumelabel) {$/;"	f
+make_parents	updater/install.cpp	/^static int make_parents(char* name) {$/;"	f	file:
+make_vfat	mtdutils/rk29.c	/^int make_vfat(const char *filename,const char* volumelabel)$/;"	f
+malloc_surface	minui/resources.cpp	/^static GRSurface* malloc_surface(size_t data_size) {$/;"	f	file:
+mangle_file	tests/component/applypatch_test.cpp	/^static void mangle_file(const std::string& fname) {$/;"	f	file:
+manufacturer	rkimage.h	/^	char manufacturer[MAX_MANUFACTURER];$/;"	m	struct:tagRKIMAGE_HDR
+matches_locale	minui/resources.cpp	/^bool matches_locale(const char* prefix, const char* locale) {$/;"	f
+matchlen	applypatch/bsdiff.cpp	/^static off_t matchlen(u_char *olddata,off_t oldsize,u_char *newdata,off_t newsize)$/;"	f	file:
+max_stage	screen_ui.h	/^    int stage, max_stage;$/;"	m	class:ScreenRecoveryUI
+maybe_restart_adbd	adb_install.cpp	/^maybe_restart_adbd() {$/;"	f	file:
+memLevel	applypatch/imgdiff.cpp	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon18	file:
+memmap	tests/component/verifier_test.cpp	/^    MemMapping memmap;$/;"	m	class:VerifierTest	file:
+menu_	screen_ui.h	/^    char** menu_;$/;"	m	class:ScreenRecoveryUI
+menu_end	wear_ui.h	/^    int menu_start, menu_end;$/;"	m	class:WearRecoveryUI
+menu_headers_	screen_ui.h	/^    const char* const* menu_headers_;$/;"	m	class:ScreenRecoveryUI
+menu_headers_	wear_ui.h	/^    const char* const* menu_headers_;$/;"	m	class:WearRecoveryUI
+menu_items	screen_ui.h	/^    int menu_items, menu_sel;$/;"	m	class:ScreenRecoveryUI
+menu_sel	screen_ui.h	/^    int menu_items, menu_sel;$/;"	m	class:ScreenRecoveryUI
+menu_start	wear_ui.h	/^    int menu_start, menu_end;$/;"	m	class:WearRecoveryUI
+menu_unusable_rows	wear_ui.h	/^    int menu_unusable_rows;$/;"	m	class:WearRecoveryUI
+mergeBitmaps	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private void mergeBitmaps(final Locale[] locales) {$/;"	m	class:Main	file:
+method	applypatch/imgdiff.cpp	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon18	file:
+min	mtdutils/rk29.c	183;"	d	file:
+minadbd_cflags	minadbd/Android.mk	/^minadbd_cflags := \\$/;"	m
+minui_backend	minui/graphics.h	/^struct minui_backend {$/;"	s
+modTime	minzip/Zip.h	/^    long         modTime;$/;"	m	struct:ZipEntry
+mode	updater/install.cpp	/^    mode_t mode;$/;"	m	struct:perm_parsed_args	file:
+modified_flash	recovery.cpp	/^bool modified_flash = false;$/;"	v
+mount_point	mtdutils/mounts.c	/^    const char *mount_point;$/;"	m	struct:MountedVolume	file:
+mount_usb_device	sdboot.cpp	/^int SDBoot::mount_usb_device()$/;"	f	class:SDBoot
+mtd_erase_blocks	mtdutils/mtdutils.c	/^off_t mtd_erase_blocks(MtdWriteContext *ctx, int blocks)$/;"	f
+mtd_find_partition_by_name	mtdutils/mtdutils.c	/^mtd_find_partition_by_name(const char *name)$/;"	f
+mtd_find_write_start	mtdutils/mtdutils.c	/^off_t mtd_find_write_start(MtdWriteContext *ctx, off_t pos) {$/;"	f
+mtd_get_partition_index	mtdutils/mtdutils.c	/^int mtd_get_partition_index(MtdPartition *partition)$/;"	f
+mtd_mount_partition	mtdutils/mtdutils.c	/^mtd_mount_partition(const MtdPartition *partition, const char *mount_point,$/;"	f
+mtd_partition_info	mtdutils/mtdutils.c	/^mtd_partition_info(const MtdPartition *partition,$/;"	f
+mtd_partitions_scanned	applypatch/applypatch.cpp	/^static bool mtd_partitions_scanned = false;$/;"	v	file:
+mtd_read_close	mtdutils/mtdutils.c	/^void mtd_read_close(MtdReadContext *ctx)$/;"	f
+mtd_read_data	mtdutils/mtdutils.c	/^ssize_t mtd_read_data(MtdReadContext *ctx, char *data, size_t len)$/;"	f
+mtd_read_partition	mtdutils/mtdutils.c	/^MtdReadContext *mtd_read_partition(const MtdPartition *partition)$/;"	f
+mtd_read_skip_to	mtdutils/mtdutils.c	/^void mtd_read_skip_to(const MtdReadContext* ctx, size_t offset) {$/;"	f
+mtd_scan_partitions	mtdutils/mtdutils.c	/^mtd_scan_partitions()$/;"	f
+mtd_write_close	mtdutils/mtdutils.c	/^int mtd_write_close(MtdWriteContext *ctx)$/;"	f
+mtd_write_data	mtdutils/mtdutils.c	/^ssize_t mtd_write_data(MtdWriteContext *ctx, const char *data, size_t len)$/;"	f
+mtd_write_partition	mtdutils/mtdutils.c	/^MtdWriteContext *mtd_write_partition(const MtdPartition *partition)$/;"	f
+mu	updater/blockimg.cpp	/^    pthread_mutex_t mu;$/;"	m	struct:NewThreadInfo	file:
+myContent	tests/unit/recovery_test.cpp	/^static const char myContent[] = "Hello World\\nWelcome to my recovery\\n";$/;"	v	file:
+myFilename	tests/unit/recovery_test.cpp	/^static const char myFilename[] = "\/data\/misc\/recovery\/inject.txt";$/;"	v	file:
+my_backend	minui/graphics_fbdev.cpp	/^static minui_backend my_backend = {$/;"	v	file:
+my_memcmp	rkimage.cpp	/^int my_memcmp(void *_a, void *_b, unsigned len, int *index)$/;"	f
+mzCloseZipArchive	minzip/Zip.c	/^void mzCloseZipArchive(ZipArchive* pArchive)$/;"	f
+mzExtractRecursive	minzip/Zip.c	/^bool mzExtractRecursive(const ZipArchive *pArchive,$/;"	f
+mzExtractZipEntryToBuffer	minzip/Zip.c	/^bool mzExtractZipEntryToBuffer(const ZipArchive *pArchive,$/;"	f
+mzExtractZipEntryToFile	minzip/Zip.c	/^bool mzExtractZipEntryToFile(const ZipArchive *pArchive,$/;"	f
+mzFindZipEntry	minzip/Zip.c	/^const ZipEntry* mzFindZipEntry(const ZipArchive* pArchive,$/;"	f
+mzGetZipEntryOffset	minzip/Zip.h	/^INLINE long mzGetZipEntryOffset(const ZipEntry* pEntry) {$/;"	f
+mzGetZipEntryUncompLen	minzip/Zip.h	/^INLINE long mzGetZipEntryUncompLen(const ZipEntry* pEntry) {$/;"	f
+mzHashForeach	minzip/Hash.c	/^int mzHashForeach(HashTable* pHashTable, HashForeachFunc func, void* arg)$/;"	f
+mzHashIterBegin	minzip/Hash.h	/^INLINE void mzHashIterBegin(HashTable* pHashTable, HashIter* pIter) {$/;"	f
+mzHashIterData	minzip/Hash.h	/^INLINE void* mzHashIterData(HashIter* pIter) {$/;"	f
+mzHashIterDone	minzip/Hash.h	/^INLINE bool mzHashIterDone(HashIter* pIter) {$/;"	f
+mzHashIterNext	minzip/Hash.h	/^INLINE void mzHashIterNext(HashIter* pIter) {$/;"	f
+mzHashSize	minzip/Hash.c	/^size_t mzHashSize(size_t size) {$/;"	f
+mzHashTableClear	minzip/Hash.c	/^void mzHashTableClear(HashTable* pHashTable)$/;"	f
+mzHashTableCreate	minzip/Hash.c	/^HashTable* mzHashTableCreate(size_t initialSize, HashFreeFunc freeFunc)$/;"	f
+mzHashTableFree	minzip/Hash.c	/^void mzHashTableFree(HashTable* pHashTable)$/;"	f
+mzHashTableLookup	minzip/Hash.c	/^void* mzHashTableLookup(HashTable* pHashTable, unsigned int itemHash, void* item,$/;"	f
+mzHashTableMemUsage	minzip/Hash.h	/^INLINE int mzHashTableMemUsage(HashTable* pHashTable) {$/;"	f
+mzHashTableNumEntries	minzip/Hash.h	/^INLINE int mzHashTableNumEntries(HashTable* pHashTable) {$/;"	f
+mzHashTableProbeCount	minzip/Hash.c	/^void mzHashTableProbeCount(HashTable* pHashTable, HashCalcFunc calcFunc,$/;"	f
+mzHashTableRemove	minzip/Hash.c	/^bool mzHashTableRemove(HashTable* pHashTable, unsigned int itemHash, void* item)$/;"	f
+mzIsZipEntrySymlink	minzip/Zip.c	/^static bool mzIsZipEntrySymlink(const ZipEntry* pEntry)$/;"	f	file:
+mzOpenZipArchive	minzip/Zip.c	/^int mzOpenZipArchive(unsigned char* addr, size_t length, ZipArchive* pArchive)$/;"	f
+mzProcessZipEntryContents	minzip/Zip.c	/^bool mzProcessZipEntryContents(const ZipArchive *pArchive,$/;"	f
+mzReadZipEntry	minzip/Zip.c	/^bool mzReadZipEntry(const ZipArchive* pArchive, const ZipEntry* pEntry,$/;"	f
+n_surfaces	minui/graphics_adf.cpp	/^    unsigned int n_surfaces;$/;"	m	struct:adf_pdata	file:
+name	edify/expr.h	/^    const char* name;$/;"	m	struct:Expr
+name	edify/expr.h	/^  const char* name;$/;"	m	struct:__anon16
+name	mtdutils/mtdutils.c	/^    char *name;$/;"	m	struct:MtdPartition	file:
+name	recovery.cpp	/^    char* name;$/;"	m	struct:_saved_log_file	file:
+name	rkimage.h	/^	char name[PART_NAME];\/\/$/;"	m	struct:tagRKIMAGE_ITEM
+name	sdboot.h	/^    char* name;$/;"	m	struct:__anon9
+name	updater/blockimg.cpp	/^    const char* name;$/;"	m	struct:Command	file:
+new_file	tests/component/applypatch_test.cpp	/^        static std::string new_file;$/;"	m	class:ApplyPatchTest	file:
+new_file	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::new_file;$/;"	m	class:ApplyPatchTest	file:
+new_sha1	tests/component/applypatch_test.cpp	/^        static std::string new_sha1;$/;"	m	class:ApplyPatchTest	file:
+new_sha1	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::new_sha1;$/;"	m	class:ApplyPatchTest	file:
+new_size	tests/component/applypatch_test.cpp	/^        static size_t new_size;$/;"	m	class:ApplyPatchTest	file:
+new_size	tests/component/applypatch_test.cpp	/^size_t ApplyPatchTest::new_size;$/;"	m	class:ApplyPatchTest	file:
+next	recovery.cpp	/^    struct _saved_log_file* next;$/;"	m	struct:_saved_log_file	typeref:struct:_saved_log_file::_saved_log_file	file:
+next	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^        private Runnable next;$/;"	f	class:Main.TextCapture	file:
+nextLocale	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^        private Locale nextLocale;$/;"	f	class:Main.TextCapture	file:
+no_command_text	screen_ui.h	/^    GRSurface* no_command_text;$/;"	m	class:ScreenRecoveryUI
+now	screen_ui.cpp	/^static double now() {$/;"	f	file:
+now	wear_ui.cpp	/^static double now() {$/;"	f	file:
+npolledevents	minui/events.cpp	/^static int npolledevents;$/;"	v	file:
+nti	updater/blockimg.cpp	/^    NewThreadInfo nti;$/;"	m	struct:CommandParameters	file:
+numDeadEntries	minzip/Hash.h	/^    int         numDeadEntries;     \/* current #of tombstone entries *\/$/;"	m	struct:HashTable
+numEntries	minzip/Hash.h	/^    int         numEntries;         \/* current #of "live" entries *\/$/;"	m	struct:HashTable
+numEntries	minzip/Zip.h	/^    unsigned int   numEntries;$/;"	m	struct:ZipArchive
+offset	minui/graphics_adf.cpp	/^    __u32 offset;$/;"	m	struct:adf_surface_pdata	file:
+offset	minzip/Zip.h	/^    long         offset;$/;"	m	struct:ZipEntry
+offset	rkimage.h	/^	unsigned int offset;\/\/$/;"	m	struct:tagRKIMAGE_ITEM
+offtin	applypatch/bspatch.cpp	/^static off_t offtin(u_char *buf)$/;"	f	file:
+offtout	applypatch/bsdiff.cpp	/^static void offtout(off_t x,u_char *buf)$/;"	f	file:
+old_file	tests/component/applypatch_test.cpp	/^        static std::string old_file;$/;"	m	class:ApplyPatchTest	file:
+old_file	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::old_file;$/;"	m	class:ApplyPatchTest	file:
+old_sha1	tests/component/applypatch_test.cpp	/^        static std::string old_sha1;$/;"	m	class:ApplyPatchTest	file:
+old_sha1	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::old_sha1;$/;"	m	class:ApplyPatchTest	file:
+onCreate	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    public void onCreate(Bundle savedInstance) {$/;"	m	class:Main
+openDevice	wear_touch.cpp	/^int WearSwipeDetector::openDevice(const char *device) {$/;"	f	class:WearSwipeDetector
+open_adf	minui/graphics_adf.cpp	/^minui_backend *open_adf()$/;"	f
+open_drm	minui/graphics_drm.cpp	/^minui_backend* open_drm() {$/;"	f
+open_fbdev	minui/graphics_fbdev.cpp	/^minui_backend* open_fbdev() {$/;"	f
+open_file_path	rkimage.cpp	/^int open_file_path(const char *path, int mode) {$/;"	f
+open_partition_path	rkimage.cpp	/^int open_partition_path(const char *part_name, int mode, char* path) {$/;"	f
+open_png	minui/resources.cpp	/^static int open_png(const char* name, png_structp* png_ptr, png_infop* info_ptr,$/;"	f	file:
+operator ()	verifier.cpp	/^  void operator()(BIGNUM* bn) {$/;"	f	struct:BNDeleter
+operator ()	verifier.h	/^  void operator()(EC_KEY* ec_key) {$/;"	f	struct:ECKEYDeleter
+operator ()	verifier.h	/^  void operator()(RSA* rsa) {$/;"	f	struct:RSADeleter
+operator =	unique_fd.h	/^    unique_fd& operator=(unique_fd&& uf) {$/;"	f	class:unique_fd
+operator bool	unique_fd.h	/^    explicit operator bool() const {$/;"	f	class:unique_fd
+ota_close	otafault/ota_io.cpp	/^int ota_close(int fd) {$/;"	f
+ota_fclose	otafault/ota_io.cpp	/^int ota_fclose(FILE* fh) {$/;"	f
+ota_fopen	otafault/ota_io.cpp	/^FILE* ota_fopen(const char* path, const char* mode) {$/;"	f
+ota_fread	otafault/ota_io.cpp	/^size_t ota_fread(void* ptr, size_t size, size_t nitems, FILE* stream) {$/;"	f
+ota_fsync	otafault/ota_io.cpp	/^int ota_fsync(int fd) {$/;"	f
+ota_fwrite	otafault/ota_io.cpp	/^size_t ota_fwrite(const void* ptr, size_t size, size_t count, FILE* stream) {$/;"	f
+ota_io_init	otafault/config.cpp	/^void ota_io_init(ZipArchive* za) {$/;"	f
+ota_open	otafault/ota_io.cpp	/^int ota_open(const char* path, int oflags) {$/;"	f
+ota_open	otafault/ota_io.cpp	/^int ota_open(const char* path, int oflags, mode_t mode) {$/;"	f
+ota_read	otafault/ota_io.cpp	/^ssize_t ota_read(int fd, void* buf, size_t nbyte) {$/;"	f
+ota_set_fault_files	otafault/ota_io.cpp	/^void ota_set_fault_files() {$/;"	f
+ota_write	otafault/ota_io.cpp	/^ssize_t ota_write(int fd, const void* buf, size_t nbyte) {$/;"	f
+otafault_static_libs	otafault/Android.mk	/^otafault_static_libs := \\$/;"	m
+outer_height	wear_ui.h	/^    int outer_height, outer_width;$/;"	m	class:WearRecoveryUI
+outer_width	wear_ui.h	/^    int outer_height, outer_width;$/;"	m	class:WearRecoveryUI
+output_f	tests/component/applypatch_test.cpp	/^        static TemporaryFile* output_f;$/;"	m	class:ApplyPatchFullTest	file:
+output_f	tests/component/applypatch_test.cpp	/^TemporaryFile* ApplyPatchFullTest::output_f;$/;"	m	class:ApplyPatchFullTest	file:
+output_loc	tests/component/applypatch_test.cpp	/^        static std::string output_loc;$/;"	m	class:ApplyPatchFullTest	file:
+output_loc	tests/component/applypatch_test.cpp	/^std::string ApplyPatchFullTest::output_loc;$/;"	m	class:ApplyPatchFullTest	file:
+outside	minui/graphics.cpp	/^static bool outside(int x, int y)$/;"	f	file:
+override	screen_ui.h	/^    bool IsTextVisible() override;$/;"	m	class:ScreenRecoveryUI
+override	screen_ui.h	/^    bool WasTextEverVisible() override;$/;"	m	class:ScreenRecoveryUI
+override	screen_ui.h	/^    void SetProgress(float fraction) override;$/;"	m	class:ScreenRecoveryUI
+override	screen_ui.h	/^    void SetProgressType(ProgressType type) override;$/;"	m	class:ScreenRecoveryUI
+override	screen_ui.h	/^    void SetStage(int current, int max) override;$/;"	m	class:ScreenRecoveryUI
+override	screen_ui.h	/^    void ShowProgress(float portion, float seconds) override;$/;"	m	class:ScreenRecoveryUI
+override	screen_ui.h	/^    void ShowText(bool visible) override;$/;"	m	class:ScreenRecoveryUI
+override	wear_ui.h	/^                   int initial_selection) override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    int GetProgressBaseline() override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    int SelectMenu(int sel) override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void Init() override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void InitTextParams() override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void Print(const char* fmt, ...) override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void PrintV(const char*, bool, va_list) override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void SetStage(int current, int max) override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void ShowFile(FILE* fp) override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void ShowFile(const char* filename) override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void draw_background_locked() override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void draw_screen_locked() override;$/;"	m	class:WearRecoveryUI
+override	wear_ui.h	/^    void update_progress_locked() override;$/;"	m	class:WearRecoveryUI
+overscan_offset_x	minui/graphics.cpp	/^static int overscan_offset_x = 0;$/;"	v	file:
+overscan_offset_y	minui/graphics.cpp	/^static int overscan_offset_y = 0;$/;"	v	file:
+overscan_percent	minui/graphics.cpp	/^static int overscan_percent = OVERSCAN_PERCENT;$/;"	v	file:
+p	asn1_decoder.cpp	/^    uint8_t* p;$/;"	m	struct:asn1_context	file:
+pEntries	minzip/Hash.h	/^    HashEntry*  pEntries;           \/* array on heap *\/$/;"	m	struct:HashTable
+pEntries	minzip/Zip.h	/^    ZipEntry*      pEntries;$/;"	m	struct:ZipArchive
+pHash	minzip/Zip.h	/^    HashTable*     pHash;          \/\/ maps file name to ZipEntry$/;"	m	struct:ZipArchive
+pHashTable	minzip/Hash.h	/^    HashTable*  pHashTable;$/;"	m	struct:HashIter
+p_block	updater/blockimg.cpp	/^    size_t p_block;$/;"	m	struct:RangeSinkState	file:
+p_remain	updater/blockimg.cpp	/^    size_t p_remain;$/;"	m	struct:RangeSinkState	file:
+package_zip	rkimage.h	/^    ZipArchive* package_zip;$/;"	m	struct:__anon20
+package_zip	updater/updater.h	/^    ZipArchive* package_zip;$/;"	m	struct:__anon26
+package_zip_addr	updater/updater.h	/^    uint8_t* package_zip_addr;$/;"	m	struct:__anon26
+package_zip_len	updater/updater.h	/^    size_t package_zip_len;$/;"	m	struct:__anon26
+pagesIdentical	screen_ui.h	/^    bool pagesIdentical;$/;"	m	class:ScreenRecoveryUI
+parseZipArchive	minzip/Zip.c	/^static bool parseZipArchive(ZipArchive* pArchive)$/;"	f	file:
+parse_build_number	install.cpp	/^static int parse_build_number(std::string str) {$/;"	f	file:
+parse_config	sdboot.cpp	/^bool SDBoot::parse_config(char *pConfig,VEC_SD_CONFIG &vecItem)$/;"	f	class:SDBoot
+parse_config_file	sdboot.cpp	/^bool SDBoot::parse_config_file(const char *pConfigFile,VEC_SD_CONFIG &vecItem)$/;"	f	class:SDBoot
+parse_ec_key	verifier.cpp	/^std::unique_ptr<EC_KEY, ECKEYDeleter> parse_ec_key(FILE* file) {$/;"	f
+parse_range	updater/blockimg.cpp	/^static void parse_range(const std::string& range_text, RangeSet& rs) {$/;"	f	file:
+parse_rsa_key	verifier.cpp	/^std::unique_ptr<RSA, RSADeleter> parse_rsa_key(FILE* file, uint32_t exponent) {$/;"	f
+partition	mtdutils/mtdutils.c	/^    const MtdPartition *partition;$/;"	m	struct:MtdReadContext	file:
+partition	mtdutils/mtdutils.c	/^    const MtdPartition *partition;$/;"	m	struct:MtdWriteContext	file:
+partition_count	mtdutils/mtdutils.c	/^    int partition_count;$/;"	m	struct:__anon13	file:
+partitions	mtdutils/mtdutils.c	/^    MtdPartition *partitions;$/;"	m	struct:__anon13	file:
+partitions_allocd	mtdutils/mtdutils.c	/^    int partitions_allocd;$/;"	m	struct:__anon13	file:
+patch_and_apply	applypatch/imgdiff_test.sh	/^patch_and_apply() {$/;"	f
+patch_file	tests/component/applypatch_test.cpp	/^        static std::string patch_file;$/;"	m	class:ApplyPatchTest	file:
+patch_file	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::patch_file;$/;"	m	class:ApplyPatchTest	file:
+patch_start	updater/blockimg.cpp	/^    uint8_t* patch_start;$/;"	m	struct:CommandParameters	file:
+patches	tests/component/applypatch_test.cpp	/^        static std::vector<Value*> patches;$/;"	m	class:ApplyPatchFullTest	file:
+patches	tests/component/applypatch_test.cpp	/^std::vector<Value*> ApplyPatchFullTest::patches;$/;"	m	class:ApplyPatchFullTest	file:
+peek_byte	asn1_decoder.cpp	/^static inline int peek_byte(asn1_context_t* ctx) {$/;"	f	file:
+perm_parsed_args	updater/install.cpp	/^struct perm_parsed_args {$/;"	s	file:
+pitch	minui/graphics_adf.cpp	/^    __u32 pitch;$/;"	m	struct:adf_surface_pdata	file:
+pixel_bytes	minui/minui.h	/^    int pixel_bytes;$/;"	m	struct:GRSurface
+point_items	rktools.h	/^static const char *point_items[] = {$/;"	v
+polledevents	minui/events.cpp	/^static epoll_event polledevents[MAX_DEVICES + MAX_MISC_FDS];$/;"	v	file:
+pos	updater/blockimg.cpp	/^    std::vector<size_t> pos;  \/\/ Actual limit is INT_MAX.$/;"	m	struct:RangeSet	file:
+ppre	recovery.cpp	/^static char *ppre = NULL;$/;"	v	file:
+pre_count	recovery.cpp	/^static int pre_count = 0;$/;"	v	file:
+print_hex	print_sha1.h	/^static std::string print_hex(const uint8_t* bytes, size_t len) {$/;"	f
+print_property	recovery.cpp	/^print_property(const char *key, const char *name, void *cookie) {$/;"	f	file:
+print_sha1	print_sha1.h	/^static std::string print_sha1(const uint8_t sha1[SHA_DIGEST_LENGTH]) {$/;"	f
+print_sha1	print_sha1.h	/^static std::string print_sha1(const uint8_t* sha1, size_t len) {$/;"	f
+process	wear_touch.cpp	/^void WearSwipeDetector::process(struct input_event *event) {$/;"	f	class:WearSwipeDetector
+processDeflatedEntry	minzip/Zip.c	/^static bool processDeflatedEntry(const ZipArchive *pArchive,$/;"	f	file:
+processStoredEntry	minzip/Zip.c	/^static bool processStoredEntry(const ZipArchive *pArchive,$/;"	f	file:
+produce_block_map	uncrypt/uncrypt.cpp	/^static int produce_block_map(const char* path, const char* map_file, const char* blk_dev,$/;"	f	file:
+progress	screen_ui.h	/^    float progressScopeStart, progressScopeSize, progress;$/;"	m	class:ScreenRecoveryUI
+progressBarEmpty	screen_ui.h	/^    GRSurface* progressBarEmpty;$/;"	m	class:ScreenRecoveryUI
+progressBarFill	screen_ui.h	/^    GRSurface* progressBarFill;$/;"	m	class:ScreenRecoveryUI
+progressBarType	screen_ui.h	/^    ProgressType progressBarType;$/;"	m	class:ScreenRecoveryUI
+progressScopeDuration	screen_ui.h	/^    double progressScopeTime, progressScopeDuration;$/;"	m	class:ScreenRecoveryUI
+progressScopeSize	screen_ui.h	/^    float progressScopeStart, progressScopeSize, progress;$/;"	m	class:ScreenRecoveryUI
+progressScopeStart	screen_ui.h	/^    float progressScopeStart, progressScopeSize, progress;$/;"	m	class:ScreenRecoveryUI
+progressScopeTime	screen_ui.h	/^    double progressScopeTime, progressScopeDuration;$/;"	m	class:ScreenRecoveryUI
+progress_bar_y	wear_ui.h	/^    int progress_bar_y;$/;"	m	class:WearRecoveryUI
+progress_t	wear_ui.h	/^    pthread_t progress_t;$/;"	m	class:WearRecoveryUI
+progress_thread_	screen_ui.h	/^    pthread_t progress_thread_;$/;"	m	class:ScreenRecoveryUI
+prompt_and_wait	recovery.cpp	/^prompt_and_wait(Device* device, int status) {$/;"	f	file:
+provider_vtab	fuse_sideload.h	/^struct provider_vtab {$/;"	s
+qsufsort	applypatch/bsdiff.cpp	/^static void qsufsort(off_t *I,off_t *V,u_char *old,off_t oldsize)$/;"	f	file:
+rand_file	tests/component/applypatch_test.cpp	/^        static std::string rand_file;$/;"	m	class:ApplyPatchTest	file:
+rand_file	tests/component/applypatch_test.cpp	/^std::string ApplyPatchTest::rand_file;$/;"	m	class:ApplyPatchTest	file:
+range_count	minzip/SysUtil.h	/^    int            range_count;$/;"	m	struct:MemMapping
+range_overlaps	updater/blockimg.cpp	/^static bool range_overlaps(const RangeSet& r1, const RangeSet& r2) {$/;"	f	file:
+ranges	minzip/SysUtil.h	/^    MappedRange*   ranges;$/;"	m	struct:MemMapping
+read1	minzip/Bits.h	/^INLINE unsigned char read1(unsigned const char** ppSrc)$/;"	f
+read2BE	minzip/Bits.h	/^INLINE unsigned short read2BE(unsigned char const** ppSrc)$/;"	f
+read2LE	minzip/Bits.h	/^INLINE unsigned short read2LE(unsigned char const** ppSrc)$/;"	f
+read4BE	minzip/Bits.h	/^INLINE unsigned int read4BE(unsigned char const** ppSrc)$/;"	f
+read4LE	minzip/Bits.h	/^INLINE unsigned int read4LE(unsigned char const** ppSrc)$/;"	f
+read8BE	minzip/Bits.h	/^INLINE unsigned long long read8BE(unsigned char const** ppSrc)$/;"	f
+read8LE	minzip/Bits.h	/^INLINE unsigned long long read8LE(unsigned char const** ppSrc)$/;"	f
+readFile	rktools.cpp	/^int readFile(DIR* dir, char* filename){$/;"	f
+readNewUtf8String	minzip/Bits.h	/^INLINE char* readNewUtf8String(unsigned char const** ppSrc, size_t* pLength)$/;"	f
+readUtf8String	minzip/Bits.h	/^INLINE int readUtf8String(unsigned char const** ppSrc, char* buf, size_t bufLen)$/;"	f
+read_all	updater/blockimg.cpp	/^static int read_all(int fd, std::vector<uint8_t>& buffer, size_t size) {$/;"	f	file:
+read_all	updater/blockimg.cpp	/^static int read_all(int fd, uint8_t* data, size_t size) {$/;"	f	file:
+read_block	fuse_sideload.h	/^    int (*read_block)(void* cookie, uint32_t block, uint8_t* buffer, uint32_t fetch_size);$/;"	m	struct:provider_vtab
+read_block	mtdutils/mtdutils.c	/^static int read_block(const MtdPartition *partition, int fd, char *data)$/;"	f	file:
+read_block_adb	minadbd/fuse_adb_provider.cpp	/^int read_block_adb(void* data, uint32_t block, uint8_t* buffer, uint32_t fetch_size) {$/;"	f
+read_block_file	fuse_sdcard_provider.cpp	/^static int read_block_file(void* cookie, uint32_t block, uint8_t* buffer, uint32_t fetch_size) {$/;"	f	file:
+read_blocks	update_verifier/update_verifier.cpp	/^static bool read_blocks(const std::string& blk_device_prefix, const std::string& range_str) {$/;"	f	file:
+read_bootloader_message	bootloader_message/bootloader_message.cpp	/^bool read_bootloader_message(bootloader_message* boot, std::string* err) {$/;"	f
+read_data_from_image	rkimage.cpp	/^static int read_data_from_image(const char* path, RKIMAGE_ITEM* pItem, char* script_data, int *script_len)$/;"	f	file:
+read_fault_file_name	otafault/ota_io.cpp	/^static std::string read_fault_file_name = "";$/;"	v	file:
+read_file	rkimage.cpp	/^static int read_file(int fd, off_t offset, char* data, int size)$/;"	f	file:
+read_fstab	bootloader_message/bootloader_message.cpp	/^static struct fstab* read_fstab(std::string* err) {$/;"	f	file:
+read_fstab	uncrypt/uncrypt.cpp	/^static struct fstab* read_fstab() {$/;"	f	file:
+read_metadata_from_package	install.cpp	/^bool read_metadata_from_package(ZipArchive* zip, std::string* meta_data) {$/;"	f
+read_misc_partition	bootloader_message/bootloader_message.cpp	/^static bool read_misc_partition(void* p, size_t size, size_t offset, std::string* err) {$/;"	f	file:
+read_partition	rkimage.cpp	/^static int read_partition(int fd, off_t offset, char* data, int size)$/;"	f	file:
+read_pkcs7	verifier.cpp	/^static bool read_pkcs7(uint8_t* pkcs7_der, size_t pkcs7_der_len, uint8_t** sig_der,$/;"	f	file:
+read_source_target_build	install.cpp	/^static void read_source_target_build(ZipArchive* zip, std::vector<std::string>& log_buffer) {$/;"	f	file:
+read_wipe_package	bootloader_message/bootloader_message.cpp	/^bool read_wipe_package(std::string* package_data, size_t size, std::string* err) {$/;"	f
+really_install_package	install.cpp	/^really_install_package(const char *path, bool* wipe_cache, bool needs_mount,$/;"	f	file:
+reason	recovery.cpp	/^char* reason = NULL;$/;"	v
+receive_new_data	updater/blockimg.cpp	/^static bool receive_new_data(const unsigned char* data, int size, void* cookie) {$/;"	f	file:
+recover_backup	rkimage.cpp	/^int recover_backup(const char *root_path)$/;"	f
+recovery	bootloader_message/include/bootloader_message/bootloader_message.h	/^    char recovery[768];$/;"	m	struct:bootloader_message
+recursive_parsed_args	updater/install.cpp	/^static struct perm_parsed_args recursive_parsed_args;$/;"	v	typeref:struct:perm_parsed_args	file:
+recursive_state	updater/install.cpp	/^static State* recursive_state;$/;"	v	file:
+redirect_stdio	recovery.cpp	/^static void redirect_stdio(const char* filename) {$/;"	f	file:
+rel_sum	ui.h	/^    int rel_sum;$/;"	m	class:RecoveryUI
+remount_read_only	mtdutils/mounts.c	/^remount_read_only(const MountedVolume* volume)$/;"	f
+remove_tag	tools/ota/add-property-tag.c	/^int remove_tag(char *line, const char *tag) {$/;"	f
+res_create_alpha_surface	minui/resources.cpp	/^int res_create_alpha_surface(const char* name, GRSurface** pSurface) {$/;"	f
+res_create_display_surface	minui/resources.cpp	/^int res_create_display_surface(const char* name, GRSurface** pSurface) {$/;"	f
+res_create_localized_alpha_surface	minui/resources.cpp	/^int res_create_localized_alpha_surface(const char* name,$/;"	f
+res_create_multi_display_surface	minui/resources.cpp	/^int res_create_multi_display_surface(const char* name, int* frames, int* fps,$/;"	f
+res_free_surface	minui/resources.cpp	/^void res_free_surface(GRSurface* surface) {$/;"	f
+reserved	bootloader_message/include/bootloader_message/bootloader_message.h	/^    char reserved[192];$/;"	m	struct:bootloader_message
+reserved	rkimage.cpp	/^	unsigned char reserved[BOOT_RESERVED_SIZE];$/;"	m	struct:__anon24	file:
+resizeHash	minzip/Hash.c	/^static bool resizeHash(HashTable* pHashTable, int newSize)$/;"	f	file:
+restore_old	tests/component/applypatch_test.cpp	/^static void restore_old() {$/;"	f	file:
+result_point	rktools.cpp	/^static char result_point[4][20]={'\\0'}; \/\/0-->emmc, 1-->sdcard, 2-->SDIO, 3-->SDcombo$/;"	v	file:
+rk29_fread	mtdutils/rk29.c	/^size_t rk29_fread(void *ptr, size_t size, size_t nmemb, FILE *stream)$/;"	f
+rk29_fwrite	mtdutils/rk29.c	/^size_t rk29_fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)$/;"	f
+rk_check_and_resizefs	mtdutils/rk29.c	/^int rk_check_and_resizefs(const char *filename) {$/;"	f
+rk_check_and_resizefs_f2fs	mtdutils/rk29.c	/^int rk_check_and_resizefs_f2fs(const char *filename) {$/;"	f
+rk_make_ext3fs	mtdutils/rk29.c	/^int rk_make_ext3fs(const char *filename)$/;"	f
+rk_make_ext4fs	mtdutils/rk29.c	/^int rk_make_ext4fs(const char *filename,long long len, const char *mountpoint)$/;"	f
+rk_rotate_surface_180	minui/graphics_fbdev.cpp	/^void rk_rotate_surface_180(GRSurface* surface)$/;"	f
+rk_rotate_surface_270	minui/graphics_fbdev.cpp	/^void rk_rotate_surface_270(GRSurface* surface, int width, int height){$/;"	f
+rk_rotate_surface_90	minui/graphics_fbdev.cpp	/^void rk_rotate_surface_90(GRSurface* surface, int width, int height){$/;"	f
+rotate_logs	recovery-persist.cpp	/^static void rotate_logs(int max) {$/;"	f	file:
+rotate_logs	recovery.cpp	/^static void rotate_logs(int max) {$/;"	f	file:
+rotated	recovery-persist.cpp	/^static bool rotated = false;$/;"	v	file:
+roundUpPower2	minzip/Hash.c	/^unsigned int roundUpPower2(unsigned int val)$/;"	f
+row_bytes	minui/minui.h	/^    int row_bytes;$/;"	m	struct:GRSurface
+rsa	verifier.h	/^    std::unique_ptr<RSA, RSADeleter> rsa;$/;"	m	struct:Certificate
+rss	updater/blockimg.cpp	/^    RangeSinkState* rss;$/;"	m	struct:NewThreadInfo	file:
+rtl_locale	screen_ui.h	/^    bool rtl_locale;$/;"	m	class:ScreenRecoveryUI
+run	mtdutils/rk29.c	/^int run(const char *filename, char *const argv[])$/;"	f
+run	roots.cpp	/^int run(const char *filename, char *const argv[])$/;"	f
+run	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^        public void run() {$/;"	m	class:Main.TextCapture
+run	wear_touch.cpp	/^void WearSwipeDetector::run() {$/;"	f	class:WearSwipeDetector
+run_adb_fuse	minadbd/fuse_adb_provider.cpp	/^int run_adb_fuse(int sfd, uint64_t file_size, uint32_t block_size) {$/;"	f
+run_command	applypatch/applypatch.sh	/^run_command() {$/;"	f
+run_command	applypatch/imgdiff_test.sh	/^run_command() {$/;"	f
+run_fuse_sideload	fuse_sideload.cpp	/^int run_fuse_sideload(struct provider_vtab* vtab, void* cookie,$/;"	f
+run_graphics_test	recovery.cpp	/^static void run_graphics_test(Device* device) {$/;"	f	file:
+rundata	minui/font_10x18.h	/^  unsigned char rundata[2973];$/;"	m	struct:__anon11
+saveBitmap	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private void saveBitmap(Bitmap b, String filename) {$/;"	m	class:Main	file:
+save_kernel_log	recovery.cpp	/^static void save_kernel_log(const char* destination) {$/;"	f	file:
+savedBitmaps	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    HashMap<Locale, Bitmap> savedBitmaps;$/;"	f	class:Main
+saved_log_file	recovery.cpp	/^} saved_log_file;$/;"	t	typeref:struct:_saved_log_file	file:
+scan_mounted_volumes	mtdutils/mounts.c	/^scan_mounted_volumes()$/;"	f
+script	edify/expr.h	/^    char* script;$/;"	m	struct:__anon14
+sd_path	rktools.h	13;"	d
+search	applypatch/bsdiff.cpp	/^static off_t search(off_t *I,u_char *old,off_t oldsize,$/;"	f	file:
+secure_wipe_partition	recovery.cpp	/^static bool secure_wipe_partition(const std::string& partition) {$/;"	f	file:
+sehandle	recovery.cpp	/^struct selabel_handle *sehandle;$/;"	v	typeref:struct:selabel_handle
+sehandle	updater/updater.cpp	/^struct selabel_handle *sehandle;$/;"	v	typeref:struct:selabel_handle
+selabel	updater/install.cpp	/^    char* selabel;$/;"	m	struct:perm_parsed_args	file:
+self	wear_ui.cpp	/^static WearRecoveryUI* self = NULL;$/;"	v	file:
+service_bootstrap_func	minadbd/services.cpp	/^void service_bootstrap_func(void* x) {$/;"	f
+service_to_fd	minadbd/services.cpp	/^int service_to_fd(const char* name, const atransport* transport) {$/;"	f
+set1	minzip/Bits.h	/^INLINE void set1(unsigned char* buf, unsigned char val)$/;"	f
+set2BE	minzip/Bits.h	/^INLINE void set2BE(unsigned char* buf, unsigned short val)$/;"	f
+set2LE	minzip/Bits.h	/^INLINE void set2LE(unsigned char* buf, unsigned short val)$/;"	f
+set4BE	minzip/Bits.h	/^INLINE void set4BE(unsigned char* buf, unsigned int val)$/;"	f
+set4LE	minzip/Bits.h	/^INLINE void set4LE(unsigned char* buf, unsigned int val)$/;"	f
+set8BE	minzip/Bits.h	/^INLINE void set8BE(unsigned char* buf, unsigned long long val)$/;"	f
+set8LE	minzip/Bits.h	/^INLINE void set8LE(unsigned char* buf, unsigned long long val)$/;"	f
+setFlashPoint	rktools.cpp	/^void setFlashPoint(){$/;"	f
+setUtf8String	minzip/Bits.h	/^INLINE void setUtf8String(unsigned char* buf, const unsigned char* str)$/;"	f
+set_displayed_framebuffer	minui/graphics_fbdev.cpp	/^static void set_displayed_framebuffer(unsigned n)$/;"	f	file:
+set_retry_bootloader_message	recovery.cpp	/^static void set_retry_bootloader_message(int retry_count, int argc, char** argv) {$/;"	f	file:
+set_sdcard_update_bootloader_message	recovery.cpp	/^set_sdcard_update_bootloader_message() {$/;"	f	file:
+set_usb_driver	adb_install.cpp	/^set_usb_driver(bool enabled) {$/;"	f	file:
+setup_bcb	uncrypt/uncrypt.cpp	/^static bool setup_bcb(const int socket) {$/;"	f	file:
+setup_install_mounts	roots.cpp	/^int setup_install_mounts() {$/;"	f
+sfd	minadbd/fuse_adb_provider.h	/^    int sfd;  \/\/ file descriptor for the adb channel$/;"	m	struct:adb_data
+sha1	applypatch/applypatch.h	/^  uint8_t sha1[SHA_DIGEST_LENGTH];$/;"	m	struct:FileContents
+sha1	applypatch/applypatch.sh	/^sha1() {$/;"	f
+sha1	applypatch/imgdiff_test.sh	/^sha1() {$/;"	f
+sha1sum	tests/component/applypatch_test.cpp	/^static std::string sha1sum(const std::string& fname) {$/;"	f	file:
+short_sha1	print_sha1.h	/^static std::string short_sha1(const uint8_t sha1[SHA_DIGEST_LENGTH]) {$/;"	f
+should_fault_inject	otafault/config.cpp	/^bool should_fault_inject(const char* io_type) {$/;"	f
+should_hit_cache	otafault/config.cpp	/^bool should_hit_cache() {$/;"	f
+should_inject_cache	otafault/config.cpp	/^static std::map<std::string, bool> should_inject_cache;$/;"	v	file:
+should_tag	tools/ota/add-property-tag.c	/^int should_tag(const char *line, const char *propname) {$/;"	f
+show_menu	screen_ui.h	/^    bool show_menu;$/;"	m	class:ScreenRecoveryUI
+show_text	screen_ui.h	/^    bool show_text;$/;"	m	class:ScreenRecoveryUI
+show_text_ever	screen_ui.h	/^    bool show_text_ever;   \/\/ has show_text ever been true?$/;"	m	class:ScreenRecoveryUI
+sideload_host_service	minadbd/services.cpp	/^static void sideload_host_service(int sfd, void* data) {$/;"	f	file:
+size	applypatch/imgdiff_test.sh	/^size() {$/;"	f
+size	edify/expr.h	/^    ssize_t size;$/;"	m	struct:__anon15
+size	mtdutils/mtdutils.c	/^    unsigned int size;$/;"	m	struct:MtdPartition	file:
+size	rkimage.h	/^	unsigned int size;\/\/$/;"	m	struct:tagRKIMAGE_HDR
+size	rkimage.h	/^	unsigned int size;\/\/$/;"	m	struct:tagRKIMAGE_ITEM
+size	updater/blockimg.cpp	/^    size_t size;$/;"	m	struct:RangeSet	file:
+skipUtf8String	minzip/Bits.h	/^INLINE void skipUtf8String(unsigned char const** ppSrc)$/;"	f
+skip_bytes	asn1_decoder.cpp	/^static inline bool skip_bytes(asn1_context_t* ctx, size_t num_skip) {$/;"	f	file:
+slot_suffix	bootloader_message/include/bootloader_message/bootloader_message.h	/^    char slot_suffix[32];$/;"	m	struct:bootloader_message
+source_len	applypatch/imgdiff.cpp	/^  size_t source_len;$/;"	m	struct:__anon18	file:
+source_start	applypatch/imgdiff.cpp	/^  size_t source_start;$/;"	m	struct:__anon18	file:
+source_uncompressed_len	applypatch/imgdiff.cpp	/^  size_t source_uncompressed_len;$/;"	m	struct:__anon18	file:
+split	applypatch/bsdiff.cpp	/^static void split(off_t *I,off_t *V,off_t start,off_t len,off_t h)$/;"	f	file:
+st	applypatch/applypatch.h	/^  struct stat st;$/;"	m	struct:FileContents	typeref:struct:FileContents::stat
+st	recovery.cpp	/^    struct stat st;$/;"	m	struct:_saved_log_file	typeref:struct:_saved_log_file::stat	file:
+stReleaseTime	rkimage.cpp	/^	STRUCT_RKTIME stReleaseTime;$/;"	m	struct:__anon24	file:
+stage	bootloader_message/include/bootloader_message/bootloader_message.h	/^    char stage[32];$/;"	m	struct:bootloader_message
+stage	recovery.cpp	/^char* stage = NULL;$/;"	v
+stage	screen_ui.h	/^    int stage, max_stage;$/;"	m	class:ScreenRecoveryUI
+stageMarkerEmpty	screen_ui.h	/^    GRSurface* stageMarkerEmpty;$/;"	m	class:ScreenRecoveryUI
+stageMarkerFill	screen_ui.h	/^    GRSurface* stageMarkerFill;$/;"	m	class:ScreenRecoveryUI
+start	applypatch/imgdiff.cpp	/^  size_t start;         \/\/ offset of chunk in original image file$/;"	m	struct:__anon18	file:
+start	edify/expr.h	/^    int start, end;$/;"	m	struct:Expr
+start	edify/yydefs.h	/^    int start, end;$/;"	m	struct:__anon17
+startLed	rktools.cpp	/^void startLed() {$/;"	f
+startSequence	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private void startSequence(Runnable firstRun, Locale firstLocale) {$/;"	m	class:Main	file:
+start_sdcard_fuse	fuse_sdcard_provider.cpp	/^bool start_sdcard_fuse(const char* path) {$/;"	f
+stash_map	updater/blockimg.cpp	/^static std::map<std::string, RangeSet> stash_map;$/;"	v	file:
+stashbase	updater/blockimg.cpp	/^    std::string stashbase;$/;"	m	struct:CommandParameters	file:
+stashed	updater/blockimg.cpp	/^    size_t stashed;$/;"	m	struct:CommandParameters	file:
+status	bootloader_message/include/bootloader_message/bootloader_message.h	/^    char status[32];$/;"	m	struct:bootloader_message
+status	sdboot.h	/^    int status;$/;"	m	class:SDBoot
+stem	updater/Android.mk	/^$(inc_dep_file): stem := $(inc).dep$/;"	m
+stinfo	minadbd/services.cpp	/^struct stinfo {$/;"	s	file:
+stinfo	minadbd/services.cpp	/^typedef struct stinfo stinfo;$/;"	t	typeref:struct:stinfo	file:
+stopLed	rktools.cpp	/^void stopLed(int state) {$/;"	f
+stop_adbd	adb_install.cpp	/^stop_adbd() {$/;"	f	file:
+stored	mtdutils/mtdutils.c	/^    size_t stored;$/;"	m	struct:MtdWriteContext	file:
+str	minzip/Zip.h	/^    const char *str;$/;"	m	struct:__anon8
+strKey	sdboot.h	/^    std::string strKey;$/;"	m	struct:__anon10
+strValue	sdboot.h	/^    std::string strValue;$/;"	m	struct:__anon10
+strategy	applypatch/imgdiff.cpp	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon18	file:
+surfaces	minui/graphics_adf.cpp	/^    adf_surface_pdata surfaces[2];$/;"	m	struct:adf_pdata	file:
+switchTo	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^    private void switchTo(Locale locale) {$/;"	m	class:Main	file:
+sysMapBlockFile	minzip/SysUtil.c	/^static int sysMapBlockFile(FILE* mapf, MemMapping* pMap)$/;"	f	file:
+sysMapFD	minzip/SysUtil.c	/^static bool sysMapFD(int fd, MemMapping* pMap) {$/;"	f	file:
+sysMapFile	minzip/SysUtil.c	/^int sysMapFile(const char* fn, MemMapping* pMap)$/;"	f
+sysReleaseMap	minzip/SysUtil.c	/^void sysReleaseMap(MemMapping* pMap)$/;"	f
+szName	rkimage.cpp	/^	unsigned char szName[40];$/;"	m	struct:__anon25	file:
+szSign	rkimage.cpp	/^	char				szSign[BOOTSIGN_SIZE];$/;"	m	struct:_RK28BOOT_HEAD	file:
+tableSize	minzip/Hash.h	/^    int         tableSize;          \/* must be power of 2 *\/$/;"	m	struct:HashTable
+tag	rkimage.h	/^	unsigned int tag;$/;"	m	struct:tagRKIMAGE_HDR
+tagRKIMAGE_HDR	rkimage.h	/^typedef struct tagRKIMAGE_HDR$/;"	s
+tagRKIMAGE_ITEM	rkimage.h	/^typedef struct tagRKIMAGE_ITEM$/;"	s
+targetDir	minzip/Zip.c	/^    const char *targetDir;$/;"	m	struct:__anon6	file:
+targetDirLen	minzip/Zip.c	/^    int targetDirLen;$/;"	m	struct:__anon6	file:
+targetEntryPath	minzip/Zip.c	/^static const char *targetEntryPath(MzPathHelper *helper, ZipEntry *pEntry)$/;"	f	file:
+temp	rkimage.cpp	/^    unsigned char temp[12];$/;"	m	struct:__anon24	file:
+test	edify/main.cpp	/^int test() {$/;"	f
+test_bit	minui/events.cpp	/^static bool test_bit(size_t bit, unsigned long* array) {$/;"	f	file:
+test_bit	wear_touch.cpp	125;"	d	file:
+testdata_files	tests/Android.mk	/^testdata_files := $(call find-subdir-files, testdata\/*)$/;"	m
+testdata_out_path	tests/Android.mk	/^testdata_out_path := $(TARGET_OUT_DATA_NATIVE_TESTS)\/recovery$/;"	m
+testname	applypatch/applypatch.sh	/^testname() {$/;"	f
+testname	applypatch/imgdiff_test.sh	/^testname() {$/;"	f
+text_	screen_ui.h	/^    char** text_;$/;"	m	class:ScreenRecoveryUI
+text_blend	minui/graphics.cpp	/^static void text_blend(unsigned char* src_p, int src_row_bytes,$/;"	f	file:
+text_col_	screen_ui.h	/^    size_t text_col_, text_row_, text_top_;$/;"	m	class:ScreenRecoveryUI
+text_cols_	screen_ui.h	/^    size_t text_cols_, text_rows_;$/;"	m	class:ScreenRecoveryUI
+text_row_	screen_ui.h	/^    size_t text_col_, text_row_, text_top_;$/;"	m	class:ScreenRecoveryUI
+text_rows_	screen_ui.h	/^    size_t text_cols_, text_rows_;$/;"	m	class:ScreenRecoveryUI
+text_top_	screen_ui.h	/^    size_t text_col_, text_row_, text_top_;$/;"	m	class:ScreenRecoveryUI
+texture	minui/minui.h	/^    GRSurface* texture;$/;"	m	struct:GRFont
+tgt	updater/blockimg.cpp	/^    const RangeSet& tgt;$/;"	m	struct:RangeSinkState	file:
+thisLocale	tools/recovery_l10n/src/com/android/recovery_l10n/Main.java	/^        private Locale thisLocale;$/;"	f	class:Main.TextCapture	file:
+thrd_led_func	rktools.cpp	/^void *thrd_led_func(void *arg) {$/;"	f
+thread	updater/blockimg.cpp	/^    pthread_t thread;$/;"	m	struct:CommandParameters	file:
+tid	rktools.cpp	/^static pthread_t tid;$/;"	v	file:
+time_key	ui.cpp	/^void RecoveryUI::time_key(int key_code, int count) {$/;"	f	class:RecoveryUI
+time_key_helper	ui.cpp	/^void* RecoveryUI::time_key_helper(void* cookie) {$/;"	f	class:RecoveryUI
+tmCreateTime	rkimage.cpp	/^	RK_TIME				tmCreateTime;$/;"	m	struct:_RK28BOOT_HEAD	file:
+tmplog_offset	recovery.cpp	/^static long tmplog_offset = 0;$/;"	v	file:
+tokens	updater/blockimg.cpp	/^    std::vector<std::string> tokens;$/;"	m	struct:CommandParameters	file:
+touch_thread	wear_touch.cpp	/^void* WearSwipeDetector::touch_thread(void* cookie) {$/;"	f	class:WearSwipeDetector
+transformPath	emmcutils/rk_emmcutils.cpp	/^int transformPath(const char *in, char *out) {$/;"	f
+transform_rgb_to_draw	minui/resources.cpp	/^static void transform_rgb_to_draw(unsigned char* input_row,$/;"	f	file:
+trim	rkimage.cpp	/^void trim(char *strIn, char *strOut){$/;"	f
+try_update_binary	install.cpp	/^try_update_binary(const char* path, ZipArchive* zip, bool* wipe_cache,$/;"	f	file:
+tune2fs_static_libraries	updater/Android.mk	/^tune2fs_static_libraries := \\$/;"	m
+type	applypatch/imgdiff.cpp	/^  int type;             \/\/ CHUNK_NORMAL, CHUNK_DEFLATE$/;"	m	struct:__anon18	file:
+type	edify/expr.h	/^    int type;$/;"	m	struct:__anon15
+type	rktools.h	/^enum type{$/;"	g
+typeName	rktools.h	/^static const char *typeName[] = {$/;"	v
+ucDay	rkimage.cpp	/^	unsigned char  ucDay;$/;"	m	struct:__anon23	file:
+ucHour	rkimage.cpp	/^	unsigned char  ucHour;$/;"	m	struct:__anon23	file:
+ucLoaderEntryCount	rkimage.cpp	/^	unsigned char ucLoaderEntryCount;$/;"	m	struct:__anon24	file:
+ucLoaderEntrySize	rkimage.cpp	/^	unsigned char ucLoaderEntrySize;$/;"	m	struct:__anon24	file:
+ucMinute	rkimage.cpp	/^	unsigned char  ucMinute;$/;"	m	struct:__anon23	file:
+ucMonth	rkimage.cpp	/^	unsigned char  ucMonth;$/;"	m	struct:__anon23	file:
+ucRc4Flag	rkimage.cpp	/^	unsigned char       ucRc4Flag;$/;"	m	struct:_RK28BOOT_HEAD	file:
+ucRc4Flag	rkimage.cpp	/^	unsigned char ucRc4Flag;$/;"	m	struct:__anon24	file:
+ucSecond	rkimage.cpp	/^	unsigned char  ucSecond;$/;"	m	struct:__anon23	file:
+ucSignFlag	rkimage.cpp	/^	unsigned char ucSignFlag;$/;"	m	struct:__anon24	file:
+ucSize	rkimage.cpp	/^	unsigned char ucSize;$/;"	m	struct:__anon25	file:
+ui	adb_install.cpp	/^static RecoveryUI* ui = NULL;$/;"	v	file:
+ui	recovery.cpp	/^RecoveryUI* ui = NULL;$/;"	v
+ui	tests/component/verifier_test.cpp	/^RecoveryUI* ui = NULL;$/;"	v
+ui	ui.h	/^        RecoveryUI* ui;$/;"	m	struct:RecoveryUI::key_timer_t
+uiFlashBootLen	rkimage.cpp	/^	unsigned int		uiFlashBootLen;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiFlashBootOffset	rkimage.cpp	/^	unsigned int        uiFlashBootOffset;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiFlashDataLen	rkimage.cpp	/^	unsigned int		uiFlashDataLen;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiFlashDataOffset	rkimage.cpp	/^	unsigned int		uiFlashDataOffset;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiMajorVersion	rkimage.cpp	/^	unsigned int		uiMajorVersion;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiMinorVersion	rkimage.cpp	/^	unsigned int		uiMinorVersion;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiPrint	updater/install.cpp	/^static void uiPrint(State* state, const std::string& buffer) {$/;"	f	file:
+uiPrintf	updater/install.cpp	/^void uiPrintf(State* state, const char* format, ...) {$/;"	f
+uiTag	rkimage.cpp	/^	unsigned int uiTag;$/;"	m	struct:__anon24	file:
+uiUsbBootLen	rkimage.cpp	/^	unsigned int		uiUsbBootLen;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiUsbBootOffset	rkimage.cpp	/^	unsigned int		uiUsbBootOffset;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiUsbDataLen	rkimage.cpp	/^	unsigned int		uiUsbDataLen;$/;"	m	struct:_RK28BOOT_HEAD	file:
+uiUsbDataOffset	rkimage.cpp	/^	unsigned int		uiUsbDataOffset;$/;"	m	struct:_RK28BOOT_HEAD	file:
+ui_	device.h	/^    RecoveryUI* ui_;$/;"	m	class:Device
+ui_print	recovery.cpp	/^ui_print(const char* format, ...) {$/;"	f
+ui_print	tests/component/verifier_test.cpp	/^ui_print(const char* format, ...) {$/;"	f
+uid	fuse_sideload.cpp	/^    uid_t uid;$/;"	m	struct:fuse_data	file:
+uid	updater/install.cpp	/^    uid_t uid;$/;"	m	struct:perm_parsed_args	file:
+uncompLen	minzip/Zip.h	/^    long         uncompLen;$/;"	m	struct:ZipEntry
+uncomp_len	applypatch/imgdiff.cpp	/^  int uncomp_len;$/;"	m	struct:__anon19	file:
+uncrypt	uncrypt/uncrypt.cpp	/^static int uncrypt(const char* input_path, const char* map_file, const int socket) {$/;"	f	file:
+uncrypt_wrapper	uncrypt/uncrypt.cpp	/^static bool uncrypt_wrapper(const char* input_path, const char* map_file, const int socket) {$/;"	f	file:
+unique_fd	unique_fd.h	/^    unique_fd(int fd) : fd_(fd) { }$/;"	f	class:unique_fd
+unique_fd	unique_fd.h	/^    unique_fd(unique_fd&& uf) {$/;"	f	class:unique_fd
+unique_fd	unique_fd.h	/^class unique_fd {$/;"	c
+unmount_mounted_volume	mtdutils/mounts.c	/^unmount_mounted_volume(const MountedVolume *volume)$/;"	f
+unzip_new_data	updater/blockimg.cpp	/^static void* unzip_new_data(void* cookie) {$/;"	f	file:
+updateMutex	screen_ui.h	/^    pthread_mutex_t updateMutex;$/;"	m	class:ScreenRecoveryUI
+update_binary_command	install.cpp	/^update_binary_command(const char* path, ZipArchive* zip, int retry_count,$/;"	f	file:
+update_progress_locked	screen_ui.cpp	/^void ScreenRecoveryUI::update_progress_locked() {$/;"	f	class:ScreenRecoveryUI
+update_progress_locked	wear_ui.cpp	/^void WearRecoveryUI::update_progress_locked() {$/;"	f	class:WearRecoveryUI
+update_screen_locked	screen_ui.cpp	/^void ScreenRecoveryUI::update_screen_locked() {$/;"	f	class:ScreenRecoveryUI
+updatepath	recovery.cpp	/^static char updatepath[128] = "\\0";$/;"	v	file:
+updater_src_files	updater/Android.mk	/^updater_src_files := \\$/;"	m
+usDate	rkimage.cpp	/^	unsigned short		usDate;$/;"	m	struct:_rk_time	file:
+usHour	rkimage.cpp	/^	unsigned short		usHour;$/;"	m	struct:_rk_time	file:
+usMinute	rkimage.cpp	/^	unsigned short		usMinute;$/;"	m	struct:_rk_time	file:
+usMonth	rkimage.cpp	/^	unsigned short		usMonth;$/;"	m	struct:_rk_time	file:
+usSecond	rkimage.cpp	/^	unsigned short		usSecond;$/;"	m	struct:_rk_time	file:
+usSize	rkimage.cpp	/^	unsigned short usSize;$/;"	m	struct:__anon24	file:
+usYear	rkimage.cpp	/^	unsigned short		usYear;$/;"	m	struct:_rk_time	file:
+usYear	rkimage.cpp	/^	unsigned short usYear;$/;"	m	struct:__anon23	file:
+usage	uncrypt/uncrypt.cpp	/^static void usage(const char* exename) {$/;"	f	file:
+usb_path	rktools.h	12;"	d
+usb_rkimage	sdboot.h	14;"	d
+usb_rkpackage	sdboot.h	15;"	d
+usespace	rkimage.h	/^	unsigned int usespace;\/\/$/;"	m	struct:tagRKIMAGE_ITEM
+validFilename	minzip/Zip.c	/^static int validFilename(const char *fileName, unsigned int fileNameLen)$/;"	f	file:
+value	sdboot.h	/^    char* value;$/;"	m	struct:__anon9
+verify_file	verifier.cpp	/^int verify_file(unsigned char* addr, size_t length,$/;"	f
+verify_image	update_verifier/update_verifier.cpp	/^static bool verify_image(const std::string& care_map_name) {$/;"	f	file:
+verify_package	install.cpp	/^bool verify_package(const unsigned char* package_data, size_t package_size) {$/;"	f
+version	rkimage.h	/^	unsigned int version;$/;"	m	struct:tagRKIMAGE_HDR
+version	rkimage.h	/^    int version;$/;"	m	struct:__anon20
+version	updater/blockimg.cpp	/^    int version;$/;"	m	struct:CommandParameters	file:
+version	updater/updater.h	/^    int version;$/;"	m	struct:__anon26
+versionMadeBy	minzip/Zip.h	/^    int          versionMadeBy;$/;"	m	struct:ZipEntry
+vi	minui/graphics_fbdev.cpp	/^static fb_var_screeninfo vi;$/;"	v	file:
+visible_text_rows	wear_ui.h	/^    int visible_text_rows;$/;"	m	class:WearRecoveryUI
+volume_count	mtdutils/mounts.c	/^    int volume_count;$/;"	m	struct:__anon12	file:
+volume_for_path	emmcutils/rk_emmcutils.cpp	/^static Volume* volume_for_path(const char* path) {$/;"	f	file:
+volume_for_path	roots.cpp	/^Volume* volume_for_path(const char* path) {$/;"	f
+volumes	mtdutils/mounts.c	/^    MountedVolume *volumes;$/;"	m	struct:__anon12	file:
+volumes_allocd	mtdutils/mounts.c	/^    int volumes_allocd;$/;"	m	struct:__anon12	file:
+vtab	fuse_sideload.cpp	/^    struct provider_vtab* vtab;$/;"	m	struct:fuse_data	typeref:struct:fuse_data::provider_vtab	file:
+wait_for_device	bootloader_message/bootloader_message.cpp	/^static bool wait_for_device(const std::string& blk_device, std::string* err) {$/;"	f	file:
+width	minui/font_10x18.h	/^  unsigned width;$/;"	m	struct:__anon11
+width	minui/minui.h	/^    int width;$/;"	m	struct:GRSurface
+windowBits	applypatch/imgdiff.cpp	/^  int level, method, windowBits, memLevel, strategy;$/;"	m	struct:__anon18	file:
+wipe_ab_device	recovery.cpp	/^static bool wipe_ab_device(size_t wipe_package_size) {$/;"	f	file:
+wipe_cache	recovery.cpp	/^static bool wipe_cache(bool should_confirm, Device* device) {$/;"	f	file:
+wipe_data	recovery.cpp	/^static bool wipe_data(int should_confirm, Device* device) {$/;"	f	file:
+writeProcessFunction	minzip/Zip.c	/^static bool writeProcessFunction(const unsigned char *data, int dataLen,$/;"	f	file:
+write_all	updater/blockimg.cpp	/^static int write_all(int fd, const std::vector<uint8_t>& buffer, size_t size) {$/;"	f	file:
+write_all	updater/blockimg.cpp	/^static int write_all(int fd, const uint8_t* data, size_t size) {$/;"	f	file:
+write_at_offset	uncrypt/uncrypt.cpp	/^static int write_at_offset(unsigned char* buffer, size_t size, int wfd, off64_t offset) {$/;"	f	file:
+write_block	mtdutils/mtdutils.c	/^static int write_block(MtdWriteContext *ctx, const char *data)$/;"	f	file:
+write_bootloader_message	bootloader_message/bootloader_message.cpp	/^bool write_bootloader_message(const bootloader_message& boot, std::string* err) {$/;"	f
+write_bootloader_message	bootloader_message/bootloader_message.cpp	/^bool write_bootloader_message(const std::vector<std::string>& options, std::string* err) {$/;"	f
+write_bootloader_message	bootloader_message/bootloader_message.cpp	/^extern "C" bool write_bootloader_message(const char* options) {$/;"	f
+write_fault_file_name	otafault/ota_io.cpp	/^static std::string write_fault_file_name = "";$/;"	v	file:
+write_image	rkimage.cpp	/^int write_image(const char* src, const char* dest, int woffset)$/;"	f
+write_image_from_file	rkimage.cpp	/^int write_image_from_file(const char* src, const char* dest, int woffset)$/;"	f
+write_loader	rkimage.cpp	/^int write_loader(const char* src, const char* dest, int woffset)$/;"	f
+write_misc_partition	bootloader_message/bootloader_message.cpp	/^static bool write_misc_partition(const void* p, size_t size, size_t offset, std::string* err) {$/;"	f	file:
+write_status_to_socket	uncrypt/uncrypt.cpp	/^static bool write_status_to_socket(int status, int socket) {$/;"	f	file:
+write_tagged	tools/ota/add-property-tag.c	/^void write_tagged(FILE *out, const char *line, const char *tag, int number) {$/;"	f
+write_wipe_package	bootloader_message/bootloader_message.cpp	/^bool write_wipe_package(const std::string& package_data, std::string* err) {$/;"	f
+written	updater/blockimg.cpp	/^    size_t written;$/;"	m	struct:CommandParameters	file:
+yes_no	recovery.cpp	/^static bool yes_no(Device* device, const char* question1, const char* question2) {$/;"	f	file:
+za	updater/blockimg.cpp	/^    ZipArchive* za;$/;"	m	struct:NewThreadInfo	file:
+zipDir	minzip/Zip.c	/^    const char *zipDir;$/;"	m	struct:__anon6	file:
+zipDirLen	minzip/Zip.c	/^    int zipDirLen;$/;"	m	struct:__anon6	file:
+~Device	device.h	/^    virtual ~Device() { }$/;"	f	class:Device
+~RecoveryUI	ui.h	/^    virtual ~RecoveryUI() { }$/;"	f	class:RecoveryUI
+~WearSwipeDetector	wear_touch.cpp	/^WearSwipeDetector::~WearSwipeDetector() {$/;"	f	class:WearSwipeDetector
+~unique_fd	unique_fd.h	/^    ~unique_fd() {$/;"	f	class:unique_fd
