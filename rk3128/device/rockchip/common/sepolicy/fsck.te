@@ -1,0 +1,7 @@
+#type e2fsck_block_device, dev_type;
+#type metadata_block_device, dev_type;
+#type frp_block_device, dev_type;
+
+allow fsck e2fsck_cache_block_device:blk_file rw_file_perms;
+allow fsck e2fsck_frp_block_device:blk_file rw_file_perms;
+allow fsck e2fsck_metadata_block_device:blk_file rw_file_perms;

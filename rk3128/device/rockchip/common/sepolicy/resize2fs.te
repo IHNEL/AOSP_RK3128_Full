@@ -1,0 +1,8 @@
+type resize2fs, domain;
+type resize_block_device, dev_type;
+allow resize2fs devpts:chr_file rw_file_perms;
+allow resize2fs resize_block_device:blk_file { getattr ioctl };
+allow resize2fs resize_block_device:blk_file rw_file_perms;
+allow resize2fs block_device:dir { search };
+allow resize2fs serial_device:chr_file { read write getattr ioctl };
+

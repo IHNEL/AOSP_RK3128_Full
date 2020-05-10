@@ -1,0 +1,27 @@
+allow system_app media_rw_data_file:file rw_file_perms;
+allow system_app media_rw_data_file:dir rw_dir_perms;
+allow system_app cache_file:dir w_dir_perms;
+allow system_app cache_file:file create_file_perms;
+allow system_app surfaceflinger:fifo_file rw_file_perms;
+allow system_app sysfs_lcdc:file rw_file_perms;
+
+#for hdmi
+allow system_app sysfs_hdmi:file rw_file_perms;
+allow system_app sysfs_fb:file rw_file_perms;
+
+allow system_app devicemanager_service:service_manager { find };
+allow system_app cache_file:file { ioctl rw_file_perms };
+allow system_app cache_file:dir { remove_name rw_dir_perms };
+allow system_app gpu_device:dir { search };
+allow system_app radio_data_file:dir {  getattr };
+allow system_app vfat:dir create_dir_perms;
+allow system_app vfat:file create_file_perms;
+#allow system_app system_data_file:dir { rw_dir_perms };
+allow system_app cache_recovery_file:dir { search write add_name remove_name };
+allow system_app cache_recovery_file:file { create write open read getattr unlink };
+allow system_app media_rw_data_file:file { create unlink };
+
+get_prop(system_app,drm_prop)
+get_prop(system_app,media_prop)
+set_prop(system_app,system_prop)
+get_prop(system_app,ctsgts_prop)

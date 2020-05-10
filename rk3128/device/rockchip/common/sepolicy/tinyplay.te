@@ -1,0 +1,17 @@
+type tinyplay, domain;
+type tinyplay_exec, exec_type, file_type;
+init_daemon_domain(tinyplay)
+
+binder_use(tinyplay)
+binder_call(tinyplay, surfaceflinger)
+
+allow tinyplay gpu_device:chr_file rw_file_perms;
+allow tinyplay shell_exec:file {read};
+allow tinyplay tinyplaywav:fd use;
+allow tinyplay audio_device:dir search;
+allow tinyplay audio_device:dir read;
+allow tinyplay audio_device:dir write;
+allow tinyplay audio_device:chr_file read;
+allow tinyplay audio_device:chr_file write;
+allow tinyplay audio_device:chr_file open;
+allow tinyplay audio_device:chr_file ioctl;

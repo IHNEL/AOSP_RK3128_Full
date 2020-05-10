@@ -1,0 +1,10 @@
+type earlylogs, domain;
+type earlylogs_exec, exec_type, file_type;
+
+userdebug_or_eng(`
+  init_daemon_domain(earlylogs)
+  allow earlylogs rootfs:lnk_file getattr;
+  allow earlylogs self:capability dac_override;
+  allow earlylogs shell_exec:file { read getattr };
+')
+

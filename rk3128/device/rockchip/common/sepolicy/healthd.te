@@ -1,0 +1,6 @@
+allow healthd device:dir { read open write add_name remove_name };
+allow healthd device:chr_file { create };
+allow healthd gpu_device:dir { search };
+allow healthd gpu_device:chr_file { read write open ioctl };
+#allow healthd device:chr_file { write open };
+#allow healthd self:capability { mknod };

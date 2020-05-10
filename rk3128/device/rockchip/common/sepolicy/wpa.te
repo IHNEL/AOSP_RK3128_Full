@@ -1,0 +1,6 @@
+# map with latest kernel security/selinux/include/classmap.h
+allow wpa wpa:netlink_netfilter_socket { create setopt bind write read getopt };
+allow wpa wpa:netlink_generic_socket { create setopt bind write read getopt getattr };
+allow wpa wpa:netlink_scsitransport_socket { create setopt bind write read getopt getattr };
+allow wpa wpa:netlink_rdma_socket { create setopt bind write read getopt getattr };
+allow wpa wpa:netlink_crypto_socket { create setopt bind write read getopt getattr };

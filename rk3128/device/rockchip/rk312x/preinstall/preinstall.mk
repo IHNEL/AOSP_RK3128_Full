@@ -1,0 +1,2 @@
+PRODUCT_PACKAGES += Monitor
+PRODUCT_PACKAGES += CustLauncher

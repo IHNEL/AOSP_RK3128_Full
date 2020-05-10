@@ -1,0 +1,21 @@
+# Android fstab file.
+#<src>                                       <mnt_point>         <type>    <mnt_flags and options>       <fs_mgr_flags>
+/dev/block/platform/f8000000.pcie/by-name/user                  /mnt/internal_sd     vfat             defaults                  defaults
+/dev/block/mmcblk1p1                                               /mnt/external_sd     vfat             /dev/block/mmcblk1                  defaults
+/dev/block/platform/f8000000.pcie/by-name/system                /system              ext4             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/cache                 /cache               ext4             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/metadata              /metadata            ext4             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/userdata              /data                f2fs             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/cust                  /cust                ext4             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/custom                /custom              ext4             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/misc                  /misc                emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/uboot                 /uboot               emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/charge                /charge              emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/resource			   /resource		    emmc			 defaults				   defaults
+/dev/block/platform/f8000000.pcie/by-name/parameter             /parameter           emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/boot                  /boot                emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/recovery              /recovery            emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/backup                /backup              emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/trust                 /trust               emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/baseparamer           /baseparamer         emmc             defaults                  defaults
+/dev/block/platform/f8000000.pcie/by-name/frp                   /frp                 emmc             defaults                  defaults

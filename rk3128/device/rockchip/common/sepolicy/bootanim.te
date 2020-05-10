@@ -1,0 +1,12 @@
+allow bootanim surfaceflinger:fifo_file rw_file_perms;
+allow bootanim property_socket:sock_file { write };
+allow bootanim init:unix_stream_socket { connectto };
+allow bootanim system_prop:property_service { set };
+allow bootanim mediaserver_service:service_manager find;
+allow bootanim mediaserver:binder { call };
+allow bootanim mediaserver:binder { transfer };
+allow bootanim ctl_default_prop:property_service set;
+allow bootanim debugfs_tracing:file rw_file_perms;
+allow bootanim gpu_device:dir { search };
+allow bootanim rootfs:lnk_file getattr;
+allow bootanim drm_prop:file { read open getattr };

@@ -1,0 +1,14 @@
+type ap_log_srv_script, domain;
+type ap_log_srv_script_exec, exec_type, file_type;
+
+userdebug_or_eng(`
+init_daemon_domain(ap_log_srv_script)
+allow ap_log_srv_script ctl_default_prop:property_service set;
+allow ap_log_srv_script init:unix_stream_socket connectto;
+allow ap_log_srv_script property_socket:sock_file write;
+allow ap_log_srv_script rootfs:lnk_file getattr;
+allow ap_log_srv_script shell_exec:file { read getattr };
+allow ap_log_srv_script toolbox_exec:file { read getattr open execute execute_no_trans };
+set_prop(ap_log_srv_script,system_prop)
+')
+

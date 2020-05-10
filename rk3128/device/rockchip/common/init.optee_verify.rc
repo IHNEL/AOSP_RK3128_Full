@@ -1,0 +1,7 @@
+on early-boot
+    start tee-supplicant
+
+
+service tee-supplicant /system/bin/tee-supplicant
+    class core
+    seclabel u:r:tee:s0

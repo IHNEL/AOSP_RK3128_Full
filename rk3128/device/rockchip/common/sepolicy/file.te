@@ -1,0 +1,14 @@
+type metadata_file, file_type;
+type camdata_file, file_type;
+type ru_file, file_type;
+type ext4_exec, exec_type, file_type;
+type zram_device, dev_type;
+type sysfs_lcdc, fs_type, sysfs_type, mlstrustedobject;
+type sysfs_lut, fs_type, sysfs_type, mlstrustedobject;
+type sysfs_hdmi, fs_type, sysfs_type, mlstrustedobject;
+type akmd_device, dev_type;
+type akmd_file, file_type, data_file_type;
+type pppoe_data_file, file_type, data_file_type;
+type sysfs_fb, fs_type, sysfs_type;
+type storage_device, dev_type;
+type aplog_data_file, file_type, data_file_type;

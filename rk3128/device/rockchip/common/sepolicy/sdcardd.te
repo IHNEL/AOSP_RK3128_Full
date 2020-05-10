@@ -1,0 +1,6 @@
+allow sdcardd mnt_media_rw_stub_file:dir { getattr };
+allow sdcardd unlabeled:dir rw_dir_perms;
+allow sdcardd unlabeled:filesystem { getattr };
+allow sdcardd unlabeled:file rw_file_perms;
+allow sdcardd mnt_media_rw_file:file { create_file_perms rw_file_perms };
+allow sdcardd mnt_media_rw_file:dir { create_dir_perms rw_dir_perms };

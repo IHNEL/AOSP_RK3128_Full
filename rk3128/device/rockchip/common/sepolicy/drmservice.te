@@ -1,0 +1,29 @@
+type drmservice, domain, mlstrustedsubject;
+type drmservice_exec, exec_type, file_type;
+
+init_daemon_domain(drmservice)
+
+allow drmservice drmservice:capability { dac_override dac_read_search net_raw net_admin sys_module };
+allow drmservice drmservice:udp_socket { create };
+allow drmservice property_socket:sock_file { write };
+allow drmservice sysfs:file { write };
+allow drmservice wifi_data_file:dir { search write read add_name };
+allow drmservice init:unix_stream_socket { connectto };
+allow drmservice drmservice:udp_socket { ioctl };
+allow drmservice system_prop:property_service { set };
+allow drmservice wifi_data_file:file { create read write ioctl open getattr };
+allow drmservice serialno_prop:property_service { set };
+allow drmservice drm_prop:property_service { set };
+allow drmservice rknand_device:chr_file rw_file_perms;
+allow drmservice configfs:file rw_file_perms;
+allow drmservice configfs:dir { rw_dir_perms search };
+allow drmservice rootfs:lnk_file getattr;
+allow drmservice sysfs:file { read getattr open };
+allow drmservice storage_device:chr_file rw_file_perms;
+allow drmservice proc:file { read open };
+allow drmservice system_file:dir r_dir_perms;
+allow drmservice system_file:file r_file_perms;
+allow drmservice media_rw_data_file:dir { create_dir_perms rw_dir_perms };
+allow drmservice media_rw_data_file:file { create_file_perms rw_file_perms };
+allow drmservice system_data_file:dir {write};
+set_prop(drmservice,secureboot_prop)

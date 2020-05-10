@@ -1,0 +1,64 @@
+# Additional rules for init
+#allow init self:capability sys_module;
+#recovery_only(`
+#  domain_trans(init, rootfs, busybox)
+#')
+
+domain_trans(init, pvrsrvctl_exec, pvrsrvctl)
+domain_trans(init, drmservice_exec, drmservice)
+domain_trans(init, copyservice_exec, copyservice)
+domain_trans(init, tinyplaywav_exec, tinyplaywav)
+domain_trans(init, displayd_exec, displayd)
+domain_auto_trans(init, rootfs, resize2fs)
+domain_auto_trans(init, gpsd_exec, gpsd)
+domain_trans(init, iso_exec, iso)
+domain_trans(init, cifsmanager_exec, cifsmanager)
+domain_trans(init, abc_exec, abc)
+domain_trans(init, rk_store_keybox_exec, rk_store_keybox)
+
+allow init serial_device:chr_file { write ioctl };
+allow init kernel:system { module_request };
+
+allow init tmpfs:lnk_file { create };
+allow init devpts:chr_file { ioctl };
+allow init block_device:blk_file { getattr read write };
+allow init video_device:chr_file { write };
+
+allow init init:capability { sys_module };
+allow init nvm_block_device:blk_file { write };
+allow init gpu_device:chr_file { write  ioctl };
+allow init property_socket:sock_file { write };
+allow init zram_device:blk_file { write open read };
+
+#allow init ext4_exec:file { execute_no_trans };
+
+allow init socket_device:sock_file { create setattr };
+allow init sysfs_hdmi:file rw_file_perms;
+allow init init:netlink_kobject_uevent_socket { create setopt bind getopt read };
+#allow init kernel:security { setcheckreqprot };
+allow init cache_file:dir { mounton };
+allow init metadata_file:dir { mounton };
+allow init storage_file:dir mounton;
+allow init baseparameter_block_device:blk_file { write };
+allow init configfs:dir { write remove_name add_name  create };
+allow init configfs:file { write };
+allow init configfs:lnk_file { unlink create };
+allow init frp_block_device:blk_file { write };
+#allow init rootfs:file { execute_no_trans };
+allow init devpts:chr_file { getattr };
+allow init debugfs:dir mounton;
+allow init debugfs:file { write };
+
+allow init block_device:lnk_file { relabelfrom };
+allow init userdata_block_device:lnk_file { relabelto };
+allow init frp_block_device:lnk_file { relabelto };
+allow init e2fsck_metadata_block_device:lnk_file { relabelto };
+allow init resize_block_device:lnk_file { relabelto };
+allow init e2fsck_cache_block_device:lnk_file { relabelto };
+allow init system_file:system { module_load };
+allow init debugfs:dir mounton;
+allow init configfs:file rw_file_perms;
+allow init configfs:lnk_file create_file_perms;
+allow init perfprofd_exec:file getattr;
+allow init rootfs:system { module_load };
+allow init sysfs:dir write;

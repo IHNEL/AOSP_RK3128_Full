@@ -1,0 +1,21 @@
+allow surfaceflinger device:dir r_dir_perms;
+allow surfaceflinger ddr_device:chr_file rw_file_perms;
+allow surfaceflinger rga_device:chr_file rw_file_perms;
+allow surfaceflinger sysfs_lcdc:file rw_file_perms;
+
+#for hdmi
+allow surfaceflinger sysfs_hdmi:file rw_file_perms;
+allow surfaceflinger surfaceflinger:unix_stream_socket { ioctl };
+
+allow surfaceflinger sysfs:file rw_file_perms;
+allow surfaceflinger system_data_file:dir create_dir_perms;
+allow surfaceflinger gpu_device:chr_file { ioctl };
+allow surfaceflinger gpu_device:dir { search rw_dir_perms };
+allow surfaceflinger debugfs_tracing:file rw_file_perms;
+allow surfaceflinger self:capability { sys_nice };
+
+# wfd
+allow surfaceflinger wfd:binder { transfer };
+
+set_prop(surfaceflinger,ctsgts_prop)
+get_prop(surfaceflinger,ctsgts_prop)

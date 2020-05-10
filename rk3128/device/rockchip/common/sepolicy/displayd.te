@@ -1,0 +1,24 @@
+
+type displayd, domain, mlstrustedsubject;
+type displayd_exec, exec_type, file_type;
+
+init_daemon_domain(displayd)
+
+allow displayd displayd:capability { dac_override net_admin };
+allow displayd system_prop:property_service { set };
+allow displayd media_prop:property_service { set };
+allow displayd sysfs_lcdc:file rw_file_perms;
+allow displayd property_socket:sock_file { write };
+allow displayd init:unix_stream_socket { connectto };
+allow displayd displayd:unix_stream_socket { connectto };
+allow displayd sysfs_hdmi:file rw_file_perms;
+allow displayd cache_file:file { rw_file_perms create };
+allow displayd cache_file:dir rw_dir_perms;
+allow displayd baseparameter_block_device:blk_file rw_file_perms;
+allow displayd displayd:netlink_kobject_uevent_socket { create setopt bind getopt read };
+allow displayd displayd:netlink_route_socket { create setopt bind getopt read };
+allow displayd displayd:netlink_nflog_socket { create setopt bind getopt read };
+allow displayd displayd:unix_stream_socket { connectto };
+allow displayd shell_exec:file { execute read open execute_no_trans };
+allow displayd block_device:dir { search };
+allow displayd sysfs:file { write };

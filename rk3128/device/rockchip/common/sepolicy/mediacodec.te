@@ -1,0 +1,4 @@
+allow mediacodec rootfs:lnk_file getattr;
+allow mediacodec rga_device:chr_file { ioctl rw_file_perms };
+allow mediacodec gpu_device:dir search;
+get_prop(mediacodec,ctsgts_prop);

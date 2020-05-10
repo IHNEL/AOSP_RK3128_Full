@@ -1,0 +1,17 @@
+allow cameraserver debugfs_tracing:file rw_file_perms;
+allow cameraserver camdata_file:file { rw_file_perms unlink setattr create };
+allow cameraserver camdata_file:dir { search write add_name remove_name };
+allow cameraserver camera_device:chr_file { rw_file_perms ioctl };
+allow cameraserver gpu_device:chr_file { rw_file_perms ioctl };
+allow cameraserver gpu_device:dir search;
+allow cameraserver platform_app:dir search;
+allow cameraserver platform_app:file { read open };
+allow cameraserver sensorservice_service:service_manager find;
+allow cameraserver system_file:dir { read open };
+allow cameraserver system_server:unix_stream_socket { read write };
+allow cameraserver rga_device:chr_file { read write open ioctl };
+allow cameraserver rootfs:lnk_file getattr;
+set_prop(cameraserver,graphic_prop)
+set_prop(cameraserver,system_prop)
+set_prop(cameraserver,ctsgts_prop)
+get_prop(cameraserver,ctsgts_prop)

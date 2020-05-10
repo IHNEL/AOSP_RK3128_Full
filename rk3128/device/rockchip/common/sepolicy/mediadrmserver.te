@@ -1,0 +1,3 @@
+allow mediadrmserver proc_net:file r_file_perms;
+allow mediadrmserver rootfs:lnk_file getattr;
+set_prop(mediadrmserver,graphic_prop)

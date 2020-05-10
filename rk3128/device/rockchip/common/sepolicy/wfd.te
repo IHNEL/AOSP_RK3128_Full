@@ -1,0 +1,25 @@
+type wfd, domain, domain_deprecated;
+type wfd_exec, exec_type, file_type;
+
+init_daemon_domain(wfd)
+
+allow wfd wfd:capability { dac_override net_admin net_raw};
+allow wfd wfd:tcp_socket { create ioctl read write connect getopt setopt};
+allow wfd wfd:udp_socket { create ioctl bind connect read write getopt setopt};
+allow wfd node_type:{ tcp_socket udp_socket } node_bind;
+allow wfd port_type:{ tcp_socket udp_socket } name_bind;
+allow wfd port_type:tcp_socket name_connect;
+allow wfd system_data_file:dir {create read write add_name remove_name};
+allow wfd system_data_file:sock_file { create setattr unlink};
+allow wfd dnsproxyd_socket:sock_file { write };
+allow wfd fwmarkd_socket:sock_file { write };
+allow wfd drm_prop:file { getattr open read};
+allow wfd netd:unix_stream_socket { connectto };
+allow wfd servicemanager:binder { call };
+allow wfd surfaceflinger_service:service_manager { add find };
+allow wfd mediaserver_service:service_manager {add find };
+allow wfd surfaceflinger:binder { call transfer };
+allow wfd mediaserver:binder { call transfer };
+allow wfd mediaserver:fd { use };
+
+

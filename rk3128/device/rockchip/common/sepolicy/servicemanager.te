@@ -1,0 +1,4 @@
+# wfd
+allow servicemanager wfd:dir search;
+allow servicemanager wfd:file { read open };
+allow servicemanager wfd:process { getattr };

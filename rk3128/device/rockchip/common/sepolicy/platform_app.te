@@ -1,0 +1,21 @@
+# Additional rules for platform_app
+allow platform_app surfaceflinger_tmpfs:file { read write };
+# Write to /cache.
+allow platform_app vfat:dir create_dir_perms;
+allow platform_app vfat:file create_file_perms;
+allow platform_app init:unix_stream_socket { connectto };
+allow platform_app surfaceflinger:fifo_file rw_file_perms;
+#allow platform_app property_socket:sock_file { write };
+allow platform_app unlabeled:filesystem { getattr };
+allow platform_app unlabeled:dir rw_dir_perms;
+allow platform_app unlabeled:file rw_file_perms;
+allow platform_app devicemanager_service:service_manager { find };
+allow platform_app gpu_device:dir { search };
+#allow platform_app property_socket:sock_file { write }
+allow platform_app vfat:dir create_dir_perms;
+allow platform_app vfat:file create_file_perms;
+allow platform_app property_socket:sock_file write;
+set_prop(platform_app,system_prop)
+set_prop(platform_app,media_prop)
+set_prop(platform_app,drm_prop)
+get_prop(platform_app,ctsgts_prop)

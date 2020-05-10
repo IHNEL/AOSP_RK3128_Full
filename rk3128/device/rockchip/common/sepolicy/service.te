@@ -1,0 +1,2 @@
+type devicemanager_service,     service_manager_type;
+type pppoe_service,             service_manager_type;

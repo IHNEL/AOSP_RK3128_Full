@@ -1,0 +1,5 @@
+allow slideshow gpu_device:dir search;
+allow slideshow gpu_device:chr_file { read write };
+allow slideshow gpu_device:chr_file open;
+allow slideshow gpu_device:chr_file ioctl;
+allow slideshow self:capability sys_admin;

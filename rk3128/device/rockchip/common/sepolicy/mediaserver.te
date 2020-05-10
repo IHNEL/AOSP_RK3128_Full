@@ -1,0 +1,44 @@
+allow mediaserver system_server:unix_stream_socket { read write };
+allow mediaserver surfaceflinger:unix_stream_socket { read write };
+allow mediaserver self:netlink_kobject_uevent_socket create_socket_perms;
+allow mediaserver system_prop:property_service set;
+#allow mediaserver default_prop:property_service set;
+allow mediaserver video_device:chr_file rw_file_perms;
+allow mediaserver rga_device:chr_file rw_file_perms;
+allow mediaserver camdata_file:dir create_dir_perms;
+allow mediaserver camdata_file:file create_file_perms;
+allow mediaserver untrusted_app:dir search;
+allow mediaserver untrusted_app:file { open read };
+
+allow mediaserver bootanim:binder { call };
+allow mediaserver bootanim:binder { transfer };
+allow mediaserver system_data_file:dir { write };
+allow mediaserver system_data_file:dir { add_name };
+#allow mediaserver system_data_file:file { create };
+allow mediaserver storage_file:dir { search };
+allow mediaserver storage_file:lnk_file { read };
+allow mediaserver mnt_user_file:dir { search };
+allow mediaserver mnt_user_file:lnk_file { read };
+allow mediaserver sensorservice_service:service_manager { find };
+allow mediaserver graphic_prop:property_service  { set };
+allow mediaserver media_prop:property_service  { set };
+allow mediaserver surfaceflinger:fifo_file rw_file_perms;
+
+allow mediaserver sysfs_hdmi:file rw_file_perms;
+allow mediaserver camera_device:chr_file rw_file_perms;
+allow mediaserver debugfs_tracing:file rw_file_perms;
+allow mediaserver gpu_device:dir { search };
+allow mediaserver graphic_prop:file { read getattr open };
+# wfd
+allow mediaserver storage_device:chr_file { open read ioctl};
+allow mediaserver wfd:binder { transfer call };
+# obtain calling info
+allow mediaserver platform_app:dir { search };
+allow mediaserver platform_app:file { read open };
+allow mediaserver untrusted_app:dir { search };
+allow mediaserver untrusted_app:file { read open };
+
+set_prop(mediaserver,media_prop)
+set_prop(mediaserver,drm_prop)
+set_prop(mediaserver,ctsgts_prop)
+get_prop(mediaserver,ctsgts_prop)

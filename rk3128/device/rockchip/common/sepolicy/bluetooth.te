@@ -1,0 +1,9 @@
+# /sys/class/rfkill/rfkill0/state
+allow bluetooth sysfs:file write;
+allow bluetooth serial_device:chr_file rw_file_perms;
+allow bluetooth vflash_device:chr_file rw_file_perms;
+allow bluetooth rtkbt_device:chr_file rw_file_perms;
+allow bluetooth surfaceflinger:fifo_file rw_file_perms;
+allow bluetooth storage_device:chr_file rw_file_perms;
+allow bluetooth gpu_device:dir search;
+allow bluetooth gpu_device:chr_file { rw_file_perms ioctl };

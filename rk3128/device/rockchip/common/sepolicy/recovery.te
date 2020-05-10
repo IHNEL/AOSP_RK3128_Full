@@ -1,0 +1,41 @@
+
+recovery_only(`
+    allow recovery ctl_rildaemon_prop:property_service set;
+    allow recovery rootfs:dir { rw_dir_perms create };
+    #allow recovery rootfs:file create_file_perms;
+    #allow recovery rootfs:file rx_file_perms;
+    allow recovery sysfs_devices_system_cpu:file rw_file_perms;
+    #allow recovery self:capability mknod;
+    allow recovery usbfs:dir rw_dir_perms;
+    allow recovery kernel:system module_request;
+    allow recovery serial_device:chr_file rw_file_perms;
+    allow recovery vfat:file r_file_perms;
+    allow recovery device:file rw_file_perms;
+    allow recovery device:dir rw_dir_perms;
+    #allow recovery device:chr_file create_file_perms;
+    allow recovery console_device:chr_file create_file_perms;
+    allow recovery cache_file:dir { mounton };
+    allow recovery proc_sysrq:file rw_file_perms;
+    allow recovery media_rw_data_file:dir { search open read };
+    allow recovery vfat:dir rw_dir_perms;
+    allow recovery media_rw_data_file:file { open read };
+
+	allow recovery ru_file:file execute_no_trans;
+	allow recovery ru_file:{ file lnk_file } { create_file_perms relabelfrom relabelto };
+	allow recovery ru_file:dir { create_dir_perms relabelfrom relabelto };
+
+    allow recovery vfat:file {create append};
+    allow recovery rknand_device:chr_file {read write open ioctl};
+    allow recovery storage_device:chr_file {read write open ioctl};
+    allow recovery metadata_file:dir { mounton };
+    allow recovery gpu_device:chr_file rw_file_perms;
+    allow recovery gpu_device:dir { search };
+    allow recovery kmsg_device:chr_file rw_file_perms;
+    allow recovery drm_prop:file { getattr open };
+    allow recovery graphic_prop:file { getattr open };
+    allow recovery media_prop:file { getattr open };
+    allow recovery mmc_prop:file { getattr open };
+    allow recovery safemode_prop:file { getattr open };
+    allow recovery device_logging_prop:file { getattr open };
+    allow recovery logpersistd_logging_prop:file { getattr open };
+')

@@ -1,0 +1,9 @@
+allow ueventd sysfs_hdmi:file rw_file_perms;
+allow ueventd kmsg_device:chr_file rw_file_perms;
+allow ueventd device:chr_file relabelfrom;
+allow ueventd usb_device:chr_file relabelfrom;
+allow ueventd usb_device:chr_file { relabelfrom relabelto };
+allow ueventd device:chr_file relabelto;
+allow ueventd usb_device:chr_file relabelfrom;
+allow ueventd storage_device:chr_file { relabelfrom relabelto };
+

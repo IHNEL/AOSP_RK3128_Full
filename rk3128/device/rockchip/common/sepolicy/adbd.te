@@ -1,0 +1,8 @@
+allow adbd graphics_device:dir { search };
+allow adbd surfaceflinger:fifo_file rw_file_perms;
+allow adbd debugfs_tracing:file { rw_file_perms };
+allow adbd gpu_device:dir { search };
+
+# adb pull /data/logs.
+allow adbd aplog_data_file:dir r_dir_perms;
+allow adbd aplog_data_file:file r_file_perms;

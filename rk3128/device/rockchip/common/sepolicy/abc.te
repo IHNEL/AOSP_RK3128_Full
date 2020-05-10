@@ -1,0 +1,24 @@
+type abc, domain, mlstrustedsubject;
+type abc_exec, exec_type, file_type;
+
+domain_auto_trans(init, abc_exec, abc)
+allow abc self:capability { sys_module sys_admin dac_override };
+allow abc adb_data_file:chr_file rw_file_perms;
+allow abc system_file:file execute_no_trans;
+allow abc self:capability2 syslog;
+allow abc logdr_socket:sock_file write;
+allow abc logd:unix_stream_socket connectto;
+allow abc healthd:file { read open };
+allow abc audioserver:file { read open };
+allow abc servicemanager:dir { getattr search };
+allow abc shell_exec:file rx_file_perms;
+allow abc aplog_data_file:dir { read open getattr create write add_name remove_name search rmdir };
+allow abc aplog_data_file:file { open create read write getattr append rename unlink };
+allow abc proc:file { getattr open read };
+allow abc logcat_exec:file { getattr open read execute execute_no_trans };
+allow abc toolbox_exec:file { getattr open read execute execute_no_trans };
+allow abc kernel:file { read open };
+allow abc kernel:dir { getattr };
+allow abc rootfs:lnk_file { getattr };
+allow abc kernel:system syslog_mod;
+allow abc init:file { read};

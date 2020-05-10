@@ -1,0 +1,24 @@
+allow shell serial_device:chr_file rw_file_perms;
+allow shell surfaceflinger:fifo_file rw_file_perms;
+allow shell bootanim_exec:file getattr;
+allow shell gpsd_exec:file { getattr execute read open execute_no_trans };
+allow shell gps_data_file:dir { getattr read open };
+allow shell proc_cpuinfo:file mounton;
+allow shell gpu_device:dir { search };
+allow shell gatekeeper_service:service_manager { find };
+#allow shell device:chr_file rw_file_perms;
+allow shell init_exec:file getattr;
+allow shell metadata_file:dir getattr;
+allow shell rootfs:file getattr;
+
+get_prop(shell,media_prop)
+get_prop(shell,drm_prop)
+get_prop(shell,graphic_prop)
+get_prop(shell,safemode_prop)
+get_prop(shell,mmc_prop)
+get_prop(shell,device_logging_prop)
+get_prop(shell,ctsgts_prop)
+
+# read files in /data/logs
+allow shell aplog_data_file:dir r_dir_perms;
+allow shell aplog_data_file:file r_file_perms;

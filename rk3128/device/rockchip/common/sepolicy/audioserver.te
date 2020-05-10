@@ -1,0 +1,4 @@
+allow audioserver debugfs_tracing:file rw_file_perms;
+allow audioserver rootfs:lnk_file getattr;
+allow audioserver bootanim:binder { call };
+set_prop(audioserver,media_prop)

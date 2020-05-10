@@ -1,0 +1,6 @@
+wakelock_use(gpsd)
+#allow gpsd gpsd:capability { dac_override dac_read_search };
+allow gpsd serial_device:chr_file { read write open ioctl };
+allow gpsd gps_data_file:dir { create };
+allow gpsd gps_data_file:file rw_file_perms;
+set_prop(gpsd,secureboot_prop)

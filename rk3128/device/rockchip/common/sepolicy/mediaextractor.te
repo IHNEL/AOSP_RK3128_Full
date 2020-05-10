@@ -1,0 +1,2 @@
+set_prop(mediaextractor,drm_prop)
+set_prop(mediaextractor,media_prop)

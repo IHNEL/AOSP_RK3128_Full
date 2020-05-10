@@ -1,0 +1,13 @@
+type log-watch, domain;
+type log-watch_exec, exec_type, file_type;
+type log-watch-cnf, file_type;
+
+userdebug_or_eng(`
+  init_daemon_domain(log-watch)
+  allow log-watch log-watch-cnf:file read;
+  allow log-watch rootfs:lnk_file getattr;
+  allow log-watch kernel:system syslog_read;
+  allow log-watch kmsg_device:chr_file { read open };
+  allow log-watch log-watch-cnf:file { getattr open };
+')
+

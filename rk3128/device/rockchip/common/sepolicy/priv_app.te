@@ -1,0 +1,5 @@
+allow priv_app drm_prop:file read;
+allow priv_app system_prop:file read;
+allow priv_app gpu_device:dir { search };
+allow priv_app vfat:dir create_dir_perms;
+allow priv_app vfat:file create_file_perms;

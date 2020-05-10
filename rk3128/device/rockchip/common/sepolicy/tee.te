@@ -1,0 +1,13 @@
+allow tee tee_device:chr_file { read write ioctl open };
+allow tee rootfs:lnk_file getattr;
+allow tee tee_exec:file entrypoint;
+allow tee self:capability { dac_override dac_read_search};
+allow tee tee_data_file:file {create open read write unlink link};
+allow tee tee_data_file:dir {create add_name open read write remove_name rmdir  search getattr};
+allow tee system_data_file:dir { add_name create write };
+allow tee uboot_block_device:blk_file { ioctl open read write };
+allow tee rpmb_block_device:blk_file { ioctl open read write };
+allow tee self:capability sys_rawio;
+allow tee block_device:dir { search write open };
+allow tee metadata_file:file {create open read write unlink link};
+allow tee metadata_file:dir {create add_name open read write remove_name rmdir  search getattr};

@@ -1,0 +1,26 @@
+type copyservice, domain;
+type copyservice_exec, exec_type, file_type;
+
+init_daemon_domain(copyservice)
+
+
+allow copyservice system_file:file  execute_no_trans;
+allow copyservice system_file:dir  { read open };
+allow copyservice shell_exec:file { read getattr entrypoint };
+allow copyservice rootfs:lnk_file { getattr };
+allow copyservice toolbox_exec:file { getattr execute read open execute_no_trans };
+allow copyservice copyservice:capability { dac_override setgid setuid };
+allow copyservice system_data_file:dir { write add_name create };
+allow copyservice system_data_file:file { create append open read write getattr };
+allow copyservice storage_file:dir { search };
+allow copyservice property_socket:sock_file { write };
+allow copyservice init:unix_stream_socket { connectto };
+allow copyservice storage_file:lnk_file { read };
+allow copyservice system_prop:property_service { set };
+allow copyservice tmpfs:dir { search };
+allow copyservice mnt_user_file:dir { search write read };
+allow copyservice mnt_user_file:lnk_file { read };
+allow copyservice media_rw_data_file:dir { search };
+allow copyservice su_exec:file { getattr execute read open execute_no_trans };
+allow copyservice shell_exec:file { execute open execute_no_trans };
+

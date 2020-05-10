@@ -1,0 +1,8 @@
+add_lunch_combo rk312x-userdebug
+add_lunch_combo rk312x-user
+add_lunch_combo rk3126c-userdebug
+add_lunch_combo rk3126c-user
+add_lunch_combo rk3128_box-userdebug
+add_lunch_combo rk3128_box-user
+add_lunch_combo px3se-userdebug
+add_lunch_combo px3se-user

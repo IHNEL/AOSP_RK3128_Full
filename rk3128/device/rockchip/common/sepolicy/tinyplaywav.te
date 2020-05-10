@@ -1,0 +1,12 @@
+type tinyplaywav, domain;
+type tinyplaywav_exec, exec_type, file_type;
+init_daemon_domain(tinyplaywav)
+
+domain_auto_trans(tinyplaywav, tinyplay_exec, tinyplay)
+domain_auto_trans(tinyplaywav, tinymix_exec, tinymix)
+
+binder_use(tinyplaywav)
+binder_call(tinyplaywav, surfaceflinger)
+
+allow tinyplaywav gpu_device:chr_file rw_file_perms;
+allow tinyplaywav shell_exec:file {read};

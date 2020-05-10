@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<policies setup-complete="true">
+    <admin name="com.sleepinfuser.mainapp/com.sleepinfuser.mainapp.SleepDeviceAdminReceiver">
+        <policies flags="0" />
+        <strong-auth-unlock-timeout value="0" />
+    </admin>
+</policies>

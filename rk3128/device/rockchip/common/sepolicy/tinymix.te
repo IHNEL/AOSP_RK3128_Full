@@ -1,0 +1,17 @@
+type tinymix, domain;
+type tinymix_exec, exec_type, file_type;
+init_daemon_domain(tinymix)
+
+binder_use(tinymix)
+binder_call(tinymix, surfaceflinger)
+
+allow tinymix gpu_device:chr_file rw_file_perms;
+allow tinymix shell_exec:file {read};
+allow tinymix tinyplaywav:fd use;
+allow tinymix audio_device:dir search;
+allow tinymix audio_device:dir read;
+allow tinymix audio_device:dir write;
+allow tinymix audio_device:chr_file read;
+allow tinymix audio_device:chr_file write;
+allow tinymix audio_device:chr_file open;
+allow tinymix audio_device:chr_file ioctl;
