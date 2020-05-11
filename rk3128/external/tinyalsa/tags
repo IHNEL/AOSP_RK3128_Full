@@ -1,0 +1,277 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ALOGD	pcm.c	67;"	d	file:
+ALOGE	pcm.c	68;"	d	file:
+ARRAY_SIZE	pcm.c	62;"	d	file:
+ARRAY_SIZE	tinypcminfo.c	35;"	d	file:
+ASOUNDLIB_H	include/tinyalsa/asoundlib.h	30;"	d
+FORMAT_PCM	tinycap.c	41;"	d	file:
+ID_DATA	tinycap.c	39;"	d	file:
+ID_DATA	tinyplay.c	39;"	d	file:
+ID_FMT	tinycap.c	38;"	d	file:
+ID_FMT	tinyplay.c	38;"	d	file:
+ID_RIFF	tinycap.c	36;"	d	file:
+ID_RIFF	tinyplay.c	36;"	d	file:
+ID_WAVE	tinycap.c	37;"	d	file:
+ID_WAVE	tinyplay.c	37;"	d	file:
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES:= external\/tinyalsa\/include$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := libtinyalsa$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := tinycap$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := tinymix$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := tinypcminfo$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := tinyplay$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES:= libcutils libutils libtinyalsa$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES:= liblog libcutils libutils$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= mixer.c pcm.c$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= tinycap.c$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= tinymix.c$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= tinypcminfo.c$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= tinyplay.c$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES:= libcutils libutils libtinyalsa$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES:= libcutils libutils$/;"	m
+LOG_TAG	pcm.c	65;"	d	file:
+MIXER_CTL_TYPE_BOOL	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_BOOL,$/;"	e	enum:mixer_ctl_type
+MIXER_CTL_TYPE_BYTE	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_BYTE,$/;"	e	enum:mixer_ctl_type
+MIXER_CTL_TYPE_ENUM	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_ENUM,$/;"	e	enum:mixer_ctl_type
+MIXER_CTL_TYPE_IEC958	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_IEC958,$/;"	e	enum:mixer_ctl_type
+MIXER_CTL_TYPE_INT	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_INT,$/;"	e	enum:mixer_ctl_type
+MIXER_CTL_TYPE_INT64	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_INT64,$/;"	e	enum:mixer_ctl_type
+MIXER_CTL_TYPE_MAX	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_MAX,$/;"	e	enum:mixer_ctl_type
+MIXER_CTL_TYPE_UNKNOWN	include/tinyalsa/asoundlib.h	/^    MIXER_CTL_TYPE_UNKNOWN,$/;"	e	enum:mixer_ctl_type
+PARAM_MAX	pcm.c	51;"	d	file:
+PCM_ERROR_MAX	pcm.c	261;"	d	file:
+PCM_FORMAT_INVALID	include/tinyalsa/asoundlib.h	/^    PCM_FORMAT_INVALID = -1,$/;"	e	enum:pcm_format
+PCM_FORMAT_MAX	include/tinyalsa/asoundlib.h	/^    PCM_FORMAT_MAX,$/;"	e	enum:pcm_format
+PCM_FORMAT_S16_LE	include/tinyalsa/asoundlib.h	/^    PCM_FORMAT_S16_LE = 0,  \/* 16-bit signed *\/$/;"	e	enum:pcm_format
+PCM_FORMAT_S24_3LE	include/tinyalsa/asoundlib.h	/^    PCM_FORMAT_S24_3LE,     \/* 24-bits in 3-bytes *\/$/;"	e	enum:pcm_format
+PCM_FORMAT_S24_LE	include/tinyalsa/asoundlib.h	/^    PCM_FORMAT_S24_LE,      \/* 24-bits in 4-bytes *\/$/;"	e	enum:pcm_format
+PCM_FORMAT_S32_LE	include/tinyalsa/asoundlib.h	/^    PCM_FORMAT_S32_LE,      \/* 32-bit signed *\/$/;"	e	enum:pcm_format
+PCM_FORMAT_S8	include/tinyalsa/asoundlib.h	/^    PCM_FORMAT_S8,          \/* 8-bit signed *\/$/;"	e	enum:pcm_format
+PCM_IN	include/tinyalsa/asoundlib.h	46;"	d
+PCM_MMAP	include/tinyalsa/asoundlib.h	47;"	d
+PCM_MONOTONIC	include/tinyalsa/asoundlib.h	58;"	d
+PCM_NOIRQ	include/tinyalsa/asoundlib.h	48;"	d
+PCM_NORESTART	include/tinyalsa/asoundlib.h	49;"	d
+PCM_OUT	include/tinyalsa/asoundlib.h	45;"	d
+PCM_PARAM_ACCESS	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_ACCESS,$/;"	e	enum:pcm_param
+PCM_PARAM_BUFFER_BYTES	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_BUFFER_BYTES,$/;"	e	enum:pcm_param
+PCM_PARAM_BUFFER_SIZE	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_BUFFER_SIZE,$/;"	e	enum:pcm_param
+PCM_PARAM_BUFFER_TIME	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_BUFFER_TIME,$/;"	e	enum:pcm_param
+PCM_PARAM_CHANNELS	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_CHANNELS,$/;"	e	enum:pcm_param
+PCM_PARAM_FORMAT	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_FORMAT,$/;"	e	enum:pcm_param
+PCM_PARAM_FRAME_BITS	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_FRAME_BITS,$/;"	e	enum:pcm_param
+PCM_PARAM_PERIODS	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_PERIODS,$/;"	e	enum:pcm_param
+PCM_PARAM_PERIOD_BYTES	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_PERIOD_BYTES,$/;"	e	enum:pcm_param
+PCM_PARAM_PERIOD_SIZE	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_PERIOD_SIZE,$/;"	e	enum:pcm_param
+PCM_PARAM_PERIOD_TIME	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_PERIOD_TIME,$/;"	e	enum:pcm_param
+PCM_PARAM_RATE	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_RATE,$/;"	e	enum:pcm_param
+PCM_PARAM_SAMPLE_BITS	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_SAMPLE_BITS,$/;"	e	enum:pcm_param
+PCM_PARAM_SUBFORMAT	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_SUBFORMAT,$/;"	e	enum:pcm_param
+PCM_PARAM_TICK_TIME	include/tinyalsa/asoundlib.h	/^    PCM_PARAM_TICK_TIME,$/;"	e	enum:pcm_param
+PCM_STATE_DISCONNECTED	include/tinyalsa/asoundlib.h	69;"	d
+PCM_STATE_DRAINING	include/tinyalsa/asoundlib.h	66;"	d
+PCM_STATE_OPEN	include/tinyalsa/asoundlib.h	61;"	d
+PCM_STATE_PAUSED	include/tinyalsa/asoundlib.h	67;"	d
+PCM_STATE_PREPARED	include/tinyalsa/asoundlib.h	63;"	d
+PCM_STATE_RUNNING	include/tinyalsa/asoundlib.h	64;"	d
+PCM_STATE_SETUP	include/tinyalsa/asoundlib.h	62;"	d
+PCM_STATE_SUSPENDED	include/tinyalsa/asoundlib.h	68;"	d
+PCM_STATE_XRUN	include/tinyalsa/asoundlib.h	65;"	d
+SAMPLECOUNT	pcm.c	553;"	d	file:
+STRLOG	pcm.c	56;"	d	file:
+__bitwise	mixer.c	42;"	d	file:
+__bitwise	pcm.c	45;"	d	file:
+__force	mixer.c	41;"	d	file:
+__force	pcm.c	44;"	d	file:
+__user	mixer.c	43;"	d	file:
+__user	pcm.c	46;"	d	file:
+access_lookup	pcm.c	/^static const char * const access_lookup[] = {$/;"	v	file:
+audio_format	tinycap.c	/^    uint16_t audio_format;$/;"	m	struct:wav_header	file:
+audio_format	tinyplay.c	/^    uint16_t audio_format;$/;"	m	struct:chunk_fmt	file:
+avail_min	include/tinyalsa/asoundlib.h	/^    int avail_min;$/;"	m	struct:pcm_config
+bad_pcm	pcm.c	/^static struct pcm bad_pcm = {$/;"	v	typeref:struct:pcm	file:
+bits	include/tinyalsa/asoundlib.h	/^    unsigned int bits[32 \/ sizeof(unsigned int)];$/;"	m	struct:pcm_mask
+bits_per_sample	tinycap.c	/^    uint16_t bits_per_sample;$/;"	m	struct:wav_header	file:
+bits_per_sample	tinyplay.c	/^    uint16_t bits_per_sample;$/;"	m	struct:chunk_fmt	file:
+block_align	tinycap.c	/^    uint16_t block_align;$/;"	m	struct:wav_header	file:
+block_align	tinyplay.c	/^    uint16_t block_align;$/;"	m	struct:chunk_fmt	file:
+boundary	pcm.c	/^    unsigned int boundary;$/;"	m	struct:pcm	file:
+buffer_size	pcm.c	/^    unsigned int buffer_size;$/;"	m	struct:pcm	file:
+byte_rate	tinycap.c	/^    uint32_t byte_rate;$/;"	m	struct:wav_header	file:
+byte_rate	tinyplay.c	/^    uint32_t byte_rate;$/;"	m	struct:chunk_fmt	file:
+capture_sample	tinycap.c	/^unsigned int capture_sample(FILE *file, unsigned int card, unsigned int device,$/;"	f
+capturing	tinycap.c	/^int capturing = 1;$/;"	v
+card_info	mixer.c	/^    struct snd_ctl_card_info card_info;$/;"	m	struct:mixer	typeref:struct:mixer::snd_ctl_card_info	file:
+channalFlags	pcm.c	/^int channalFlags = -1;\/\/mean the channel is not checked now$/;"	v
+channel_check	pcm.c	/^int channel_check(void * data, unsigned len)$/;"	f
+channel_fixed	pcm.c	/^void channel_fixed(void * data, unsigned len, int chFlag)$/;"	f
+channels	include/tinyalsa/asoundlib.h	/^    unsigned int channels;$/;"	m	struct:pcm_config
+check_param	tinyplay.c	/^int check_param(struct pcm_params *params, unsigned int param, unsigned int value,$/;"	f
+chunk_fmt	tinyplay.c	/^struct chunk_fmt {$/;"	s	file:
+chunk_header	tinyplay.c	/^struct chunk_header {$/;"	s	file:
+close	tinyplay.c	/^static int close = 0;$/;"	v	file:
+config	pcm.c	/^    struct pcm_config config;$/;"	m	struct:pcm	typeref:struct:pcm::pcm_config	file:
+count	mixer.c	/^    unsigned int count;$/;"	m	struct:mixer	file:
+ctl	mixer.c	/^    struct mixer_ctl *ctl;$/;"	m	struct:mixer	typeref:struct:mixer::mixer_ctl	file:
+data_id	tinycap.c	/^    uint32_t data_id;$/;"	m	struct:wav_header	file:
+data_sz	tinycap.c	/^    uint32_t data_sz;$/;"	m	struct:wav_header	file:
+elem_info	mixer.c	/^    struct snd_ctl_elem_info *elem_info;$/;"	m	struct:mixer	typeref:struct:mixer::snd_ctl_elem_info	file:
+ename	mixer.c	/^    char **ename;$/;"	m	struct:mixer_ctl	file:
+error	pcm.c	/^    char error[PCM_ERROR_MAX];$/;"	m	struct:pcm	file:
+fd	mixer.c	/^    int fd;$/;"	m	struct:mixer	file:
+fd	pcm.c	/^    int fd;$/;"	m	struct:pcm	file:
+flag	include/tinyalsa/asoundlib.h	/^    int flag;$/;"	m	struct:pcm_config
+flags	pcm.c	/^    unsigned int flags;$/;"	m	struct:pcm	file:
+fmt_id	tinycap.c	/^    uint32_t fmt_id;$/;"	m	struct:wav_header	file:
+fmt_sz	tinycap.c	/^    uint32_t fmt_sz;$/;"	m	struct:wav_header	file:
+format	include/tinyalsa/asoundlib.h	/^    enum pcm_format format;$/;"	m	struct:pcm_config	typeref:enum:pcm_config::pcm_format
+format_lookup	pcm.c	/^static const char * const format_lookup[] = {$/;"	v	file:
+format_lookup	tinypcminfo.c	/^static const char *format_lookup[] = {$/;"	v	file:
+id	tinyplay.c	/^    uint32_t id;$/;"	m	struct:chunk_header	file:
+info	mixer.c	/^    struct snd_ctl_elem_info *info;$/;"	m	struct:mixer_ctl	typeref:struct:mixer_ctl::snd_ctl_elem_info	file:
+int_to_percent	mixer.c	/^static int int_to_percent(struct snd_ctl_elem_info *ei, int value)$/;"	f	file:
+main	tinycap.c	/^int main(int argc, char **argv)$/;"	f
+main	tinymix.c	/^int main(int argc, char **argv)$/;"	f
+main	tinypcminfo.c	/^int main(int argc, char **argv)$/;"	f
+main	tinyplay.c	/^int main(int argc, char **argv)$/;"	f
+mixer	mixer.c	/^    struct mixer *mixer;$/;"	m	struct:mixer_ctl	typeref:struct:mixer_ctl::mixer	file:
+mixer	mixer.c	/^struct mixer {$/;"	s	file:
+mixer_close	mixer.c	/^void mixer_close(struct mixer *mixer)$/;"	f
+mixer_ctl	mixer.c	/^struct mixer_ctl {$/;"	s	file:
+mixer_ctl_get_array	mixer.c	/^int mixer_ctl_get_array(struct mixer_ctl *ctl, void *array, size_t count)$/;"	f
+mixer_ctl_get_enum_string	mixer.c	/^const char *mixer_ctl_get_enum_string(struct mixer_ctl *ctl,$/;"	f
+mixer_ctl_get_name	mixer.c	/^const char *mixer_ctl_get_name(struct mixer_ctl *ctl)$/;"	f
+mixer_ctl_get_num_enums	mixer.c	/^unsigned int mixer_ctl_get_num_enums(struct mixer_ctl *ctl)$/;"	f
+mixer_ctl_get_num_values	mixer.c	/^unsigned int mixer_ctl_get_num_values(struct mixer_ctl *ctl)$/;"	f
+mixer_ctl_get_percent	mixer.c	/^int mixer_ctl_get_percent(struct mixer_ctl *ctl, unsigned int id)$/;"	f
+mixer_ctl_get_range_max	mixer.c	/^int mixer_ctl_get_range_max(struct mixer_ctl *ctl)$/;"	f
+mixer_ctl_get_range_min	mixer.c	/^int mixer_ctl_get_range_min(struct mixer_ctl *ctl)$/;"	f
+mixer_ctl_get_type	mixer.c	/^enum mixer_ctl_type mixer_ctl_get_type(struct mixer_ctl *ctl)$/;"	f
+mixer_ctl_get_type_string	mixer.c	/^const char *mixer_ctl_get_type_string(struct mixer_ctl *ctl)$/;"	f
+mixer_ctl_get_value	mixer.c	/^int mixer_ctl_get_value(struct mixer_ctl *ctl, unsigned int id)$/;"	f
+mixer_ctl_set_array	mixer.c	/^int mixer_ctl_set_array(struct mixer_ctl *ctl, const void *array, size_t count)$/;"	f
+mixer_ctl_set_enum_by_string	mixer.c	/^int mixer_ctl_set_enum_by_string(struct mixer_ctl *ctl, const char *string)$/;"	f
+mixer_ctl_set_percent	mixer.c	/^int mixer_ctl_set_percent(struct mixer_ctl *ctl, unsigned int id, int percent)$/;"	f
+mixer_ctl_set_value	mixer.c	/^int mixer_ctl_set_value(struct mixer_ctl *ctl, unsigned int id, int value)$/;"	f
+mixer_ctl_type	include/tinyalsa/asoundlib.h	/^enum mixer_ctl_type {$/;"	g
+mixer_ctl_update	mixer.c	/^void mixer_ctl_update(struct mixer_ctl *ctl)$/;"	f
+mixer_get_ctl	mixer.c	/^struct mixer_ctl *mixer_get_ctl(struct mixer *mixer, unsigned int id)$/;"	f
+mixer_get_ctl_by_name	mixer.c	/^struct mixer_ctl *mixer_get_ctl_by_name(struct mixer *mixer, const char *name)$/;"	f
+mixer_get_name	mixer.c	/^const char *mixer_get_name(struct mixer *mixer)$/;"	f
+mixer_get_num_ctls	mixer.c	/^unsigned int mixer_get_num_ctls(struct mixer *mixer)$/;"	f
+mixer_open	mixer.c	/^struct mixer *mixer_open(unsigned int card)$/;"	f
+mmap_buffer	pcm.c	/^    void *mmap_buffer;$/;"	m	struct:pcm	file:
+mmap_control	pcm.c	/^    struct snd_pcm_mmap_control *mmap_control;$/;"	m	struct:pcm	typeref:struct:pcm::snd_pcm_mmap_control	file:
+mmap_status	pcm.c	/^    struct snd_pcm_mmap_status *mmap_status;$/;"	m	struct:pcm	typeref:struct:pcm::snd_pcm_mmap_status	file:
+noirq_frames_per_msec	pcm.c	/^    unsigned int noirq_frames_per_msec;$/;"	m	struct:pcm	file:
+num_channels	tinycap.c	/^    uint16_t num_channels;$/;"	m	struct:wav_header	file:
+num_channels	tinyplay.c	/^    uint16_t num_channels;$/;"	m	struct:chunk_fmt	file:
+oops	pcm.c	/^static int oops(struct pcm *pcm, int e, const char *fmt, ...)$/;"	f	file:
+param_get_flag	pcm.c	/^static int param_get_flag(struct snd_pcm_hw_params *p)$/;"	f	file:
+param_get_int	pcm.c	/^static unsigned int param_get_int(struct snd_pcm_hw_params *p, int n)$/;"	f	file:
+param_get_max	pcm.c	/^static unsigned int param_get_max(struct snd_pcm_hw_params *p, int n)$/;"	f	file:
+param_get_min	pcm.c	/^static unsigned int param_get_min(struct snd_pcm_hw_params *p, int n)$/;"	f	file:
+param_init	pcm.c	/^static void param_init(struct snd_pcm_hw_params *p)$/;"	f	file:
+param_is_interval	pcm.c	/^static inline int param_is_interval(int p)$/;"	f	file:
+param_is_mask	pcm.c	/^static inline int param_is_mask(int p)$/;"	f	file:
+param_set_flag	pcm.c	/^static void param_set_flag(struct snd_pcm_hw_params *p, unsigned int flag)$/;"	f	file:
+param_set_int	pcm.c	/^static void param_set_int(struct snd_pcm_hw_params *p, int n, unsigned int val)$/;"	f	file:
+param_set_mask	pcm.c	/^static void param_set_mask(struct snd_pcm_hw_params *p, int n, unsigned int bit)$/;"	f	file:
+param_set_max	pcm.c	/^static void param_set_max(struct snd_pcm_hw_params *p, int n, unsigned int val)$/;"	f	file:
+param_set_min	pcm.c	/^static void param_set_min(struct snd_pcm_hw_params *p, int n, unsigned int val)$/;"	f	file:
+param_to_interval	pcm.c	/^static inline struct snd_interval *param_to_interval(struct snd_pcm_hw_params *p, int n)$/;"	f	file:
+param_to_mask	pcm.c	/^static inline struct snd_mask *param_to_mask(struct snd_pcm_hw_params *p, int n)$/;"	f	file:
+pcm	pcm.c	/^struct pcm {$/;"	s	file:
+pcm_areas_copy	pcm.c	/^static int pcm_areas_copy(struct pcm *pcm, unsigned int pcm_offset,$/;"	f	file:
+pcm_avail_update	pcm.c	/^int pcm_avail_update(struct pcm *pcm)$/;"	f
+pcm_bytes_to_frames	pcm.c	/^unsigned int pcm_bytes_to_frames(struct pcm *pcm, unsigned int bytes)$/;"	f
+pcm_close	pcm.c	/^int pcm_close(struct pcm *pcm)$/;"	f
+pcm_config	include/tinyalsa/asoundlib.h	/^struct pcm_config {$/;"	s
+pcm_format	include/tinyalsa/asoundlib.h	/^enum pcm_format {$/;"	g
+pcm_format_to_alsa	pcm.c	/^static unsigned int pcm_format_to_alsa(enum pcm_format format)$/;"	f	file:
+pcm_format_to_bits	pcm.c	/^unsigned int pcm_format_to_bits(enum pcm_format format)$/;"	f
+pcm_frames_to_bytes	pcm.c	/^unsigned int pcm_frames_to_bytes(struct pcm *pcm, unsigned int frames)$/;"	f
+pcm_get_buffer_size	pcm.c	/^unsigned int pcm_get_buffer_size(struct pcm *pcm)$/;"	f
+pcm_get_error	pcm.c	/^const char* pcm_get_error(struct pcm *pcm)$/;"	f
+pcm_get_format_name	tinypcminfo.c	/^inline const char *pcm_get_format_name(unsigned bit_index)$/;"	f
+pcm_get_htimestamp	pcm.c	/^int pcm_get_htimestamp(struct pcm *pcm, unsigned int *avail,$/;"	f
+pcm_get_poll_fd	pcm.c	/^int pcm_get_poll_fd(struct pcm *pcm)$/;"	f
+pcm_hw_mmap_status	pcm.c	/^static int pcm_hw_mmap_status(struct pcm *pcm) {$/;"	f	file:
+pcm_hw_munmap_status	pcm.c	/^static void pcm_hw_munmap_status(struct pcm *pcm) {$/;"	f	file:
+pcm_ioctl	pcm.c	/^int pcm_ioctl(struct pcm *pcm, int request, ...)$/;"	f
+pcm_is_ready	pcm.c	/^int pcm_is_ready(struct pcm *pcm)$/;"	f
+pcm_mask	include/tinyalsa/asoundlib.h	/^struct pcm_mask {$/;"	s
+pcm_mask_test	pcm.c	/^static int pcm_mask_test(struct pcm_mask *m, unsigned int index)$/;"	f	file:
+pcm_mask_to_string	pcm.c	/^static int pcm_mask_to_string(struct pcm_mask *m, char *string, unsigned int size,$/;"	f	file:
+pcm_mmap_appl_forward	pcm.c	/^static void pcm_mmap_appl_forward(struct pcm *pcm, int frames)$/;"	f	file:
+pcm_mmap_avail	pcm.c	/^int pcm_mmap_avail(struct pcm *pcm)$/;"	f
+pcm_mmap_begin	pcm.c	/^int pcm_mmap_begin(struct pcm *pcm, void **areas, unsigned int *offset,$/;"	f
+pcm_mmap_capture_avail	pcm.c	/^static inline int pcm_mmap_capture_avail(struct pcm *pcm)$/;"	f	file:
+pcm_mmap_commit	pcm.c	/^int pcm_mmap_commit(struct pcm *pcm, unsigned int offset __attribute__((unused)), unsigned int frames)$/;"	f
+pcm_mmap_playback_avail	pcm.c	/^static inline int pcm_mmap_playback_avail(struct pcm *pcm)$/;"	f	file:
+pcm_mmap_read	pcm.c	/^int pcm_mmap_read(struct pcm *pcm, void *data, unsigned int count)$/;"	f
+pcm_mmap_transfer	pcm.c	/^int pcm_mmap_transfer(struct pcm *pcm, const void *buffer, unsigned int bytes)$/;"	f
+pcm_mmap_transfer_areas	pcm.c	/^static int pcm_mmap_transfer_areas(struct pcm *pcm, char *buf,$/;"	f	file:
+pcm_mmap_write	pcm.c	/^int pcm_mmap_write(struct pcm *pcm, const void *data, unsigned int count)$/;"	f
+pcm_open	pcm.c	/^struct pcm *pcm_open(unsigned int card, unsigned int device,$/;"	f
+pcm_param	include/tinyalsa/asoundlib.h	/^enum pcm_param$/;"	g
+pcm_param_to_alsa	pcm.c	/^static int pcm_param_to_alsa(enum pcm_param param)$/;"	f	file:
+pcm_params_format_test	pcm.c	/^int pcm_params_format_test(struct pcm_params *params, enum pcm_format format)$/;"	f
+pcm_params_free	pcm.c	/^void pcm_params_free(struct pcm_params *pcm_params)$/;"	f
+pcm_params_get	pcm.c	/^struct pcm_params *pcm_params_get(unsigned int card, unsigned int device,$/;"	f
+pcm_params_get_mask	pcm.c	/^struct pcm_mask *pcm_params_get_mask(struct pcm_params *pcm_params,$/;"	f
+pcm_params_get_max	pcm.c	/^unsigned int pcm_params_get_max(struct pcm_params *pcm_params,$/;"	f
+pcm_params_get_min	pcm.c	/^unsigned int pcm_params_get_min(struct pcm_params *pcm_params,$/;"	f
+pcm_params_set_max	pcm.c	/^void pcm_params_set_max(struct pcm_params *pcm_params,$/;"	f
+pcm_params_set_min	pcm.c	/^void pcm_params_set_min(struct pcm_params *pcm_params,$/;"	f
+pcm_params_to_string	pcm.c	/^int pcm_params_to_string(struct pcm_params *params, char *string, unsigned int size)$/;"	f
+pcm_prepare	pcm.c	/^int pcm_prepare(struct pcm *pcm)$/;"	f
+pcm_read	pcm.c	/^int pcm_read(struct pcm *pcm, void *data, unsigned int count)$/;"	f
+pcm_set_avail_min	pcm.c	/^int pcm_set_avail_min(struct pcm *pcm, int avail_min)$/;"	f
+pcm_start	pcm.c	/^int pcm_start(struct pcm *pcm)$/;"	f
+pcm_state	pcm.c	/^int pcm_state(struct pcm *pcm)$/;"	f
+pcm_stop	pcm.c	/^int pcm_stop(struct pcm *pcm)$/;"	f
+pcm_sync_ptr	pcm.c	/^static int pcm_sync_ptr(struct pcm *pcm, int flags) {$/;"	f	file:
+pcm_wait	pcm.c	/^int pcm_wait(struct pcm *pcm, int timeout)$/;"	f
+pcm_write	pcm.c	/^int pcm_write(struct pcm *pcm, const void *data, unsigned int count)$/;"	f
+percent_to_int	mixer.c	/^static int percent_to_int(struct snd_ctl_elem_info *ei, int percent)$/;"	f	file:
+period_count	include/tinyalsa/asoundlib.h	/^    unsigned int period_count;$/;"	m	struct:pcm_config
+period_size	include/tinyalsa/asoundlib.h	/^    unsigned int period_size;$/;"	m	struct:pcm_config
+play_sample	tinyplay.c	/^void play_sample(FILE *file, unsigned int card, unsigned int device, unsigned int channels,$/;"	f
+prepared	pcm.c	/^    int prepared:1;$/;"	m	struct:pcm	file:
+rate	include/tinyalsa/asoundlib.h	/^    unsigned int rate;$/;"	m	struct:pcm_config
+riff_fmt	tinycap.c	/^    uint32_t riff_fmt;$/;"	m	struct:wav_header	file:
+riff_id	tinycap.c	/^    uint32_t riff_id;$/;"	m	struct:wav_header	file:
+riff_id	tinyplay.c	/^    uint32_t riff_id;$/;"	m	struct:riff_wave_header	file:
+riff_sz	tinycap.c	/^    uint32_t riff_sz;$/;"	m	struct:wav_header	file:
+riff_sz	tinyplay.c	/^    uint32_t riff_sz;$/;"	m	struct:riff_wave_header	file:
+riff_wave_header	tinyplay.c	/^struct riff_wave_header {$/;"	s	file:
+running	pcm.c	/^    int running:1;$/;"	m	struct:pcm	file:
+sample_is_playable	tinyplay.c	/^int sample_is_playable(unsigned int card, unsigned int device, unsigned int channels,$/;"	f
+sample_rate	tinycap.c	/^    uint32_t sample_rate;$/;"	m	struct:wav_header	file:
+sample_rate	tinyplay.c	/^    uint32_t sample_rate;$/;"	m	struct:chunk_fmt	file:
+sigint_handler	tinycap.c	/^void sigint_handler(int sig __unused)$/;"	f
+silence_size	include/tinyalsa/asoundlib.h	/^    unsigned int silence_size;$/;"	m	struct:pcm_config
+silence_threshold	include/tinyalsa/asoundlib.h	/^    unsigned int silence_threshold;$/;"	m	struct:pcm_config
+startCheckCount	pcm.c	/^int startCheckCount = 0;$/;"	v
+start_threshold	include/tinyalsa/asoundlib.h	/^    unsigned int start_threshold;$/;"	m	struct:pcm_config
+stop_threshold	include/tinyalsa/asoundlib.h	/^    unsigned int stop_threshold;$/;"	m	struct:pcm_config
+stream_close	tinyplay.c	/^void stream_close(int sig)$/;"	f
+subformat_lookup	pcm.c	/^static const char * const subformat_lookup[] = {$/;"	v	file:
+sync_ptr	pcm.c	/^    struct snd_pcm_sync_ptr *sync_ptr;$/;"	m	struct:pcm	typeref:struct:pcm::snd_pcm_sync_ptr	file:
+sz	tinyplay.c	/^    uint32_t sz;$/;"	m	struct:chunk_header	file:
+tinymix_detail_control	tinymix.c	/^static void tinymix_detail_control(struct mixer *mixer, const char *control,$/;"	f	file:
+tinymix_list_controls	tinymix.c	/^static void tinymix_list_controls(struct mixer *mixer)$/;"	f	file:
+tinymix_print_enum	tinymix.c	/^static void tinymix_print_enum(struct mixer_ctl *ctl, int print_all)$/;"	f	file:
+tinymix_set_byte_ctl	tinymix.c	/^static void tinymix_set_byte_ctl(struct mixer_ctl *ctl,$/;"	f	file:
+tinymix_set_value	tinymix.c	/^static void tinymix_set_value(struct mixer *mixer, const char *control,$/;"	f	file:
+underruns	pcm.c	/^    int underruns;$/;"	m	struct:pcm	file:
+wait_for_avail_min	pcm.c	/^    int wait_for_avail_min;$/;"	m	struct:pcm	file:
+wav_header	tinycap.c	/^struct wav_header {$/;"	s	file:
+wave_id	tinyplay.c	/^    uint32_t wave_id;$/;"	m	struct:riff_wave_header	file:
